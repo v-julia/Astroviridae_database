@@ -1,0 +1,34 @@
+PQ055539: ORF1ab + ORF2:MAG: Qianjiang astro-like virus 14 isolate QJ3DG3014 cRNA sequence
+PQ055538: ORF1ab + ORF2:MAG: Qianjiang astro-like virus 13 isolate QJ3TG3868 cRNA sequence
+PQ055537: ORF1ab + ORF2:MAG: Qianjiang astro-like virus 12 isolate QJ3TG2618 cRNA sequence
+PQ055536: ORF1ab + ORF2:MAG: Qianjiang astro-like virus 11 isolate QJ5DG1896 cRNA sequence
+PQ055535: ORF1ab + ORF2:MAG: Qianjiang astro-like virus 10 isolate QJ3DS5660 cRNA sequence
+PQ055533: ORF1ab + ORF2:MAG: Qianjiang astro-like virus 9 isolate QJ5MG2088 cRNA sequence
+PQ055532: ORF1ab + ORF2:MAG: Qianjiang astro-like virus 8 isolate QJ3DS2284 cRNA sequence
+PQ055530: ORF1ab + ORF2:MAG: Qianjiang astro-like virus 6 isolate QJ3MG18 cRNA sequence
+PQ055529: ORF1ab + ORF2:MAG: Qianjiang astro-like virus 6 isolate QJ3MS35 cRNA sequence
+PQ055528: ORF1ab + ORF2:MAG: Qianjiang astro-like virus 5 isolate QJ3TS2970 cRNA sequence
+PQ055524: ORF1ab + ORF2:MAG: Qianjiang astro-like virus 1 isolate QJ3DG2844 cRNA sequence
+OP413943: ORF1ab + ORF2:MAG: Mamastrovirus 22 isolate PF183/con/AstV3 ORF1A and capsid protein genes, complete cds
+MT492440: ORF1a + ORF1b:Buffalo astrovirus isolate NNA15 RNA-dependent RNA polymerase (ORF1a) gene, partial cds
+MT492439: ORF1a + ORF1b:Buffalo astrovirus isolate NNA14 RNA-dependent RNA polymerase (ORF1a) gene, partial cds
+MT492438: ORF1a + ORF1b:Buffalo astrovirus isolate NNA17 RNA-dependent RNA polymerase (ORF1a) gene, partial cds
+MT492437: ORF1a + ORF1b:Buffalo astrovirus isolate NNC286 RNA-dependent RNA polymerase (ORF1a) gene, partial cds
+MT492436: ORF1a + ORF1b:Buffalo astrovirus isolate NNC296 RNA-dependent RNA polymerase (ORF1a) gene, partial cds
+MT492435: ORF1a + ORF1b:Buffalo astrovirus isolate NNDS2 RNA-dependent RNA polymerase (ORF1a) gene, partial cds
+MT492434: ORF1a + ORF1b:Buffalo astrovirus isolate NNDS16 RNA-dependent RNA polymerase (ORF1a) gene, partial cds
+MT492433: ORF1a + ORF1b:Buffalo astrovirus isolate BHC14 RNA-dependent RNA polymerase (ORF1a) gene, partial cds
+MT492432: ORF1a + ORF1b:Buffalo astrovirus isolate BHC22 RNA-dependent RNA polymerase (ORF1a) gene, partial cds
+MT492431: ORF1a + ORF1b:Buffalo astrovirus isolate HX1 RNA-dependent RNA polymerase (ORF1a) gene, partial cds
+MT492430: ORF1a + ORF1b:Buffalo astrovirus isolate HX3 RNA-dependent RNA polymerase (ORF1a) gene, partial cds
+MT492429: ORF1a + ORF1b:Buffalo astrovirus isolate HX4 RNA-dependent RNA polymerase (ORF1a) gene, partial cds
+MT492428: ORF1a + ORF1b:Buffalo astrovirus isolate HX5 RNA-dependent RNA polymerase (ORF1a) gene, partial cds
+MT492427: ORF1a + ORF1b:Buffalo astrovirus isolate HX6 RNA-dependent RNA polymerase (ORF1a) gene, partial cds
+MT492426: ORF1a + ORF1b:Buffalo astrovirus isolate NNA6 RNA-dependent RNA polymerase (ORF1a) gene, partial cds
+MT492425: ORF1a + ORF1b:Buffalo astrovirus isolate NNA7 RNA-dependent RNA polymerase (ORF1a) gene, partial cds
+MT492424: ORF1a + ORF1b:Buffalo astrovirus isolate NNA11 RNA-dependent RNA polymerase (ORF1a) gene, partial cds
+MT492423: ORF1a + ORF1b:Buffalo astrovirus isolate NNA12 RNA-dependent RNA polymerase (ORF1a) gene, partial cds
+MT492422: ORF1a + ORF1b:Buffalo astrovirus isolate NNA13 RNA-dependent RNA polymerase (ORF1a) gene, partial cds
+MT506231: ORF1a + ORF1b:Rodent astrovirus isolate RoAstV/CHN/S3, complete genome
+AB518703: ORF1a + ORF1b:Mamastrovirus 1 ORF1B gene for putative serine protease, partial cds, isolate: MASTRO1300, PCR_primers: RD2[+] R3[-]
+AB518702: ORF1a + ORF1b:Mamastrovirus 1 ORF1B gene for putative serine protease, partial cds, isolate: MASTRO1300, PCR_primers: RD1[+] R2[-]
