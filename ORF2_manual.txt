@@ -1,0 +1,7 @@
+HUAIMMREAB:289:Human astrovirus type 1 immunoreactive protein gene, partial cds
+HUAIMMREAA:434:Human astrovirus type 1 immunoreactive protein gene, partial cds
+HUA3TERMS:1034:Human astrovirus type 1 RNA, 3' terminal sequence
+Z11682:1034:Human astrovirus type 1, 3' terminal sequence RNA
+OK483336:355:Human astrovirus 2 isolate ETH214 VP1 (VP1) gene, partial cds
+OK483335:355:Human astrovirus 2 isolate ETH202 VP1 (VP1) gene, partial cds
+MG846413:1162:Avian nephritis virus non-structural polyprotein gene, partial cds

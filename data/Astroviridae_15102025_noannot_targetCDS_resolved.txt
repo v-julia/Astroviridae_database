@@ -1,10 +1,21 @@
-PX395425:152:Chicken astrovirus strain CAst/Bayern/2024 isolate Contig-12 nonstructural polyprotein gene, partial cds
 PX289198:7117:Goose astrovirus strain GAstV-JS2403 hypothetical protein (ORF1a) gene, partial cds; and hypothetical protein (ORF1b) and hypothetical protein (ORF2) genes, complete cds
 PX289197:6873:Goose astrovirus strain GAstV-JS2402 hypothetical protein (ORF1a) gene, partial cds; and hypothetical protein (ORF1b) and hypothetical protein (ORF2) genes, complete cds
 PX289196:6873:Goose astrovirus strain GAstV-JS2401 hypothetical protein (OPNGEG_01) gene, partial cds; and hypothetical protein (OPNGEG_02) and hypothetical protein (OPNGEG_03) genes, complete cds
+OR951076:2246:MAG: Mamastrovirus 12 isolate GX2016 sequence
+OR951065:2279:MAG: Bat astrovirus isolate GD2016_246_49388 sequence
+OR951063:1636:MAG: Bat astrovirus isolate GX2017_243_49312 sequence
+OR951056:2063:MAG: Bat astrovirus isolate YN2016_218_5311 sequence
+OR951044:1846:MAG: Bat astrovirus isolate GD2017_207_17582 sequence
+OR951043:1866:MAG: Bat astrovirus isolate HI2019 sequence
+OR951029:1961:MAG: Bat astrovirus isolate GD2016_188_81480 sequence
+OR951024:2168:MAG: Bat astrovirus isolate GD2017_173_19604 sequence
+OR951013:2249:MAG: Bat astrovirus isolate YN2020_057_1262 sequence
+PX095754:1113:MAG: Mamastrovirus sp. isolate DL/P.nayaur/Mav hypothetical protein gene, partial cds
+PX113254:1296:Mamastrovirus sp. isolate GCSW/7354 polyprotein gene, partial cds
 PQ421854:6075:MAG: Astrovirus sp. isolate ML2-CQJ-2 genomic sequence
 PQ421853:6100:MAG: Astrovirus sp. isolate ML2-CQJ-1 hypothetical protein genes, complete cds
 PQ421852:5032:MAG: Astrovirus sp. isolate ML1-CQJ genomic sequence
+PQ421851:1189:MAG: Astrovirus sp. isolate ML2-CQJ-1 hypothetical protein gene, complete cds
 PQ421848:5941:MAG: Astrovirus sp. isolate LS-CWQ genomic sequence
 PQ421847:6093:MAG: Astrovirus sp. isolate LS-SCDW-2 genomic sequence
 PQ421846:6085:MAG: Astrovirus sp. isolate LQ4-XSQ genomic sequence
@@ -13,13 +24,19 @@ PQ421844:6188:MAG: Astrovirus sp. isolate FG-HSQ genomic sequence
 PQ421843:6079:MAG: Astrovirus sp. isolate SF-HSQ genomic sequence
 PQ421842:6065:MAG: Astrovirus sp. isolate SJ-HSQ genomic sequence
 PQ421841:3641:MAG: Astrovirus sp. isolate QJ1-CWDS hypothetical protein genes, complete cds
+PP211271:1931:MAG: Rat astrovirus Rn/S510/Guangzhou isolate Ra.norvegicus_astro_2
 PP211223:4879:MAG: Bastrovirus Rat/77 isolate Ra.norvegicus_bastro_7
+PP211222:1712:MAG: Bastrovirus Rat/77 isolate Ra.norvegicus_bastro_5
+PP211221:2415:MAG: Bastrovirus Rat/77 isolate Ra.norvegicus_bastro_3
 PQ150499:7418:MAG: Solanum melongena bastro-like virus isolate Hebei_128 genomic sequence
 PQ161557:5667:MAG: Bastrovirus Brazil/sewage isolate CS26 hypothetical protein genes, complete cds; and hypothetical protein gene, partial cds
-PQ055527:6333:MAG: Qianjiang astro-like virus 4 isolate QJ3TS1993 cRNA sequence
+PQ335170:6701:MAG: Human astrovirus 4 isolate 2022/BE11 genomic sequence
 PQ110289:2228:MAG: Oryctes associated astro-like virus isolate Or_elegans1_agamemnon2 genomic sequence
 PP512783:5203:MAG: Duck astrovirus isolate Du/Egy/Gharbia/2021/DAstVs genomic sequence
-OR800315:592:MAG: Feral pigeon astrovirus isolate NYJ-1/2023 nonstructural protein-like gene, complete sequence
+OR871060:2325:MAG: Astroviridae sp. isolate HAFQP22/11 cRNA sequence
+OQ986647:2094:MAG: Avian astrovirus 10 isolate RHFU genomic sequence
+OQ802763:1697:MAG: Wufeng shrew bastrovirus 4 isolate WF_Ch.smithii_bastro_4 genomic sequence
+OQ802762:1704:MAG: Wufeng shrew bastrovirus 3 isolate WF_Ch.smithii_bastro_3 genomic sequence
 OQ802761:4867:MAG: Wufeng shrew bastrovirus 2 isolate WF_Ch.smithii_bastro_2 genomic sequence
 OQ709194:1159:MAG: Bat picornavirus WD2 isolate BtPiV/EsWD02 genomic sequence
 OQ709193:7025:MAG: Bat picornavirus LS1 isolate BtPiV/RpLS01 genomic sequence
@@ -32,7 +49,9 @@ ON932807:1372:Rodent astrovirus isolate AstroV-HMU-5 nonstructural polyprotein g
 OP413956:6328:MAG: Porcine astrovirus 5 isolate PF208/con/AstV16 nonstructural polyprotein gene, partial cds; and nonstructural polyprotein gene, complete cds
 OP413950:6321:MAG: Porcine astrovirus 5 isolate PF198/con/AstV10 nonstructural polyprotein genes, complete cds
 OP474168:2197:MAG: Pangolin astrovirus A4 genomic sequence
-OM514376:4099:MAG: Sanya astro-like virus 1 isolate LSHLS353 reverse transcriptase-like protein and hypothetical protein genes, complete cds
+OM954095:2841:Flumine Bastrovirus 2 non-structural polyprotein gene, partial cds
+OM953853:1734:Flumine Bastrovirus 3 ORF1 gene, complete cds
+OM953852:5743:Flumine Bastrovirus 1 ORF1 gene, complete cds
 MT568535:5243:MAG: Pyongtaek Culex bastrovirus isolate -like virus A18.1505 genomic sequence
 MZ182272:3325:Astroviridae sp. isolate G20_101 polyprotein gene, partial cds
 MZ182271:5030:Astroviridae sp. isolate G20_100 polyprotein gene, partial cds
@@ -43,7 +62,6 @@ MW924357:1560:Astroviridae sp. isolate G20_064 ORF1 gene, partial cds
 MW924356:2388:Astroviridae sp. isolate G20_063 non-structural polyprotein gene, partial cds; and ORF1 gene, complete cds
 MW853972:3630:Astroviridae sp. isolate AstroV-like-HMU-2 nonstructural protein gene, partial cds
 MW645022:2463:Eastern mosquitofish bastrovirus nonstructural polyprotein gene, complete cds
-MW645021:1294:Spangled perch bastrovirus nonstructural polyprotein gene, partial cds
 MW347540:4351:MAG: Astroviridae sp. isolate 4zj-RDRP-3 nonstructural polyprotein gene, complete cds
 MW346737:4277:MAG: Astroviridae sp. isolate 1aq-RDRP-4 nonstructural polyprotein gene, complete cds
 MN841288:7836:Solanum melongena bastro-like virus strain pt065-phy-4-plant 65, complete genome

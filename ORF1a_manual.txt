@@ -1,0 +1,20 @@
+EF490429:267:Human astrovirus isolate Madagascar/DT1004/2004 similar to putative serine protease genomic sequence
+PX395424:276:Chicken astrovirus strain CAst/Bayern/2024 isolate Contig-11 nonstructural polyprotein gene, partial cds
+PX395423:582:Chicken astrovirus strain CAst/Bayern/2024 isolate Contig-10 nonstructural polyprotein gene, partial cds
+PX395422:368:Chicken astrovirus strain CAst/Bayern/2024 isolate Contig-9 nonstructural polyprotein gene, partial cds
+DQ327618:465:Avian nephritis virus 1 isolate Sze1/04 non-structural polyprotein gene, partial cds
+DQ327617:465:Avian nephritis virus 1 isolate Kec1/03 non-structural polyprotein gene, partial cds
+DQ327616:465:Avian nephritis virus 1 isolate Beb2/02 non-structural polyprotein gene, partial cds
+DQ327615:465:Avian nephritis virus 1 isolate Boc1/03 non-structural polyprotein gene, partial cds
+DQ327614:465:Avian nephritis virus 1 isolate Hos1/03 non-structural polyprotein gene, partial cds
+DQ327613:465:Avian nephritis virus 1 isolate Imr2/03 non-structural polyprotein gene, partial cds
+DQ327612:465:Avian nephritis virus 1 isolate Imr1/03 non-structural polyprotein gene, partial cds
+DQ327611:465:Avian nephritis virus 1 isolate Laj1/03 non-structural polyprotein gene, partial cds
+DQ327610:465:Avian nephritis virus 1 isolate Zal1/05 non-structural polyprotein gene, partial cds
+DQ327609:465:Avian nephritis virus 1 isolate Sza2/05 non-structural polyprotein gene, partial cds
+DQ327608:465:Avian nephritis virus 1 isolate Sza1/05 non-structural polyprotein gene, partial cds
+AY831433:685:Avian nephritis virus 1 isolate Beb1/02 non-structural polyprotein gene, partial cds
+KC411816:505:Avian nephritis virus 1 non-structural polyprotein mRNA, partial cds
+AY027809:289:Human astrovirus non-structural protein HA mRNA, partial cds
+ON304004:433:MAG: Avian associated bastrovirus 1 isolate PEMA non-structural polyprotein gene, partial cds
+PX113254:1296:Mamastrovirus sp. isolate GCSW/7354 polyprotein gene, partial cds
