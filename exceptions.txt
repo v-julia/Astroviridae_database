@@ -1,0 +1,38 @@
+GU222334:307:Avian nephritis virus AFBI-2010 isolate VF08-29a structural protein gene, partial sequence; and 3' UTR
+GU222333:307:Avian nephritis virus AFBI-2010 isolate VF08-18/5 structural protein gene, partial sequence; and 3' UTR
+GU222332:307:Avian nephritis virus AFBI-2010 isolate VF08-3a structural protein gene, partial sequence; and 3' UTR
+GU222331:301:Avian nephritis virus AFBI-2010 isolate VF07-13/7 structural protein gene, partial sequence; and 3' UTR
+GU222330:307:Avian nephritis virus AFBI-2010 isolate VF04-1/2 structural protein gene, partial sequence; and 3' UTR
+GU222348:109:Avian nephritis virus AFBI-2010 isolate VF08-07/3 3' UTR
+GU222347:109:Avian nephritis virus AFBI-2010 isolate VF08-07/1 3' UTR
+GU222346:109:Avian nephritis virus AFBI-2010 isolate VF07-13/7 3' UTR
+GU222345:109:Avian nephritis virus AFBI-2010 isolate VF07-13/3 3' UTR
+GU222344:109:Avian nephritis virus AFBI-2010 isolate VF07-13/1 3' UTR
+GU222343:109:Avian nephritis virus AFBI-2010 isolate VF06-02/8 3' UTR
+GU222342:110:Avian nephritis virus AFBI-2010 isolate VF06-01/4 3' UTR
+GU222341:109:Avian nephritis virus AFBI-2010 isolate VF05-01/12 3' UTR
+GU222340:109:Avian nephritis virus AFBI-2010 isolate VF05-01/10 3' UTR
+GU222339:109:Avian nephritis virus AFBI-2010 isolate VF05-01/8 3' UTR
+GU222338:109:Avian nephritis virus AFBI-2010 isolate VF05-01/7 3' UTR
+GU222337:109:Avian nephritis virus AFBI-2010 isolate VF05-01/5 3' UTR
+GU222336:109:Avian nephritis virus AFBI-2010 isolate VF05-01/1 3' UTR
+GU222335:109:Avian nephritis virus AFBI-2010 isolate VF04-01/2 3' UTR
+S47249:118:{astrovirus genome 3' end} [human astrovirus type 1, Genomic RNA, 118 nt]
+Z16420:827:Human astrovirus type 1 mRNA for non-structural protein
+ATVPOLY4A:283:Human astrovirus serotype 5 (a5) RNA fragment
+ATVPOLY1A:283:Human astrovirus serotype 2 (a2) RNA fragment
+AY257977:1030:Human astrovirus type 4 nonstructural protein (ORF1A) pseudogene, partial sequence
+PX395426:112:Chicken astrovirus strain CAst/Bayern/2024 isolate Contig-13 nonstructural polyprotein gene, partial cds
+PL092225:130:KR 1020240003760-A/77: New regulatory elements for enhancing RNA stability or mRNA translation, ZCCHC2 interacting with the same, and use thereof
+PL092217:130:KR 1020240003760-A/69: New regulatory elements for enhancing RNA stability or mRNA translation, ZCCHC2 interacting with the same, and use thereof
+PL092213:130:KR 1020240003760-A/65: New regulatory elements for enhancing RNA stability or mRNA translation, ZCCHC2 interacting with the same, and use thereof
+MK387179:581:Porcine bastrovirus isolate PBastV_USA_SD3/2017 nonstructural polyprotein gene, partial cds
+MK387178:581:Porcine bastrovirus isolate PBastV_USA_SD2/2017 nonstructural polyprotein gene, partial cds
+MK387177:581:Porcine bastrovirus isolate PBastV_USA_SD1/2017 nonstructural polyprotein gene, partial cds
+OL739530:603:Mamastrovirus sp. strain PAstV-04-LC-Corsica-2017 hypothetical protein gene, partial cds
+PQ335170:6701:MAG: Human astrovirus 4 isolate 2022/BE11 genomic sequence
+KC599256:569:Astrovirus YN12018/CHN/2012 large polymerase protein-like gene, partial sequence
+OM954095:2841:Flumine Bastrovirus 2 non-structural polyprotein gene, partial cds
+OM953853:1734:Flumine Bastrovirus 3 ORF1 gene, complete cds
+OM953852:5743:Flumine Bastrovirus 1 ORF1 gene, complete cds
+OP413943: ORF1ab + ORF2:MAG: Mamastrovirus 22 isolate PF183/con/AstV3 ORF1A and capsid protein genes, complete cds

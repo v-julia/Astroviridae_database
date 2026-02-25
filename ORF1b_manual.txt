@@ -1,0 +1,21 @@
+OQ802757:564:MAG: Wufeng rodent astrovirus 2 isolate WF_Ty.cinereus_astro_1 genomic sequence
+OQ802714:481:MAG: Jingmen bat bastrovirus 2 isolate JM_Rh.sinicus_bastro_1 genomic sequence
+MT896156:797:Avian nephritis virus isolate IS/3485/2020 non-structural polyprotein gene, partial cds
+MT896155:808:Avian nephritis virus isolate IS/2570/2020 non-structural polyprotein gene, partial cds
+OR645486:572:MAG: Pachyptila astrovirus isolate OM8 non-structural polyprotein gene, partial cds
+MW239504:1099:MAG: Astroviridae sp. isolate SiberianRubythroat51Acon4 hypothetical protein gene, partial cds
+MW239381:831:MAG: Astroviridae sp. isolate magpie166con3 hypothetical protein gene, partial cds
+MW239289:735:MAG: Astroviridae sp. isolate warbler203Acon12 hypothetical protein gene, partial cds
+MW239205:1482:MAG: Astroviridae sp. isolate coaltit197con4 hypothetical protein gene, partial cds
+MW239195:1277:MAG: Astroviridae sp. isolate BrownBrowrockpipit144con4 hypothetical protein gene, partial cds
+MW239194:1246:MAG: Astroviridae sp. isolate BrownBrowrockpipit144con3 hypothetical protein gene, partial cds
+MW347048:1248:MAG: Astroviridae sp. isolate 2wh-RDRP-8 nonstructural polyprotein gene, partial cds
+OR234613:1551:Goose astrovirus 2 strain SCX1 hypothetical protein gene, partial cds
+OR234607:1551:Goose astrovirus 2 strain SCD3 hypothetical protein gene, partial cds
+PP211222:1712:MAG: Bastrovirus Rat/77 isolate Ra.norvegicus_bastro_5
+PP211221:2415:MAG: Bastrovirus Rat/77 isolate Ra.norvegicus_bastro_3
+PX095754:1113:MAG: Mamastrovirus sp. isolate DL/P.nayaur/Mav hypothetical protein gene, partial cds
+PQ421851:1189:MAG: Astrovirus sp. isolate ML2-CQJ-1 hypothetical protein gene, complete cds
+OQ802763:1697:MAG: Wufeng shrew bastrovirus 4 isolate WF_Ch.smithii_bastro_4 genomic sequence
+OQ802762:1704:MAG: Wufeng shrew bastrovirus 3 isolate WF_Ch.smithii_bastro_3 genomic sequence
+PP211223:4879:MAG: Bastrovirus Rat/77 isolate Ra.norvegicus_bastro_7

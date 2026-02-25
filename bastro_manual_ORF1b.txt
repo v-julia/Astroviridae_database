@@ -1,0 +1,12 @@
+PQ055539:4083:MAG: Qianjiang astro-like virus 14 isolate QJ3DG3014 cRNA sequence
+PQ055538:4265:MAG: Qianjiang astro-like virus 13 isolate QJ3TG3868 cRNA sequence
+PQ055537:5100:MAG: Qianjiang astro-like virus 12 isolate QJ3TG2618 cRNA sequence
+PQ055536:5497:MAG: Qianjiang astro-like virus 11 isolate QJ5DG1896 cRNA sequence
+PQ055535:5528:MAG: Qianjiang astro-like virus 10 isolate QJ3DS5660 cRNA sequence
+PQ055533:5745:MAG: Qianjiang astro-like virus 9 isolate QJ5MG2088 cRNA sequence
+PQ055532:5810:MAG: Qianjiang astro-like virus 8 isolate QJ3DS2284 cRNA sequence
+PQ055530:4893:MAG: Qianjiang astro-like virus 6 isolate QJ3MG18 cRNA sequence
+PQ055529:6260:MAG: Qianjiang astro-like virus 6 isolate QJ3MS35 cRNA sequence
+PQ055528:6295:MAG: Qianjiang astro-like virus 5 isolate QJ3TS2970 cRNA sequence
+PQ055527:6333:MAG: Qianjiang astro-like virus 4 isolate QJ3TS1993 cRNA sequence
+PQ055524:8030:MAG: Qianjiang astro-like virus 1 isolate QJ3DG2844 cRNA sequence

@@ -1,22 +1,6 @@
-OR951076:2246:MAG: Mamastrovirus 12 isolate GX2016 sequence
-OR951065:2279:MAG: Bat astrovirus isolate GD2016_246_49388 sequence
-OR951063:1636:MAG: Bat astrovirus isolate GX2017_243_49312 sequence
-OR951056:2063:MAG: Bat astrovirus isolate YN2016_218_5311 sequence
-OR951044:1846:MAG: Bat astrovirus isolate GD2017_207_17582 sequence
-OR951043:1866:MAG: Bat astrovirus isolate HI2019 sequence
-OR951029:1961:MAG: Bat astrovirus isolate GD2016_188_81480 sequence
-OR951024:2168:MAG: Bat astrovirus isolate GD2017_173_19604 sequence
-OR951013:2249:MAG: Bat astrovirus isolate YN2020_057_1262 sequence
-PP211271:1931:MAG: Rat astrovirus Rn/S510/Guangzhou isolate Ra.norvegicus_astro_2
-PL092225:130:KR 1020240003760-A/77: New regulatory elements for enhancing RNA stability or mRNA translation, ZCCHC2 interacting with the same, and use thereof
-PL092217:130:KR 1020240003760-A/69: New regulatory elements for enhancing RNA stability or mRNA translation, ZCCHC2 interacting with the same, and use thereof
-PL092213:130:KR 1020240003760-A/65: New regulatory elements for enhancing RNA stability or mRNA translation, ZCCHC2 interacting with the same, and use thereof
-PQ335170:6701:MAG: Human astrovirus 4 isolate 2022/BE11 genomic sequence
 PQ110289:2228:MAG: Oryctes associated astro-like virus isolate Or_elegans1_agamemnon2 genomic sequence
 PP512783:5203:MAG: Duck astrovirus isolate Du/Egy/Gharbia/2021/DAstVs genomic sequence
-OR871060:2325:MAG: Astroviridae sp. isolate HAFQP22/11 cRNA sequence
 OR800315:592:MAG: Feral pigeon astrovirus isolate NYJ-1/2023 nonstructural protein-like gene, complete sequence
-OQ986647:2094:MAG: Avian astrovirus 10 isolate RHFU genomic sequence
 OP474168:2197:MAG: Pangolin astrovirus A4 genomic sequence
 MN733910:459:Astroviridae sp. clone XKHW-11 genomic sequence
 MN036159:2195:MAG: Astroviridae sp. isolate H2_Bulk_Litter_12_scaffold_3666 sequence
@@ -34,31 +18,5 @@ MN033591:1318:MAG: Astroviridae sp. isolate H4_Rhizo_44_scaffold_12707 sequence
 MN033177:3290:MAG: Astroviridae sp. isolate H4_Rhizo_44_scaffold_584 sequence
 MN033141:1181:MAG: Astroviridae sp. isolate H4_Bulk_46_scaffold_28672 sequence
 MN032977:6676:MAG: Astroviridae sp. isolate H1_Bulk_Litter_4_scaffold_35 sequence
-S47249:118:{astrovirus genome 3' end} [human astrovirus type 1, Genomic RNA, 118 nt]
-KC599256:569:Astrovirus YN12018/CHN/2012 large polymerase protein-like gene, partial sequence
 HV511037:6927:JP 2011520430-A/1: Novel avian Astrovirus
-EF490429:267:Human astrovirus isolate Madagascar/DT1004/2004 similar to putative serine protease genomic sequence
-GU222334:307:Avian nephritis virus AFBI-2010 isolate VF08-29a structural protein gene, partial sequence; and 3' UTR
-GU222333:307:Avian nephritis virus AFBI-2010 isolate VF08-18/5 structural protein gene, partial sequence; and 3' UTR
-GU222332:307:Avian nephritis virus AFBI-2010 isolate VF08-3a structural protein gene, partial sequence; and 3' UTR
-GU222331:301:Avian nephritis virus AFBI-2010 isolate VF07-13/7 structural protein gene, partial sequence; and 3' UTR
-GU222330:307:Avian nephritis virus AFBI-2010 isolate VF04-1/2 structural protein gene, partial sequence; and 3' UTR
-GU222348:109:Avian nephritis virus AFBI-2010 isolate VF08-07/3 3' UTR
-GU222347:109:Avian nephritis virus AFBI-2010 isolate VF08-07/1 3' UTR
-GU222346:109:Avian nephritis virus AFBI-2010 isolate VF07-13/7 3' UTR
-GU222345:109:Avian nephritis virus AFBI-2010 isolate VF07-13/3 3' UTR
-GU222344:109:Avian nephritis virus AFBI-2010 isolate VF07-13/1 3' UTR
-GU222343:109:Avian nephritis virus AFBI-2010 isolate VF06-02/8 3' UTR
-GU222342:110:Avian nephritis virus AFBI-2010 isolate VF06-01/4 3' UTR
-GU222341:109:Avian nephritis virus AFBI-2010 isolate VF05-01/12 3' UTR
-GU222340:109:Avian nephritis virus AFBI-2010 isolate VF05-01/10 3' UTR
-GU222339:109:Avian nephritis virus AFBI-2010 isolate VF05-01/8 3' UTR
-GU222338:109:Avian nephritis virus AFBI-2010 isolate VF05-01/7 3' UTR
-GU222337:109:Avian nephritis virus AFBI-2010 isolate VF05-01/5 3' UTR
-GU222336:109:Avian nephritis virus AFBI-2010 isolate VF05-01/1 3' UTR
-GU222335:109:Avian nephritis virus AFBI-2010 isolate VF04-01/2 3' UTR
-AY257977:1030:Human astrovirus type 4 nonstructural protein (ORF1A) pseudogene, partial sequence
-ATVPOLY4A:283:Human astrovirus serotype 5 (a5) RNA fragment
-ATVPOLY1A:283:Human astrovirus serotype 2 (a2) RNA fragment
-Z16420:827:Human astrovirus type 1 mRNA for non-structural protein
 HUANSSPS:6828:Human astrovirus serotype 2, complete sequence of genomic RNA
