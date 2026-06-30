@@ -163,3 +163,11 @@ PX395426:112:Chicken astrovirus strain CAst/Bayern/2024 isolate Contig-13 nonstr
 PL092225:130:KR 1020240003760-A/77: New regulatory elements for enhancing RNA stability or mRNA translation, ZCCHC2 interacting with the same, and use thereof
 PL092217:130:KR 1020240003760-A/69: New regulatory elements for enhancing RNA stability or mRNA translation, ZCCHC2 interacting with the same, and use thereof
 PL092213:130:KR 1020240003760-A/65: New regulatory elements for enhancing RNA stability or mRNA translation, ZCCHC2 interacting with the same, and use thereof
+
+
+
+
+
+
+Если /product="polyprotein" и координаты несдвоенные, то отправлять в InterPro на проверку
+/product="nonstructural polyprotein" - не учитывается вообще, проверить, что с другими полями входит
