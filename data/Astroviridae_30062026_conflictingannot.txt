@@ -1,0 +1,5 @@
+MN725025.1: ORF1ab + ORF2:Chicken astrovirus strain CAstV/CHN/HBLP717-1/2018, complete genome
+KY047739.1: ORF1ab + ORF2:Mamastrovirus 3 isolate PAstV4-CS26 capsid protein gene, partial cds
+S68561.1: ORF1ab + ORF2:non-structural protein, capsid protein [human astrovirus serotype 1, isolate A88/2, Newcastle, Genomic RNA, 2739 nt]
+KP404152.1: ORF1ab + ORF2:Canine astrovirus strain Braintree/2014/UK capsid precursor, gene, complete cds
+KP404151.1: ORF1ab + ORF2:Canine astrovirus strain Huntingdon/2014/UK capsid precursor, gene, complete cds

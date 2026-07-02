@@ -1,0 +1,22 @@
+PQ110289.1:2228:MAG: Oryctes associated astro-like virus isolate Or_elegans1_agamemnon2 genomic sequence
+PP512783.1:5203:MAG: Duck astrovirus isolate Du/Egy/Gharbia/2021/DAstVs genomic sequence
+OR800315.1:592:MAG: Feral pigeon astrovirus isolate NYJ-1/2023 nonstructural protein-like gene, complete sequence
+OP474168.1:2197:MAG: Pangolin astrovirus A4 genomic sequence
+MN733910.1:459:Astroviridae sp. clone XKHW-11 genomic sequence
+MN036159.1:2195:MAG: Astroviridae sp. isolate H2_Bulk_Litter_12_scaffold_3666 sequence
+MN036131.1:1929:MAG: Astroviridae sp. isolate H4_Rhizo_Litter_20_scaffold_3123 sequence
+MN035893.1:1422:MAG: Astroviridae sp. isolate H3_Bulk_Litter_17_scaffold_17037 sequence
+MN035838.1:5686:MAG: Astroviridae sp. isolate H4_Bulk_47_scaffold_62 sequence
+MN035574.1:1555:MAG: Astroviridae sp. isolate H2_Rhizo_Litter_49_scaffold_25815 sequence
+MN035429.1:1214:MAG: Astroviridae sp. isolate H4_Bulk_47_scaffold_19966 sequence
+MN035369.1:1684:MAG: Astroviridae sp. isolate H3_Bulk_42_scaffold_5271 sequence
+MN034849.1:1687:MAG: Astroviridae sp. isolate H4_Bulk_Litter_24_scaffold_8515 sequence
+MN034422.1:1781:MAG: Astroviridae sp. isolate H4_Bulk_47_scaffold_5859 sequence
+MN034197.1:1294:MAG: Astroviridae sp. isolate H2_Bulk_Litter_12_scaffold_16222 sequence
+MN033907.1:1319:MAG: Astroviridae sp. isolate H1_Bulk_Litter_4_scaffold_9531 sequence
+MN033591.1:1318:MAG: Astroviridae sp. isolate H4_Rhizo_44_scaffold_12707 sequence
+MN033177.1:3290:MAG: Astroviridae sp. isolate H4_Rhizo_44_scaffold_584 sequence
+MN033141.1:1181:MAG: Astroviridae sp. isolate H4_Bulk_46_scaffold_28672 sequence
+MN032977.1:6676:MAG: Astroviridae sp. isolate H1_Bulk_Litter_4_scaffold_35 sequence
+EF490429.1:267:Human astrovirus isolate Madagascar/DT1004/2004 similar to putative serine protease genomic sequence
+L13745.1:6828:Human astrovirus serotype 2, complete sequence of genomic RNA
