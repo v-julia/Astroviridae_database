@@ -1,0 +1,2 @@
+PQ055531: ORF1ab + ORF2:MAG: Qianjiang astro-like virus 7 isolate QJ3DG531 cRNA sequence
+PP105462: ORF1ab + ORF2:Duck astrovirus isolate VSVRI.CLEVB.22 polyprotein gene, partial cds

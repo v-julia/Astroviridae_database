@@ -1,0 +1,652 @@
+AB033998.1;Avian nephritis virus 1 genes for structural polyprotein, non-structural polyprotein, complete cds
+AB264140.2;Mamastrovirus 1 ORF1, ORF2 genes for nonstructural protein, capsid protein, partial cds, specific primers: PRECAP[+], RB1R[-]
+AB308374.1;Mamastrovirus 1 genomic RNA, complete genome, isolate: V1347
+AB325804.1;Mamastrovirus 1 ORF1 gene for nonstructural protein, complete cds, isolate: V1182
+AY027809.1;Human astrovirus non-structural protein HA mRNA, partial cds
+AY831433.1;Avian nephritis virus 1 isolate Beb1/02 non-structural polyprotein gene, partial cds
+BK066576.1;MAG TPA_asm: Bunastrovirus betta10698 isolate Bunastro10698 genomic sequence
+DQ327608.1;Avian nephritis virus 1 isolate Sza1/05 non-structural polyprotein gene, partial cds
+DQ327609.1;Avian nephritis virus 1 isolate Sza2/05 non-structural polyprotein gene, partial cds
+DQ327610.1;Avian nephritis virus 1 isolate Zal1/05 non-structural polyprotein gene, partial cds
+DQ327611.1;Avian nephritis virus 1 isolate Laj1/03 non-structural polyprotein gene, partial cds
+DQ327612.1;Avian nephritis virus 1 isolate Imr1/03 non-structural polyprotein gene, partial cds
+DQ327613.1;Avian nephritis virus 1 isolate Imr2/03 non-structural polyprotein gene, partial cds
+DQ327614.1;Avian nephritis virus 1 isolate Hos1/03 non-structural polyprotein gene, partial cds
+DQ327615.1;Avian nephritis virus 1 isolate Boc1/03 non-structural polyprotein gene, partial cds
+DQ327616.1;Avian nephritis virus 1 isolate Beb2/02 non-structural polyprotein gene, partial cds
+DQ327617.1;Avian nephritis virus 1 isolate Kec1/03 non-structural polyprotein gene, partial cds
+DQ327618.1;Avian nephritis virus 1 isolate Sze1/04 non-structural polyprotein gene, partial cds
+FJ375759.1;Human astrovirus isolate SH1, complete genome
+GQ914773.1;Porcine astrovirus 2 Shanghai/2008 polyprotein and capsid protein genes, complete cds
+HQ668123.1;Bottlenose dolphin astrovirus 1 strain Tt27 RNA-dependent RNA polymerase and capsid precursor, genes, partial cds; and ORFX gene, complete cds
+HQ668129.1;Bottlenose dolphin astrovirus 3 strain Tt23 RNA-dependent RNA polymerase gene, partial cds; and capsid precursor and ORFX genes, complete cds
+HQ668143.1;Minke whale astrovirus 2 strain MH03-629 RNA-dependent RNA polymerase gene, partial cds; and capsid precursor and ORFX genes, complete cds
+KC342249.1;Mamastrovirus 1 isolate km1 nonstructural protein and structural protein genes, complete cds
+KC411816.1;Avian nephritis virus 1 non-structural polyprotein mRNA, partial cds
+KF233994.1;Bovine astrovirus NeuroS1 ORF1AB, ORF1, and capsid protein genes, complete cds
+KP090035.1;Human astrovirus 1 isolate ZJ1370083 nonstructural protein gene, partial cds
+KP090036.1;Human astrovirus 5 isolate ZJ1370092 nonstructural protein gene, partial cds
+KP090037.1;Human astrovirus 5 isolate ZJ1370162 nonstructural protein gene, partial cds
+KP090038.1;Human astrovirus 1 isolate ZJ1370164 nonstructural protein gene, partial cds
+KP090039.1;Human astrovirus 1 isolate ZJ1370297 nonstructural protein gene, partial cds
+KP090040.1;Human astrovirus 1 isolate ZJ1370235 nonstructural protein gene, partial cds
+KP090041.1;Human astrovirus 5 isolate ZJ1370278 nonstructural protein gene, partial cds
+KP090042.1;Human astrovirus 1 isolate ZJ1370319 nonstructural protein gene, partial cds
+KP090043.1;Human astrovirus 1 isolate ZJ1370325 nonstructural protein gene, partial cds
+KP759770.1;Porcine astrovirus 2 isolate KNU14-07, complete genome
+KR364727.1;Human astrovirus 1 isolate ZJ1370557 nonstructural protein (ORF1) gene, partial cds
+KR364728.1;Human astrovirus 8 isolate ZJ1370581 nonstructural protein (ORF1) gene, partial cds
+KR364729.1;Human astrovirus 1 isolate ZJ1370646 nonstructural protein (ORF1) gene, partial cds
+KR868721.1;Dromedary astrovirus isolate DcAstV-169, complete genome
+KR868722.1;Dromedary astrovirus isolate DcAstV-64, complete genome
+KR868723.1;Dromedary astrovirus isolate DcAstV-135, complete genome
+KR868724.1;Dromedary astrovirus isolate DcAstV-274, complete genome
+KU318315.1;Bastrovirus 1, partial genome
+KU318316.1;Bastrovirus 6, partial genome
+KU318317.1;Bastrovirus 3, complete genome
+KU318318.1;Bastrovirus 2, partial genome
+KU318319.1;Bastrovirus 5, partial genome
+KU318320.1;Bastrovirus 4, complete genome
+KU318321.1;Bastrovirus 7, complete genome
+KU318454.1;Human astrovirus isolate JN243-5/HAstV-1 nonstructural protein and capsid protein genes, partial cds
+KU318455.1;Human astrovirus isolate JN179-4/HAstV-1 nonstructural protein and capsid protein genes, partial cds
+KU318456.1;Human astrovirus isolate JN220-1/HAstV-1 nonstructural protein and capsid protein genes, partial cds
+KU318457.1;Human astrovirus isolate JN180-9/HAstV-1 nonstructural protein and capsid protein genes, partial cds
+KU318458.1;Human astrovirus isolate JN178-1/HAstV-1 nonstructural protein and capsid protein genes, partial cds
+KU318459.1;Human astrovirus isolate JN179-1/HAstV-1 nonstructural protein and capsid protein genes, partial cds
+KU318460.1;Human astrovirus isolate JN178-2/HAstV-1 nonstructural protein and capsid protein genes, partial cds
+KU318461.1;Human astrovirus isolate JN220-4/HAstV-1 nonstructural protein and capsid protein genes, partial cds
+KU318462.1;Human astrovirus isolate JN220-5/HAstV-1 nonstructural protein and capsid protein genes, partial cds
+KU318463.1;Human astrovirus isolate LY187-6/HAstV-1 nonstructural protein and capsid protein genes, partial cds
+KU318464.1;Human astrovirus isolate LY222-2/HAstV-1 nonstructural protein and capsid protein genes, partial cds
+KU318465.1;Human astrovirus isolate LY222-3/HAstV-1 nonstructural protein and capsid protein genes, partial cds
+KU318466.1;Human astrovirus isolate LY222-5/HAstV-1 nonstructural protein and capsid protein genes, partial cds
+KU318467.1;Human astrovirus isolate LY222-9/HAstV-1 nonstructural protein and capsid protein genes, partial cds
+KU318468.1;Human astrovirus isolate LY222-10/HAstV-1 nonstructural protein and capsid protein genes, partial cds
+KU318469.1;Human astrovirus isolate LY223-1/HAstV-1 nonstructural protein and capsid protein genes, partial cds
+KU318470.1;Human astrovirus isolate LY223-2/HAstV-1 nonstructural protein and capsid protein genes, partial cds
+KU318471.1;Human astrovirus isolate LY223-3/HAstV-1 nonstructural protein and capsid protein genes, partial cds
+KU318472.1;Human astrovirus isolate LY223-5/HAstV-1 nonstructural protein and capsid protein genes, partial cds
+KU318473.1;Human astrovirus isolate LY223-6/HAstV-1 nonstructural protein and capsid protein genes, partial cds
+KU318474.1;Human astrovirus isolate LY223-7/HAstV-1 nonstructural protein and capsid protein genes, partial cds
+KU318475.1;Human astrovirus isolate LY223-9/HAstV-1 nonstructural protein and capsid protein genes, partial cds
+KU318476.1;Human astrovirus isolate LY223-10/HAstV-1 nonstructural protein and capsid protein genes, partial cds
+KU318477.1;Human astrovirus isolate LY224-2/HAstV-1 nonstructural protein and capsid protein genes, partial cds
+KU318478.1;Human astrovirus isolate JN123-5/HAstV-2 nonstructural protein and capsid protein genes, partial cds
+KU318479.1;Human astrovirus isolate JN123-3/HAstV-2 nonstructural protein and capsid protein genes, partial cds
+KU318480.1;Human astrovirus isolate JN123-8/HAstV-2 nonstructural protein and capsid protein genes, partial cds
+KU318481.1;Human astrovirus isolate JN124-1/HAstV-2 nonstructural protein and capsid protein genes, partial cds
+KU318482.1;Human astrovirus isolate JN177-5/HAstV-2 nonstructural protein and capsid protein genes, partial cds
+KU318483.1;Human astrovirus isolate LY185-5/HAstV-2 nonstructural protein and capsid protein genes, partial cds
+KU318484.1;Human astrovirus isolate LY184-2/HAstV-2 nonstructural protein and capsid protein genes, partial cds
+KU318485.1;Human astrovirus isolate LY185-8/HAstV-2 nonstructural protein and capsid protein genes, partial cds
+KU318486.1;Human astrovirus isolate LY186-5/HAstV-2 nonstructural protein and capsid protein genes, partial cds
+KU318487.1;Human astrovirus isolate JN220-6/HAstV-2 nonstructural protein and capsid protein genes, partial cds
+KU318488.1;Human astrovirus isolate LY187-5/HAstV-2 nonstructural protein and capsid protein genes, partial cds
+KU318489.1;Human astrovirus isolate JN177-7/HAstV-2 nonstructural protein and capsid protein genes, partial cds
+KU318490.1;Human astrovirus isolate JN177-8/HAstV-2 nonstructural protein and capsid protein genes, partial cds
+KU318491.1;Human astrovirus isolate JN177-10/HAstV-2 nonstructural protein and capsid protein genes, partial cds
+KU318492.1;Human astrovirus isolate JN124-3/HAstV-2 nonstructural protein and capsid protein genes, partial cds
+KU318493.1;Human astrovirus isolate JN124-4/HAstV-2 nonstructural protein and capsid protein genes, partial cds
+KU318494.1;Human astrovirus isolate JN124-8/HAstV-2 nonstructural protein and capsid protein genes, partial cds
+KU318495.1;Human astrovirus isolate JN179-2/HAstV-2 nonstructural protein and capsid protein genes, partial cds
+KU318496.1;Human astrovirus isolate JN124-9/HAstV-2 nonstructural protein and capsid protein genes, partial cds
+KU318497.1;Human astrovirus isolate JN123-10/HAstV-2 nonstructural protein and capsid protein genes, partial cds
+KU318498.1;Human astrovirus isolate JN180-1/HAstV-3 nonstructural protein and capsid protein genes, partial cds
+KU318499.1;Human astrovirus isolate JN180-5/HAstV-3 nonstructural protein and capsid protein genes, partial cds
+KU318500.1;Human astrovirus isolate JN178-3/HAstV-3 nonstructural protein and capsid protein genes, partial cds
+KU318501.1;Human astrovirus isolate JN178-5/HAstV-3 nonstructural protein and capsid protein genes, partial cds
+KU318502.1;Human astrovirus isolate JN180-6/HAstV-3 nonstructural protein and capsid protein genes, partial cds
+KU318503.1;Human astrovirus isolate JN180-8/HAstV-3 nonstructural protein and capsid protein genes, partial cds
+KU318504.1;Human astrovirus isolate JN242-1/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318505.1;Human astrovirus isolate JN242-2/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318506.1;Human astrovirus isolate JN242-5/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318507.1;Human astrovirus isolate JN242-7/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318508.1;Human astrovirus isolate JN242-9/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318509.1;Human astrovirus isolate JN243-3/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318510.1;Human astrovirus isolate JN243-8/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318511.1;Human astrovirus isolate JN244-1/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318512.1;Human astrovirus isolate JN244-2/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318513.1;Human astrovirus isolate JN244-3/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318514.1;Human astrovirus isolate JN244-5/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318515.1;Human astrovirus isolate JN244-6/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318516.1;Human astrovirus isolate JN244-7/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318517.1;Human astrovirus isolate JN244-9/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318518.1;Human astrovirus isolate LY185-6/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318519.1;Human astrovirus isolate LY185-1/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318520.1;Human astrovirus isolate LY186-1/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318521.1;Human astrovirus isolate LY186-9/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318522.1;Human astrovirus isolate LY181-7/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318523.1;Human astrovirus isolate LY182-10/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318524.1;Human astrovirus isolate JN189-2/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318525.1;Human astrovirus isolate JN189-3/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318526.1;Human astrovirus isolate LY181-5/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318527.1;Human astrovirus isolate LY182-5/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318528.1;Human astrovirus isolate LY182-8/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318529.1;Human astrovirus isolate LY182-2/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318530.1;Human astrovirus isolate LY184-3/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318531.1;Human astrovirus isolate JN244-10/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318532.1;Human astrovirus isolate LY186-8/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318533.1;Human astrovirus isolate JN244-8/HAstV-5 nonstructural protein and capsid protein genes, partial cds
+KU318534.1;Human astrovirus isolate JN243-10/HAstV-5 nonstructural protein and capsid protein genes, partial cds
+KU318535.1;Human astrovirus isolate JN123-2/HAstV-5 nonstructural protein and capsid protein genes, partial cds
+KU318536.1;Human astrovirus isolate JN243-2/HAstV-5 nonstructural protein and capsid protein genes, partial cds
+KU318537.1;Human astrovirus isolate JN243-6/HAstV-5 nonstructural protein and capsid protein genes, partial cds
+KU318538.1;Human astrovirus isolate JN243-7/HAstV-5 nonstructural protein and capsid protein genes, partial cds
+KU318539.1;Human astrovirus isolate JN123-4/HAstV-5 nonstructural protein and capsid protein genes, partial cds
+KU318540.1;Human astrovirus isolate JN123-6/HAstV-5 nonstructural protein and capsid protein genes, partial cds
+KU318541.1;Human astrovirus isolate JN124-2/HAstV-5 nonstructural protein and capsid protein genes, partial cds
+KU318542.1;Human astrovirus isolate JN189-5/HAstV-5 nonstructural protein and capsid protein genes, partial cds
+KU318543.1;Human astrovirus isolate JN190-1/HAstV-5 nonstructural protein and capsid protein genes, partial cds
+KU318544.1;Human astrovirus isolate JN190-3/HAstV-5 nonstructural protein and capsid protein genes, partial cds
+KU318545.1;Human astrovirus isolate JN190-9/HAstV-5 nonstructural protein and capsid protein genes, partial cds
+KU318546.1;Human astrovirus isolate JN220-2/HAstV-5 nonstructural protein and capsid protein genes, partial cds
+KU318547.1;Human astrovirus isolate JN220-7/HAstV-5 nonstructural protein and capsid protein genes, partial cds
+KU318548.1;Human astrovirus isolate LY181-8/HAstV-5 nonstructural protein and capsid protein genes, partial cds
+KU318549.1;Human astrovirus isolate LY183-5/HAstV-5 nonstructural protein and capsid protein genes, partial cds
+KU318550.1;Human astrovirus isolate LY185-2/HAstV-5 nonstructural protein and capsid protein genes, partial cds
+KU318551.1;Human astrovirus isolate LY185-3/HAstV-5 nonstructural protein and capsid protein genes, partial cds
+KU318552.1;Human astrovirus isolate LY186-3/HAstV-5 nonstructural protein and capsid protein genes, partial cds
+KU318553.1;Human astrovirus isolate LY183-6/HAstV-5 nonstructural protein and capsid protein genes, partial cds
+KU318554.1;Human astrovirus isolate LY184-7/HAstV-5 nonstructural protein and capsid protein genes, partial cds
+KU318555.1;Human astrovirus isolate JN243-9/HAstV-1 nonstructural protein and capsid protein genes, partial cds
+KU318556.1;Human astrovirus isolate JN242-4/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318557.1;Human astrovirus isolate JN242-8/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318558.1;Human astrovirus isolate LY183-3/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318559.1;Human astrovirus isolate LY186-4/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318560.1;Human astrovirus isolate LY185-7/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318561.1;Human astrovirus isolate LY182-9/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318562.1;Human astrovirus isolate JN242-10/HAstV-4 nonstructural protein and capsid protein genes, partial cds
+KU318563.1;Human astrovirus isolate JN244-4/HAstV-5 nonstructural protein and capsid protein genes, partial cds
+KU318564.1;Human astrovirus isolate JN242-3/HAstV-5 nonstructural protein and capsid protein genes, partial cds
+KU318565.1;Human astrovirus isolate JN124-6/HAstV-5 nonstructural protein and capsid protein genes, partial cds
+KU318566.1;Human astrovirus isolate JN124-5/HAstV-5 nonstructural protein and capsid protein genes, partial cds
+KU318567.1;Human astrovirus isolate JN189-1/HAstV-5 nonstructural protein and capsid protein genes, partial cds
+KU318568.1;Human astrovirus isolate JN189-8/HAstV-5 nonstructural protein and capsid protein genes, partial cds
+KX290465.1;Duck hepatitis virus 3 strain HBGT/China/2014 polyprotein gene, complete cds
+KX522566.1;Mamastrovirus 1 isolate ZJ1370701 nonstructural protein (ORF1) gene, partial cds
+KX522567.1;Mamastrovirus 1 isolate ZJ1370711 nonstructural protein (ORF1) gene, partial cds
+KX522568.1;Mamastrovirus 1 isolate ZJ1370721 nonstructural protein (ORF1) gene, partial cds
+KX522569.1;Mamastrovirus 1 isolate ZJ1370741 nonstructural protein (ORF1) gene, partial cds
+KX522570.1;Mamastrovirus 1 isolate ZJ1370826 nonstructural protein (ORF1) gene, partial cds
+KX522571.1;Mamastrovirus 1 isolate ZJ1370851 nonstructural protein (ORF1) gene, partial cds
+KX522572.1;Mamastrovirus 1 isolate ZJ1370867 nonstructural protein (ORF1) gene, partial cds
+KX522573.1;Mamastrovirus 1 isolate ZJ1370873 nonstructural protein (ORF1) gene, partial cds
+KX907127.1;Bastrovirus/VietNam/Rat/14294_55 non-structural polyprotein gene, partial cds; and structural polyprotein gene, complete cds
+KX907128.1;Bastrovirus/VietNam/Rat/16715_4 non-structural polyprotein gene, partial cds; and structural polyprotein gene, complete cds
+KX907129.1;Bastrovirus/VietNam/Rat/16715_10 non-structural polyprotein and structural polyprotein genes, complete cds
+KX907130.1;Bastrovirus/VietNam/Rat/16715_26 non-structural polyprotein and structural polyprotein genes, complete cds
+KX907131.1;Bastrovirus/VietNam/Bat/16715_30 non-structural polyprotein gene, partial cds; and structural polyprotein gene, complete cds
+KX907132.1;Bastrovirus/VietNam/Rat/16715_58 non-structural polyprotein and structural polyprotein genes, complete cds
+KX907133.1;Bastrovirus/VietNam/Bat/16715_78 non-structural polyprotein gene, partial cds; and structural polyprotein gene, complete cds
+KX907134.1;Bastrovirus/VietNam/Porcine/17489_85 non-structural polyprotein and structural polyprotein genes, complete cds
+KX907135.1;Bastrovirus-like_virus/VietNam/Bat/17819_21 non-structural polyprotein and structural polyprotein genes, complete cds
+KY214437.1;Porcine astrovirus 4/BEL/15V010 isolate 15V010 ORF1, ORF1ab, and ORF2 genes, complete cds
+KY214438.1;Porcine astrovirus 2/BEL/15V010 isolate 15V010 ORF1, ORF1ab, and ORF2 genes, complete cds
+LC549662.1;Bastrovirus-like_virus/VietNam/Bat/17819_21 Porcine_Bastrovirus/JPN/Kana_Uchi8/2019 genomic RNA, nearly complete genome
+LC577870.1;Porcine bastrovirus PBastV/JPN/Iba-Ohata1-1/2015 genes for non-structural polyprotein, capsid protein, complete and partial cds
+LC577871.1;Porcine bastrovirus PBastV/JPN/Iba-Ohata1-2/2015 genes for non-structural polyprotein, capsid protein, complete cds
+LC577872.1;Porcine bastrovirus PBastV/JPN/Iba-Ohata2/2015 genes for non-structural polyprotein, capsid protein, complete cds
+LC849228.1;Crocidura lasiura astrovirus BastV/Raccoon_dog/Kodo-8/2023/JPN genes for non-structural polyprotein and capsid protein, complete and partial cds
+LC849229.1;Crocidura lasiura astrovirus BastV/Raccoon_dog/Kodo-31/2023/JPN genes for non-structural polyprotein and capsid protein, complete cds
+LC849230.1;Crocidura lasiura astrovirus BastV/Raccoon_dog/Kodo2023-52/2023/JPN genes for non-structural polyprotein and capsid protein, complete cds
+LN879482.1;Bovine astrovirus BH89/14, genomic sequence
+M87668.1;Human astrovirus type 1 RNA, 3' terminal sequence
+MF042208.1;Bastrovirus Brazil/sewage isolate Brazil/Sewage non-structural polyprotein and structural polyprotein genes, complete cds
+MF973500.1;Canine astrovirus strain CHN/2017/44, complete genome
+MF973501.1;Canine astrovirus strain CHN/2017/58, complete genome
+MF973502.1;Canine astrovirus strain CHN/2017/3/ORF1a nonstructural protein gene, partial cds
+MF973503.1;Canine astrovirus strain CHN/2017/11/ORF1a nonstructural protein gene, partial cds
+MF973504.1;Canine astrovirus strain CHN/2017/20/ORF1a nonstructural protein gene, partial cds
+MF973505.1;Canine astrovirus strain CHN/2017/21/ORF1a nonstructural protein gene, partial cds
+MF973506.1;Canine astrovirus strain CHN/2017/22/ORF1a nonstructural protein gene, partial cds
+MF973507.1;Canine astrovirus strain CHN/2017/25/ORF1a nonstructural protein gene, partial cds
+MF973508.1;Canine astrovirus strain CHN/2017/28/ORF1a nonstructural protein gene, partial cds
+MF973509.1;Canine astrovirus strain CHN/2017/40/ORF1a nonstructural protein gene, partial cds
+MF973510.1;Canine astrovirus strain CHN/2017/44/ORF1a nonstructural protein gene, partial cds
+MF973511.1;Canine astrovirus strain CHN/2017/56/ORF1a nonstructural protein gene, partial cds
+MF973512.1;Canine astrovirus strain CHN/2017/57/ORF1a nonstructural protein gene, partial cds
+MF973513.1;Canine astrovirus strain CHN/2017/58/ORF1a nonstructural protein gene, partial cds
+MF973514.1;Canine astrovirus strain CHN/2017/M1/ORF1a nonstructural protein gene, partial cds
+MF973515.1;Canine astrovirus strain CHN/2017/M8/ORF1a nonstructural protein gene, partial cds
+MF973516.1;Canine astrovirus strain CHN/2017/M9/ORF1a nonstructural protein gene, partial cds
+MF973517.1;Canine astrovirus strain CHN/2017/M15/ORF1a nonstructural protein gene, partial cds
+MF973518.1;Canine astrovirus strain CHN/2017/M17/ORF1a nonstructural protein gene, partial cds
+MF973519.1;Canine astrovirus strain CHN/2017/M19/ORF1a nonstructural protein gene, partial cds
+MF973520.1;Canine astrovirus strain CHN/2017/S6/ORF1a nonstructural protein gene, partial cds
+MF973521.1;Canine astrovirus strain CHN/2017/S12/ORF1a nonstructural protein gene, partial cds
+MF973522.1;Canine astrovirus strain CHN/2017/S14/ORF1a nonstructural protein gene, partial cds
+MF973523.1;Canine astrovirus strain CHN/2017/S15/ORF1a nonstructural protein gene, partial cds
+MF973524.1;Canine astrovirus strain CHN/2017/Y4/ORF1a nonstructural protein gene, partial cds
+MF973525.1;Canine astrovirus strain CHN/2017/Y5/ORF1a nonstructural protein gene, partial cds
+MF973526.1;Canine astrovirus strain CHN/2017/Y6/ORF1a nonstructural protein gene, partial cds
+MF973527.1;Canine astrovirus strain CHN/2017/Y8/ORF1a nonstructural protein gene, partial cds
+MF973528.1;Canine astrovirus strain CHN/2017/59/ORF1a nonstructural protein gene, partial cds
+MG599883.1;Beihai cephalopholis spiloparaea astrovirus strain LXMC182963 hypothetical protein, ORF1ab, and capsid protein genes, complete cds
+MG693175.1;Bat bastrovirus isolate CMR/Bat/P24 non-structural polyprotein gene, partial cds; and structural polyprotein gene, complete cds
+MG846413.1;Avian nephritis virus non-structural polyprotein gene, partial cds
+MG846415.1;Avian nephritis virus non-structural polyprotein gene, partial cds; and capsid protein gene, complete cds
+MG846417.1;Chicken astrovirus strain RS/BR/15/6S non-structural polyprotein and capsid protein genes, partial cds
+MG846419.1;Chicken astrovirus strain RS/BR/15/4R-2 non-structural polyprotein and RNA-dependent RNA polymerase genes, partial cds
+MG846420.1;Chicken astrovirus strain RS/BR/15/6R-2 non-structural polyprotein and RNA-dependent RNA polymerase genes, partial cds
+MH028405.1;Avian nephritis virus 2 strain AVE52/ANV2, complete genome
+MH188020.1;Culex Bastrovirus-like virus strain CAVL/Fresno, complete genome
+MK387176.1;Porcine bastrovirus isolate PBastV_USA 2017-1, complete genome
+MN033120.1;MAG: Astroviridae sp. isolate H1_Bulk_29_scaffold_2190 hypothetical protein (H1Bulk292190_000001) gene, partial cds; and hypothetical protein (H1Bulk292190_000002) and RNA-dependent RNA polymerase (H1Bulk292190_000003) genes, complete cds
+MN033274.1;MAG: Astroviridae sp. isolate H2_Bulk_Litter_12_scaffold_255 hypothetical protein (H2BulkLitter12255_000001) gene, partial cds; and RNA-dependent RNA polymerase (H2BulkLitter12255_000002) and hypothetical protein (H2BulkLitter12255_000003) genes, complete cds
+MN033410.1;MAG: Astroviridae sp. isolate H2_Bulk_Litter_12_scaffold_24547 hypothetical protein (H2BulkLitter1224547_000001) gene, complete cds; and RNA-dependent RNA polymerase (H2BulkLitter1224547_000002) gene, partial cds
+MN033479.1;MAG: Astroviridae sp. isolate H1_Rhizo_25_scaffold_9154 hypothetical protein (H1Rhizo259154_000001) and RNA-dependent RNA polymerase (H1Rhizo259154_000002) genes, partial cds
+MN033872.1;MAG: Astroviridae sp. isolate H3_Bulk_Litter_17_scaffold_52 RNA-dependent RNA polymerase (H3BulkLitter1752_000001) and hypothetical protein (H3BulkLitter1752_000002) genes, complete cds
+MN033929.1;MAG: Astroviridae sp. isolate H4_Rhizo_Litter_20_scaffold_133 hypothetical protein (H4RhizoLitter20133_000001) gene, partial cds; and RNA-dependent RNA polymerase (H4RhizoLitter20133_000002) gene, complete cds
+MN034082.1;MAG: Astroviridae sp. isolate H2_Bulk_35_scaffold_28 hypothetical protein (H2Bulk3528_000001) gene, partial cds; and RNA-dependent RNA polymerase (H2Bulk3528_000002) gene, complete cds
+MN034411.1;MAG: Astroviridae sp. isolate H2_Rhizo_Litter_8_scaffold_129 hypothetical protein (H2RhizoLitter8129_000001) gene, partial cds; and RNA-dependent RNA polymerase (H2RhizoLitter8129_000002) gene, complete cds
+MN034438.1;MAG: Astroviridae sp. isolate H1_Rhizo_26_FD_scaffold_10293 RNA-dependent RNA polymerase (H1Rhizo26FD10293_000001) and hypothetical protein (H1Rhizo26FD10293_000002) genes, partial cds
+MN034752.1;MAG: Astroviridae sp. isolate H1_Rhizo_Litter_1_scaffold_1158 RNA-dependent RNA polymerase (H1RhizoLitter11158_000001) gene, partial cds; and hypothetical protein (H1RhizoLitter11158_000002) gene, complete cds
+MN035758.1;MAG: Astroviridae sp. isolate H1_Rhizo_26_FD_scaffold_114 hypothetical protein (H1Rhizo26FD114_000001) gene, partial cds; and RNA-dependent RNA polymerase (H1Rhizo26FD114_000002) and hypothetical protein (H1Rhizo26FD114_000003) genes, complete cds
+MN035814.1;MAG: Astroviridae sp. isolate H4_Bulk_48_scaffold_29788 hypothetical protein (H4Bulk4829788_000001) gene, complete cds; and RNA-dependent RNA polymerase (H4Bulk4829788_000002) gene, partial cds
+MN036279.1;MAG: Astroviridae sp. isolate H1_Bulk_Litter_4_scaffold_3393 RNA-dependent RNA polymerase (H1BulkLitter43393_000001) and hypothetical protein (H1BulkLitter43393_000002) genes, partial cds
+MN217590.1;Human astrovirus strain YT127-2/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217591.1;Human astrovirus strain YT127-4/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217592.1;Human astrovirus strain YT127-7/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217593.1;Human astrovirus strain YT128-1/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217594.1;Human astrovirus strain YT128-4/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217595.1;Human astrovirus strain YT128-5/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217596.1;Human astrovirus strain YT128-8/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217597.1;Human astrovirus strain YT128-11/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217598.1;Human astrovirus strain YT128-12/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217599.1;Human astrovirus strain YT172-1/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217600.1;Human astrovirus strain YT246-1/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217601.1;Human astrovirus strain YT172-2/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217602.1;Human astrovirus strain YT245-8/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217603.1;Human astrovirus strain YT172-3/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217604.1;Human astrovirus strain YT172-4/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217605.1;Human astrovirus strain YT172-9/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217606.1;Human astrovirus strain YT172-10/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217607.1;Human astrovirus strain YT173-5/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217608.1;Human astrovirus strain YT173-6/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217609.1;Human astrovirus strain YT173-8/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217610.1;Human astrovirus strain YT174-3/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217611.1;Human astrovirus strain YT175-4/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217612.1;Human astrovirus strain YT174-9/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217613.1;Human astrovirus strain YT174-10/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217614.1;Human astrovirus strain YT175-1/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217615.1;Human astrovirus strain YT172-8/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217616.1;Human astrovirus strain YT127-8/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217617.1;Human astrovirus strain YT173-1/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217618.1;Human astrovirus strain YT176-1/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217619.1;Human astrovirus strain YT176-10/CHN/2014 nonstructural protein and capsid protein genes, partial cds
+MN217620.1;Human astrovirus strain YT501-1/CHN/2015 nonstructural protein and capsid protein genes, partial cds
+MN217621.1;Human astrovirus strain YT437-8/CHN/2015 nonstructural protein and capsid protein genes, partial cds
+MN217622.1;Human astrovirus strain YT437-1/CHN/2015 nonstructural protein and capsid protein genes, partial cds
+MN217623.1;Human astrovirus strain YT436-10/CHN/2015 nonstructural protein and capsid protein genes, partial cds
+MN217624.1;Human astrovirus strain YT437-2/CHN/2015 nonstructural protein and capsid protein genes, partial cds
+MN217625.1;Human astrovirus strain YT438-4/CHN/2015 nonstructural protein and capsid protein genes, partial cds
+MN217626.1;Human astrovirus strain YT438-5/CHN/2015 nonstructural protein and capsid protein genes, partial cds
+MN217627.1;Human astrovirus strain YT438-6/CHN/2015 nonstructural protein and capsid protein genes, partial cds
+MN217628.1;Human astrovirus strain YT438-7/CHN/2015 nonstructural protein and capsid protein genes, partial cds
+MN217629.1;Human astrovirus strain YT438-10/CHN/2015 nonstructural protein and capsid protein genes, partial cds
+MN217630.1;Human astrovirus strain YT436-7/CHN/2015 nonstructural protein and capsid protein genes, partial cds
+MN217631.1;Human astrovirus strain YT437-3/CHN/2015 nonstructural protein and capsid protein genes, partial cds
+MN217632.1;Human astrovirus strain YT438-1/CHN/2015 nonstructural protein and capsid protein genes, partial cds
+MN217633.1;Human astrovirus strain YT439-3/CHN/2015 nonstructural protein and capsid protein genes, partial cds
+MN217634.1;Human astrovirus strain YT436-8/CHN/2015 nonstructural protein and capsid protein genes, partial cds
+MN217635.1;Human astrovirus strain YT439-10/CHN/2015 nonstructural protein and capsid protein genes, partial cds
+MN217636.1;Human astrovirus strain YT437-10/CHN/2015 nonstructural protein and capsid protein genes, partial cds
+MN217637.1;Human astrovirus strain YT438-9/CHN/2015 nonstructural protein and capsid protein genes, partial cds
+MN217638.1;Human astrovirus strain YT436-3/CHN/2015 nonstructural protein and capsid protein genes, partial cds
+MN217639.1;Human astrovirus strain YT436-5/CHN/2015 nonstructural protein and capsid protein genes, partial cds
+MN217640.1;Human astrovirus strain YT437-6/CHN/2015 nonstructural protein and capsid protein genes, partial cds
+MN217641.1;Human astrovirus strain YT437-9/CHN/2015 nonstructural protein and capsid protein genes, partial cds
+MN217642.1;Human astrovirus strain YT439-1/CHN/2015 nonstructural protein and capsid protein genes, partial cds
+MN217643.1;Human astrovirus strain YT439-2/CHN/2015 nonstructural protein and capsid protein genes, partial cds
+MN217644.1;Human astrovirus strain YT439-5/CHN/2015 nonstructural protein and capsid protein genes, partial cds
+MN217645.1;Human astrovirus strain YT439-8/CHN/2015 nonstructural protein and capsid protein genes, partial cds
+MN217646.1;Human astrovirus strain YT439-9/CHN/2015 nonstructural protein and capsid protein genes, partial cds
+MN217647.1;Human astrovirus strain YT503-4/CHN/2015 nonstructural protein and capsid protein genes, partial cds
+MN217648.1;Human astrovirus strain YT602-1/CHN/2016 nonstructural protein and capsid protein genes, partial cds
+MN217649.1;Human astrovirus strain YT638-1/CHN/2016 nonstructural protein and capsid protein genes, partial cds
+MN217650.1;Human astrovirus strain YT639-5/CHN/2016 nonstructural protein and capsid protein genes, partial cds
+MN217651.1;Human astrovirus strain YT639-8/CHN/2016 nonstructural protein and capsid protein genes, partial cds
+MN217652.1;Human astrovirus strain YT605-1/CHN/2016 nonstructural protein and capsid protein genes, partial cds
+MN217653.1;Human astrovirus strain YT605-2/CHN/2016 nonstructural protein and capsid protein genes, partial cds
+MN217654.1;Human astrovirus strain YT605-3/CHN/2016 nonstructural protein and capsid protein genes, partial cds
+MN217655.1;Human astrovirus strain YT1032-5/CHN/2016 nonstructural protein and capsid protein genes, partial cds
+MN217656.1;Human astrovirus strain YT639-10/CHN/2016 nonstructural protein and capsid protein genes, partial cds
+MN217657.1;Human astrovirus strain YT825-6/CHN/2016 nonstructural protein and capsid protein genes, partial cds
+MN217658.1;Human astrovirus strain YT824-3/CHN/2016 nonstructural protein and capsid protein genes, partial cds
+MN217659.1;Human astrovirus strain YT824-8/CHN/2016 nonstructural protein and capsid protein genes, partial cds
+MN217660.1;Human astrovirus strain YT1033-2/CHN/2016 nonstructural protein and capsid protein genes, partial cds
+MN217661.1;Human astrovirus strain YT1033-3/CHN/2016 nonstructural protein and capsid protein genes, partial cds
+MN217662.1;Human astrovirus strain YT1033-5/CHN/2016 nonstructural protein and capsid protein genes, partial cds
+MN217663.1;Human astrovirus strain YT1033-6/CHN/2016 nonstructural protein and capsid protein genes, partial cds
+MN217664.1;Human astrovirus strain YT824-6/CHN/2016 nonstructural protein and capsid protein genes, partial cds
+MN217665.1;Human astrovirus strain YT825-2/CHN/2016 nonstructural protein and capsid protein genes, partial cds
+MN841288.1;Solanum melongena bastro-like virus strain pt065-phy-4-plant 65, complete genome
+MT110150.1;Helianthus astrovirus A isolate Won_7755 putative replicase and putative capsid protein mRNAs, complete cds
+MT110151.1;Helianthus astrovirus A isolate Cho_7755 putative replicase and putative capsid protein mRNAs, complete cds
+MT498600.1;Raccoon dog astrovirus strain RDAS nonstructural protein and putative RNA-dependent RNA polymerase genes, partial cds
+MT549856.1;Bastrovirus Rat/77 isolate Bastrovirus/CHN/Rat/77 non-structural polyprotein gene, partial cds; and structural polyprotein gene, complete cds
+MT549857.1;Bastrovirus Rat/78 isolate Bastrovirus/CHN/Rat/78 non-structural polyprotein gene, complete cds; and structural polyprotein gene, partial cds
+MT568535.1;MAG: Pyongtaek Culex bastrovirus isolate -like virus A18.1505 genomic sequence
+MT896155.1;Avian nephritis virus isolate IS/2570/2020 non-structural polyprotein gene, partial cds
+MT896156.1;Avian nephritis virus isolate IS/3485/2020 non-structural polyprotein gene, partial cds
+MW239194.1;MAG: Astroviridae sp. isolate BrownBrowrockpipit144con3 hypothetical protein gene, partial cds
+MW239195.1;MAG: Astroviridae sp. isolate BrownBrowrockpipit144con4 hypothetical protein gene, partial cds
+MW239205.1;MAG: Astroviridae sp. isolate coaltit197con4 hypothetical protein gene, partial cds
+MW239289.1;MAG: Astroviridae sp. isolate warbler203Acon12 hypothetical protein gene, partial cds
+MW239381.1;MAG: Astroviridae sp. isolate magpie166con3 hypothetical protein gene, partial cds
+MW239504.1;MAG: Astroviridae sp. isolate SiberianRubythroat51Acon4 hypothetical protein gene, partial cds
+MW346737.1;MAG: Astroviridae sp. isolate 1aq-RDRP-4 nonstructural polyprotein gene, complete cds
+MW347048.1;MAG: Astroviridae sp. isolate 2wh-RDRP-8 nonstructural polyprotein gene, partial cds
+MW347540.1;MAG: Astroviridae sp. isolate 4zj-RDRP-3 nonstructural polyprotein gene, complete cds
+MW504545.1;MAG: Mamastrovirus 3 isolate 15211_AST_len_6388_cov_52.529133 mRNA sequence
+MW504546.1;MAG: Mamastrovirus 3 isolate 15217_AST_len_6452_cov_17.307332 mRNA sequence
+MW504547.1;MAG: Mamastrovirus 3 isolate 15211_AST_len_3696_cov_139.405383 mRNA sequence
+MW504548.1;MAG: Mamastrovirus 3 isolate 15214_AST_len_3142_cov_186.152899 mRNA sequence
+MW504549.1;MAG: Mamastrovirus 3 isolate 15211_AST_len_3556_cov_745.981434 mRNA sequence
+MW504555.1;MAG: Mamastrovirus 3 isolate 15217_AST_len_3186_cov_9.041840 mRNA sequence
+MW504564.1;MAG: Mamastrovirus 3 isolate 15216_AST_len_3947_cov_18.593525 mRNA sequence
+MW504566.1;MAG: Mamastrovirus 3 isolate 15216_AST_len_3931_cov_1002.606295 mRNA sequence
+MW504568.1;MAG: Mamastrovirus 3 isolate 15215_AST_len_3912_cov_17.622245 mRNA sequence
+MW504574.1;MAG: Mamastrovirus 3 isolate 15214_AST_len_3386_cov_52.965476 mRNA sequence
+MW504575.1;MAG: Mamastrovirus 3 isolate 15214_AST_len_3353_cov_26.593996 mRNA sequence
+MW504578.1;MAG: Mamastrovirus 3 isolate 15213_AST_len_3548_cov_33.845119 mRNA sequence
+MW504579.1;MAG: Mamastrovirus 3 isolate 15216_AST_len_3310_cov_10.183717 mRNA sequence
+MW504580.1;MAG: Mamastrovirus 3 isolate 15212_AST_len_4241_cov_88.617535 mRNA sequence
+MW645021.1;Spangled perch bastrovirus nonstructural polyprotein gene, partial cds
+MW645022.1;Eastern mosquitofish bastrovirus nonstructural polyprotein gene, complete cds
+MW784086.1;MAG: Xinjiang avastrovirus isolate 232-76811 nonstructural polyprotein gene, partial cds; and structural polyprotein gene, complete cds
+MW784094.1;MAG: Zhejiang avastrovirus isolate 5-86563 nonstructural polyprotein and structural polyprotein genes, complete cds
+MW784097.1;MAG: Henan avastrovirus isolate 297b-22705 nonstructural polyprotein gene, partial cds; and structural polyprotein gene, complete cds
+MW784099.1;MAG: Heilongjiang avastrovirus isolate 361bR-171897 nonstructural polyprotein gene, partial cds; and structural polyprotein gene, complete cds
+MW826531.1;Mamastrovirus sp. isolate YSS01 genomic sequence
+MW826532.1;Mamastrovirus sp. isolate YSS02 genomic sequence
+MW853972.1;Astroviridae sp. isolate AstroV-like-HMU-2 nonstructural protein gene, partial cds
+MW863310.1;Human astrovirus isolate Hu/HY/2019/CHN nonstructural protein and structural protein genes, complete cds
+MW897145.1;MAG: Hubei sediment bastro-like virus isolate 77-k141_134887 non-structural polyprotein gene, partial cds; and structural polyprotein gene, complete cds
+MW897146.1;MAG: Zhejiang porcine bastro-like virus isolate 8-k141_171686, complete genome
+MW897147.1;MAG: Heilongjiang porcine bastro-like virus isolate 364R-k141_277660 non-structural polyprotein and structural polyprotein genes, complete cds
+MW924352.1;Astroviridae sp. isolate G20_059 ORF1 and ORF2 genes, complete cds
+MW924353.1;Astroviridae sp. isolate G20_060 ORF1 and ORF2 genes, complete cds
+MW924354.1;Astroviridae sp. isolate G20_061 ORF1 and ORF2 genes, complete cds
+MW924355.1;Astroviridae sp. isolate G20_062 ORF1 gene, partial cds; and ORF2 gene, complete cds
+MW924356.1;Astroviridae sp. isolate G20_063 non-structural polyprotein gene, partial cds; and ORF1 gene, complete cds
+MW924357.1;Astroviridae sp. isolate G20_064 ORF1 gene, partial cds
+MW924358.1;Astroviridae sp. isolate G20_065 ORF1 gene, partial cds
+MZ182271.1;Astroviridae sp. isolate G20_100 polyprotein gene, partial cds
+MZ182272.1;Astroviridae sp. isolate G20_101 polyprotein gene, partial cds
+MZ209691.1;MAG: Hangzhou astrovirus 1 isolate HLXXFY353, complete genome
+MZ291967.1;Astroviridae sp. isolate G20_105 polyprotein gene, partial cds
+MZ367372.1;Chicken astrovirus isolate CAV/Belgium/4134_001/2019 nonstructural polyprotein, RNA-dependent RNA polymerase, and capsid precursor protein genes, complete cds
+MZ443626.1;Nelson Astrovirus-like 1 isolate Vvul_virus_58 hypothetical protein genes, complete cds
+MZ546174.1;Human astrovirus strain Astzj-8, complete genome
+MZ603071.1;MAG: Mamastrovirus sp. isolate HAstV-MLB1_RVAB genomic sequence
+MZ603074.1;MAG: Human astrovirus isolate HAstV-1_2_RVAB genomic sequence
+MZ603076.1;MAG: Mamastrovirus sp. isolate HAstV-VA2_RVAB genomic sequence
+MZ603079.1;MAG: Human astrovirus 3 isolate HAstV-3_RVAB genomic sequence
+NC_003790.1;Chicken astrovirus, complete genome
+NC_027711.1;Dromedary astrovirus isolate DcAstV-274, complete genome
+NC_030922.1;Mamastrovirus 1 genomic RNA, complete genome, isolate: V1347
+NC_032423.1;Bastrovirus/VietNam/Porcine/17489_85 non-structural polyprotein and structural polyprotein genes, complete cds
+NC_032426.1;Bastrovirus-like_virus/VietNam/Bat/17819_21 non-structural polyprotein and structural polyprotein genes, complete cds
+NC_032484.1;Bastrovirus/VietNam/Rat/16715_10 non-structural polyprotein and structural polyprotein genes, complete cds
+NC_035471.1;Bastrovirus/VietNam/Bat/16715_78 non-structural polyprotein gene, partial cds; and structural polyprotein gene, complete cds
+NC_035758.1;Bastrovirus 7, complete genome
+NC_040647.1;Culex Bastrovirus-like virus strain CAVL/Fresno, complete genome
+OK483335.1;Human astrovirus 2 isolate ETH202 VP1 (VP1) gene, partial cds
+OK483336.1;Human astrovirus 2 isolate ETH214 VP1 (VP1) gene, partial cds
+OM104031.1;MAG: Mamastrovirus 2 isolate BSF3 nonstructural protein, RNA-dependent RNA polymerase, and capsid protein genes, partial cds
+OM104033.1;MAG: Porcine bastrovirus isolate BSF3 nonstructural polyprotein and structural polyprotein genes, complete cds
+OM469229.1;MAG: Avastrovirus sp. isolate ANV/PB23-SI7/Switzerland/2019 ORF1ab polyprotein, non-structural polyprotein, and capsid protein genes, complete cds
+OM469230.1;MAG: Avastrovirus sp. isolate ANV/PB31-SI19/Switzerland/2019 ORF1ab polyprotein and non-structural polyprotein genes, partial cds; and capsid protein gene, complete cds
+OM469231.1;MAG: Avastrovirus sp. isolate ANV/PB21-SI5/Switzerland/2019 ORF1ab polyprotein, non-structural polyprotein, and capsid protein genes, complete cds
+OM469232.1;MAG: Avastrovirus sp. isolate ANV/PB7-HI6/Switzerland/2019 ORF1ab polyprotein, non-structural polyprotein, and capsid protein genes, complete cds
+OM469233.1;MAG: Avastrovirus sp. isolate ANV/PB11-HI6/Switzerland/2019 ORF1ab polyprotein, non-structural polyprotein, and capsid protein genes, complete cds
+OM469234.1;MAG: Avastrovirus sp. isolate ANV/PB1-HI5/Switzerland/2019 ORF1ab polyprotein, non-structural polyprotein, and capsid protein genes, complete cds
+OM469235.1;MAG: Avastrovirus sp. isolate ANV/PB15-HI11/Switzerland/2019 ORF1ab polyprotein, non-structural polyprotein, and capsid protein genes, complete cds
+OM469236.1;MAG: Avastrovirus sp. isolate ANV/PB5-HI5/Switzerland/2019 ORF1ab polyprotein, non-structural polyprotein, and capsid protein genes, complete cds
+OM469237.1;MAG: Avastrovirus sp. isolate ANV/PB55-SI14/Switzerland/2019 ORF1ab polyprotein, non-structural polyprotein, and capsid protein genes, partial cds
+OM469238.1;MAG: Avastrovirus sp. isolate CAstV/PB1-HI5/Switzerland/2019 non-structural polyprotein and RNA-dependent RNA polymerase genes, complete cds; and capsid precursor protein gene, partial cds
+OM469239.1;MAG: Avastrovirus sp. isolate CAstV/PB7-HI6/Switzerland/2019 non-structural polyprotein, RNA-dependent RNA polymerase, and capsid precursor protein genes, complete cds
+OM469240.1;MAG: Avastrovirus sp. isolate CAstV/PB41-SI14/Switzerland/2019 non-structural polyprotein, RNA-dependent RNA polymerase, and capsid precursor protein genes, complete cds
+OM469241.1;MAG: Avastrovirus sp. isolate CAstV/PB5-HI5/Switzerland/2019 non-structural polyprotein gene, partial cds; RNA-dependent RNA polymerase gene, complete cds; and capsid precursor protein gene, partial cds
+OM469242.1;MAG: Avastrovirus sp. isolate CAstV/PB15-HI11/Switzerland/2019 non-structural polyprotein, RNA-dependent RNA polymerase, and capsid precursor protein genes, complete cds
+OM469243.1;MAG: Avastrovirus sp. isolate CAstV/PB33-SI20/Switzerland/2019 non-structural polyprotein gene, partial cds; RNA-dependent RNA polymerase gene, complete cds; and capsid precursor protein gene, partial cds
+OM469244.1;MAG: Avastrovirus sp. isolate CAstV/PB55-SI14/Switzerland/2019 non-structural polyprotein and RNA-dependent RNA polymerase genes, complete cds; and capsid precursor protein gene, partial cds
+OM469245.1;MAG: Avastrovirus sp. isolate CAstV/PB23-SI7/Switzerland/2019 non-structural polyprotein, RNA-dependent RNA polymerase, and capsid precursor protein genes, complete cds
+OM514376.1;MAG: Sanya astro-like virus 1 isolate LSHLS353 reverse transcriptase-like protein and hypothetical protein genes, complete cds
+ON304004.1;MAG: Avian associated bastrovirus 1 isolate PEMA non-structural polyprotein gene, partial cds
+ON304005.1;MAG: Avian associated bastrovirus 2 isolate TUPH capsid protein and non-structural polyprotein genes, complete cds
+ON376722.1;Goose astrovirus isolate HNZZ-4, complete genome
+ON807318.1;Mamastrovirus 1 isolate G22-001 ORF1 gene, partial cds; and ORF2 genes, complete cds
+ON932805.1;Rodent astrovirus isolate AstroV-HMU-3 nonstructural polyprotein and capsid protein genes, partial cds
+ON932806.1;Rodent astrovirus isolate AstroV-HMU-4 nonstructural polyprotein and capsid protein genes, partial cds
+ON932807.1;Rodent astrovirus isolate AstroV-HMU-5 nonstructural polyprotein gene, partial cds
+ON982163.1;Hippocampus erectus astro-like virus 1 isolate SD/19 hypothetical protein and RNA-dependent RNA polymerase genes, complete cds
+OP076743.1;Dromedary astrovirus isolate DcAstV/Jd60/KSA/2014, partial genome
+OP076744.1;Dromedary astrovirus isolate DcAstV/Jd70/KSA/2014, partial genome
+OP076745.1;Dromedary astrovirus isolate DcAstV/Jd73/KSA/2014, partial genome
+OP076746.1;Dromedary astrovirus isolate DcAstV/Jd76/KSA/2014, partial genome
+OP076747.1;Dromedary astrovirus isolate DcAstV/Jd53/KSA/2014, partial genome
+OP076748.1;Dromedary astrovirus isolate DcAstV/Jd57/KSA/2014, complete genome
+OP076749.1;Dromedary astrovirus isolate DcAstV/Jd67/KSA/2014, complete genome
+OP076750.1;Dromedary astrovirus isolate DcAstV/Jd74/KSA/2014, complete genome
+OP076765.1;Bactrian camel astrovirus isolate BcAstV/NMG31/CHN/2015, complete genome
+OP076766.1;Bactrian camel astrovirus isolate BcAstV/NMG59/CHN/2015, complete genome
+OP094602.1;Bamboo rat astrovirus isolate B80F05 nonstructural protein gene, partial cds; and RNA-dependent RNA polymerase and capsid protein genes, complete cds
+OP413950.1;MAG: Porcine astrovirus 5 isolate PF198/con/AstV10 nonstructural polyprotein genes, complete cds
+OP413955.1;MAG: Porcine astrovirus 2 isolate PF208/con/AstV15 nonstructural polyprotein and structural polyprotein genes, complete cds
+OP413956.1;MAG: Porcine astrovirus 5 isolate PF208/con/AstV16 nonstructural polyprotein gene, partial cds; and nonstructural polyprotein gene, complete cds
+OP413957.1;MAG: Mamastrovirus 3 isolate PF95/con/AstV17 nonstructural polyprotein and structural polyprotein genes, complete cds
+OP413963.1;MAG: Mamastrovirus 3 isolate PF89/con/AstV23 nonstructural polyprotein and structural polyprotein genes, partial cds
+OP413965.1;MAG: Mamastrovirus 3 isolate PF92/con/AstV25 nonstructural polyprotein and structural polyprotein genes, complete cds
+OP556137.1;Goose astrovirus strain AHQJ18, partial genome
+OP764611.1;Goose astrovirus strain AH-16, complete genome
+OQ076692.1;Goose astrovirus isolate AH-16, complete genome
+OQ198035.1;MAG: Canine astrovirus isolate AstroviridaeDogfe376C1full genomic sequence
+OQ198038.1;MAG: Canine astrovirus isolate AstroviridaeDogfe360C3full genomic sequence
+OQ198039.1;MAG: Canine astrovirus isolate AstroviridaeDogfe352C7full genomic sequence
+OQ198040.1;MAG: Canine astrovirus isolate AstroviridaeDogfe352C1full genomic sequence
+OQ198041.1;MAG: Canine astrovirus isolate AstroviridaeDogfe351C1full genomic sequence
+OQ198045.1;MAG: Canine astrovirus isolate AstroviridaeDogfe331C1full genomic sequence
+OQ198047.1;MAG: Canine astrovirus isolate AstroviridaeDogfe326C1full genomic sequence
+OQ198050.1;MAG: Canine astrovirus isolate AstroviridaeDogfe316C2full genomic sequence
+OQ599876.1;MAG: Asiatic toad bastrovirus isolate CZF1 genomic sequence
+OQ709188.1;MAG: Bat picornavirus WD1 isolate BtPicV/CsWD01 genomic sequence
+OQ709189.1;MAG: Bat picornavirus BS1 isolate BtPiV/HpBS01 genomic sequence
+OQ709190.1;MAG: Bat picornavirus BS2 isolate BtPiV/RtBS02 genomic sequence
+OQ709191.1;MAG: Bat picornavirus CX8 isolate BtPiV/RsCX08 genomic sequence
+OQ709192.1;MAG: Bat picornavirus CX9 isolate BtPiV/RsCX09 genomic sequence
+OQ709193.1;MAG: Bat picornavirus LS1 isolate BtPiV/RpLS01 genomic sequence
+OQ709194.1;MAG: Bat picornavirus WD2 isolate BtPiV/EsWD02 genomic sequence
+OQ802697.1;MAG: Jingmen bat astrovirus 1 isolate JM_Hi.pratti_astro_1 genomic sequence
+OQ802713.1;MAG: Jingmen bat bastrovirus 1 isolate JM_Mi.schreibersii_bastro_1 genomic sequence
+OQ802714.1;MAG: Jingmen bat bastrovirus 2 isolate JM_Rh.sinicus_bastro_1 genomic sequence
+OQ802729.1;MAG: Jingmen rodent bastrovirus 1 isolate JM_Ra.norvegicus_bastro_1 genomic sequence
+OQ802730.1;MAG: Jingmen rodent bastrovirus 1 isolate LQ_Be.bowersi_bastro_1 genomic sequence
+OQ802731.1;MAG: Jingmen rodent bastrovirus 1 isolate WZ_Ra.norvegicus_bastro_1 genomic sequence
+OQ802732.1;MAG: Jingmen rodent bastrovirus 1 isolate WZ_Ra.norvegicus_bastro_2 genomic sequence
+OQ802756.1;MAG: Wufeng rodent astrovirus 1 isolate WF_Ra.nitidus_astro_2 genomic sequence
+OQ802757.1;MAG: Wufeng rodent astrovirus 2 isolate WF_Ty.cinereus_astro_1 genomic sequence
+OQ802760.1;MAG: Wufeng shrew bastrovirus 1 isolate WF_Ch.smithii_bastro_1 genomic sequence
+OQ802761.1;MAG: Wufeng shrew bastrovirus 2 isolate WF_Ch.smithii_bastro_2 genomic sequence
+OQ802762.1;MAG: Wufeng shrew bastrovirus 3 isolate WF_Ch.smithii_bastro_3 genomic sequence
+OQ802763.1;MAG: Wufeng shrew bastrovirus 4 isolate WF_Ch.smithii_bastro_4 genomic sequence
+OQ835729.1;Bastrovirus sp. strain Cameroon/U172329/2017, complete genome
+OQ835730.1;Bastrovirus sp. strain Cameroon/U172471/2017 non-structural polyprotein gene, partial cds; structural polyprotein gene, complete cds; and hypothetical protein gene, partial cds
+OQ870553.1;Avian nephritis virus isolate It2018, complete genome
+OQ986607.1;MAG: Avian astrovirus 4 isolate GEIG genomic sequence
+OQ986608.1;MAG: Avian astrovirus 5 isolate RHFU genomic sequence
+OQ986609.1;MAG: Avian astrovirus 9 isolate RHFU genomic sequence
+OQ986679.1;MAG: Avian astrovirus 3 isolate GEIG genomic sequence
+OR234607.1;Goose astrovirus 2 strain SCD3 hypothetical protein gene, partial cds
+OR234613.1;Goose astrovirus 2 strain SCX1 hypothetical protein gene, partial cds
+OR270284.1;MAG: Culex Bastrovirus-like virus isolate OGH01 clone gangh01 genomic sequence
+OR439362.1;Bat bastrovirus isolate BastroV-HMU-6 nonstructural protein and capsid protein genes, complete cds
+OR552430.1;MAG: Bat bastrovirus isolate three genomic sequence
+OR552431.1;MAG: Bat bastrovirus isolate four genomic sequence
+OR613306.1;Bat astrovirus isolate RSQJC08_2/78 ORF1 and ORF2 genes, partial cds
+OR645486.1;MAG: Pachyptila astrovirus isolate OM8 non-structural polyprotein gene, partial cds
+OR800329.1;MAG: Pigeon astrovirus isolate NYJ-2/2023 nonstructural protein and RNA-dependent RNA polymerase genes, complete cds; and nonstructural protein gene, partial cds
+PP171789.1;MAG: Chrocigord virus isolate CC1A_k141_26573 genomic sequence
+PP171953.1;MAG: Chrocifust virus isolate CC1B_k141_72897 genomic sequence
+PP171968.1;MAG: Chrociworb virus isolate CC1B_k141_86991 genomic sequence
+PP172009.1;MAG: Chrocikurb virus isolate CC1C_k141_14283 genomic sequence
+PP172159.1;MAG: Chroninyst virus isolate CN1A_k141_102692 genomic sequence
+PP172252.1;MAG: Chronihask virus isolate CN1B_k141_41417 genomic sequence
+PP172792.1;MAG: Ripidurd virus isolate KCAP1_k141_594990 genomic sequence
+PP172939.1;MAG: Ripiglif virus isolate KCAP2_k141_248179 genomic sequence
+PP173125.1;MAG: Ripishyf virus isolate KCAP3_k141_153500 genomic sequence
+PP173172.1;MAG: Ripislep virus isolate KCAP3_k141_208509 genomic sequence
+PP173191.1;MAG: Ripitruc virus isolate KCAP3_k141_228666 genomic sequence
+PP173284.1;MAG: Ripithen virus isolate KCAP3_k141_317163 genomic sequence
+PP173376.1;MAG: Ripishic virus isolate KCAP3_k141_88145 genomic sequence
+PP173384.1;MAG: Ripistiq virus isolate KCAP3_k141_90808 genomic sequence
+PP173590.1;MAG: Ripithyc virus isolate MP3_k141_212809 genomic sequence
+PP173619.1;MAG: Ripipron virus isolate MP3_k141_278491 genomic sequence
+PP173621.1;MAG: Ripichir virus isolate MP3_k141_280909 genomic sequence
+PP173905.1;MAG: Sopicug virus isolate SP1A_k141_108659 genomic sequence
+PP173914.1;MAG: Sopibas virus isolate SP1A_k141_13111 genomic sequence
+PP173952.1;MAG: Sopidep virus isolate SP1A_k141_93956 genomic sequence
+PP173959.1;MAG: Sopiboz virus isolate SP1B_k141_111077 genomic sequence
+PP173978.1;MAG: Sopimin virus isolate SP1B_k141_199511 genomic sequence
+PP174037.1;MAG: Sopises virus isolate SP1C_k141_138402 genomic sequence
+PP174052.1;MAG: Sopigof virus isolate SP1C_k141_170176 genomic sequence
+PP174089.1;MAG: Sopimyn virus isolate SP1C_k141_256458 genomic sequence
+PP174099.1;MAG: Sopisen virus isolate SP1C_k141_286028 genomic sequence
+PP211221.1;MAG: Bastrovirus Rat/77 isolate Ra.norvegicus_bastro_3
+PP211222.1;MAG: Bastrovirus Rat/77 isolate Ra.norvegicus_bastro_5
+PP211223.1;MAG: Bastrovirus Rat/77 isolate Ra.norvegicus_bastro_7
+PP211343.1;MAG: Bastrovirus BAS-3 isolate Ra.norvegicus_bastro_1
+PP211344.1;MAG: Bastrovirus BAS-3 isolate Ra.norvegicus_bastro_2
+PP211345.1;MAG: Bastrovirus Rat/77 isolate Ra.norvegicus_bastro_4
+PP211346.1;MAG: Bastrovirus Rat/77 isolate Ra.norvegicus_bastro_6
+PP211347.1;MAG: Bastrovirus Rat/78 isolate Ra.norvegicus_bastro_8
+PP211348.1;MAG: Bastrovirus Rat/78 isolate Ra.norvegicus_bastro_9
+PP211349.1;MAG: Bastrovirus Rat/78 isolate Ra.norvegicus_bastro_10
+PP211426.1;MAG: Rattus norvegicus astro-like virus isolate Ra.norvegicus_astro_3
+PP228885.1;MAG: Avian nephritis virus isolate CH/B8/7W3/SA/22, complete genome
+PP228886.1;MAG: Chicken astrovirus isolate CH/B7/7W2/SA/22 serotype Avian nephritis virus 1, complete genome
+PP272486.1;MAG: Crocidura lasiura astrovirus isolate astro_1 non-structural polyprotein and capsid protein genes, complete cds
+PP272487.1;MAG: Crocidura lasiura astrovirus isolate astro_2 non-structural polyprotein and capsid protein genes, complete cds
+PP272488.1;MAG: Crocidura lasiura astrovirus isolate astro_3 non-structural polyprotein and capsid protein genes, complete cds
+PP272489.1;MAG: Crocidura lasiura astrovirus isolate astro_4 non-structural polyprotein and capsid protein genes, complete cds
+PP272490.1;MAG: Crocidura lasiura astrovirus isolate astro_5 non-structural polyprotein and capsid protein genes, complete cds
+PP272491.1;MAG: Crocidura lasiura astrovirus isolate astro_6 non-structural polyprotein and capsid protein genes, complete cds
+PP272615.1;MAG: Crocidura lasiura astrovirus isolate astro_2 non-structural polyprotein and capsid protein genes, complete cds
+PP999616.1;Porcine bastrovirus isolate CHE_2022, complete genome
+PP999617.1;Porcine bastrovirus isolate AUS_2015, partial genome
+PQ037214.1;Goose astrovirus isolate SDWF, complete genome
+PQ055521.1;MAG: Jingmen bat bastrovirus 1 isolate QJ5MG5977 cRNA sequence
+PQ055523.1;MAG: Culex Bastrovirus-like virus isolate QJ5MS2918 cRNA sequence
+PQ055524.1;MAG: Qianjiang astro-like virus 1 isolate QJ3DG2844 cRNA sequence
+PQ055526.1;MAG: Qianjiang astro-like virus 3 isolate QJ5DG2895 cRNA sequence
+PQ055527.1;MAG: Qianjiang astro-like virus 4 isolate QJ3TS1993 cRNA sequence
+PQ055528.1;MAG: Qianjiang astro-like virus 5 isolate QJ3TS2970 cRNA sequence
+PQ055529.1;MAG: Qianjiang astro-like virus 6 isolate QJ3MS35 cRNA sequence
+PQ055530.1;MAG: Qianjiang astro-like virus 6 isolate QJ3MG18 cRNA sequence
+PQ055531.1;MAG: Qianjiang astro-like virus 7 isolate QJ3DG531 cRNA sequence
+PQ055532.1;MAG: Qianjiang astro-like virus 8 isolate QJ3DS2284 cRNA sequence
+PQ055533.1;MAG: Qianjiang astro-like virus 9 isolate QJ5MG2088 cRNA sequence
+PQ055534.1;MAG: Qianjiang astro-like virus 9 isolate QJ5DG15 cRNA sequence
+PQ055535.1;MAG: Qianjiang astro-like virus 10 isolate QJ3DS5660 cRNA sequence
+PQ055536.1;MAG: Qianjiang astro-like virus 11 isolate QJ5DG1896 cRNA sequence
+PQ055537.1;MAG: Qianjiang astro-like virus 12 isolate QJ3TG2618 cRNA sequence
+PQ055538.1;MAG: Qianjiang astro-like virus 13 isolate QJ3TG3868 cRNA sequence
+PQ055539.1;MAG: Qianjiang astro-like virus 14 isolate QJ3DG3014 cRNA sequence
+PQ150499.1;MAG: Solanum melongena bastro-like virus isolate Hebei_128 genomic sequence
+PQ161557.1;MAG: Bastrovirus Brazil/sewage isolate CS26 hypothetical protein genes, complete cds; and hypothetical protein gene, partial cds
+PQ421841.1;MAG: Astrovirus sp. isolate QJ1-CWDS hypothetical protein genes, complete cds
+PQ421842.1;MAG: Astrovirus sp. isolate SJ-HSQ genomic sequence
+PQ421843.1;MAG: Astrovirus sp. isolate SF-HSQ genomic sequence
+PQ421844.1;MAG: Astrovirus sp. isolate FG-HSQ genomic sequence
+PQ421845.1;MAG: Astrovirus sp. isolate FG-DCQY genomic sequence
+PQ421846.1;MAG: Astrovirus sp. isolate LQ4-XSQ genomic sequence
+PQ421847.1;MAG: Astrovirus sp. isolate LS-SCDW-2 genomic sequence
+PQ421848.1;MAG: Astrovirus sp. isolate LS-CWQ genomic sequence
+PQ421849.1;MAG: Astrovirus sp. isolate YL-SCDW genomic sequence
+PQ421850.1;MAG: Astrovirus sp. isolate QJ1-CWDS hypothetical protein, non-structural polyprotein 1AB, and hypothetical protein genes, complete cds
+PQ421851.1;MAG: Astrovirus sp. isolate ML2-CQJ-1 hypothetical protein gene, complete cds
+PQ421852.1;MAG: Astrovirus sp. isolate ML1-CQJ genomic sequence
+PQ421853.1;MAG: Astrovirus sp. isolate ML2-CQJ-1 hypothetical protein genes, complete cds
+PQ421854.1;MAG: Astrovirus sp. isolate ML2-CQJ-2 genomic sequence
+PQ530056.1;Human astrovirus isolate MBC147 nonstructural protein and capsid precursor protein genes, partial cds
+PQ541169.1;MAG: Miniopterus inflatus bastrovirus isolate Mi. inflatus_astro cRNA sequence
+PQ622677.1;Hemidactylus frenatus astrovirus isolate HN55 hypothetical protein, RNA-dependent RNA polymerase, and hypothetical protein genes, complete cds
+PQ622678.1;Gekko chinensis astrovirus isolate HN43 hypothetical protein, RNA-dependent RNA polymerase, and hypothetical protein genes, complete cds
+PQ678007.1;MAG: Civet astrovirus isolate WSFN-YNSC177 genomic sequence
+PQ678008.1;MAG: Jingmen rodent astrovirus 2 isolate DQWX-YNSC206 genomic sequence
+PQ678010.1;MAG: Rodent astrovirus isolate YNMIX-YNSC216 genomic sequence
+PQ678013.1;MAG: Yunnan rodent mamastrovirus 3 isolate ZTMIX-YNSC193 genomic sequence
+PQ678014.1;MAG: Yunnan rodent mamastrovirus 4 isolate YNMIX-YNSC210 genomic sequence
+PQ678015.1;MAG: Yunnan rodent mamastrovirus 5 isolate DHMS-YNSC01 genomic sequence
+PV087402.1;Rodent astrovirus strain LRT-98 ORF1 gene, partial cds
+PV351770.1;Astroviridae sp. isolate HN_K2f_471 Non-structural polyprotein 1A, Non-structural polyprotein 1AB, and hypothetical protein genes, complete cds
+PV351771.1;Astroviridae sp. isolate HN_K2f_303 Non-structural polyprotein 1A, Non-structural polyprotein 1AB, and hypothetical protein genes, complete cds
+PV351772.1;Astroviridae sp. isolate HN_K7f_51 hypothetical protein, Non-structural polyprotein 1AB, and Non-structural polyprotein 1A genes, complete cds
+PV351773.1;Astroviridae sp. isolate HN_K11f_6 Non-structural polyprotein 1A, Non-structural polyprotein 1AB, and hypothetical protein genes, complete cds
+PV351774.1;Astroviridae sp. isolate HN_K12f_6 hypothetical protein, Non-structural polyprotein 1AB, and Non-structural polyprotein 1A genes, complete cds
+PV418545.1;Canine astrovirus isolate CaAstV/Dog/AUS/1_hopevale_4/2021 nonstructural protein and RNA-dependent RNA polymerase genes, partial cds
+PV418546.1;Canine astrovirus isolate CaAstV/Dog/AUS/2_hopevale_4/2021 nonstructural protein gene, complete cds; and RNA-dependent RNA polymerase gene, partial cds
+PV418553.1;Canine astrovirus isolate CaAstV/Dog/AUS/centralwest_6/2022 nonstructural protein gene, complete cds; RNA-dependent RNA polymerase gene, partial cds; and capsid protein gene, complete cds
+PV418554.1;Canine astrovirus isolate CaAstV/Dog/AUS/huntervalley_3/2022 nonstructural protein gene, complete cds; and RNA-dependent RNA polymerase and capsid protein genes, partial cds
+PV418555.1;Canine astrovirus isolate CaAstV/Dog/AUS/huntervalley_6/2022 nonstructural protein, RNA-dependent RNA polymerase, and capsid protein genes, partial cds
+PV418556.1;Canine astrovirus isolate CaAstV/Dog/AUS/huntervalley_7/2022 nonstructural protein gene, complete cds; RNA-dependent RNA polymerase gene, partial cds; and capsid protein gene, complete cds
+PV418557.1;Canine astrovirus isolate CaAstV/Dog/AUS/perth_6/2022 nonstructural protein gene, complete cds; RNA-dependent RNA polymerase gene, partial cds; and capsid protein gene, complete cds
+PV605151.1;MAG: Astroviridae sp. isolate 22SS640 genomic sequence
+PV605161.1;MAG: Astroviridae sp. isolate 21DB45 genomic sequence
+PV605168.1;MAG: Bastrovirus sp. isolate 21DB13 genomic sequence
+PV605181.1;MAG: Astroviridae sp. isolate 21DB39 genomic sequence
+PV605202.1;MAG: Astroviridae sp. isolate 22AP075 genomic sequence
+PV843273.1;Human astrovirus isolate S091-2023_1, partial genome
+PV979748.1;Astroviridae sp. isolate Rhabdo_Mix_4_123_Astrovirus_shrew_240620 hypothetical protein, non-structural polyprotein 1AB, and non-structural polyprotein 1A genes, complete cds
+PX095754.1;MAG: Mamastrovirus sp. isolate DL/P.nayaur/Mav hypothetical protein gene, partial cds
+PX095817.1;MAG: Avastrovirus sp. isolate WL/A.anser/Aav capsid protein gene, complete cds; RNA-dependent RNA polymerase-like gene, partial sequence; and nonstructural polyprotein gene, partial cds
+PX095873.1;MAG: Astroviridae sp. isolate WL/A.anser/Ast RNA-dependent RNA polymerase and hypothetical protein genes, partial cds
+PX113254.1;Mamastrovirus sp. isolate GCSW/7354 polyprotein gene, partial cds
+PX139078.1;MAG: Triatoma indictiva astroviridae vOTU17 isolate NL17 non-structural polyprotein (NSP), RNA-dependent RNA polymerase (RdRp), and capsid protein genes, complete cds
+PX221756.1;MAG: Mamastrovirus isolate JLBS_2 genomic sequence
+PX221757.1;MAG: Mamastrovirus isolate JLBS_3 genomic sequence
+PX221760.1;MAG: Mamastrovirus isolate JLTH_3 genomic sequence
+PX289196.1;Goose astrovirus strain GAstV-JS2401 hypothetical protein (OPNGEG_01) gene, partial cds; and hypothetical protein (OPNGEG_02) and hypothetical protein (OPNGEG_03) genes, complete cds
+PX289197.1;Goose astrovirus strain GAstV-JS2402 hypothetical protein (ORF1a) gene, partial cds; and hypothetical protein (ORF1b) and hypothetical protein (ORF2) genes, complete cds
+PX289198.1;Goose astrovirus strain GAstV-JS2403 hypothetical protein (ORF1a) gene, partial cds; and hypothetical protein (ORF1b) and hypothetical protein (ORF2) genes, complete cds
+PX395422.1;Chicken astrovirus strain CAst/Bayern/2024 isolate Contig-9 nonstructural polyprotein gene, partial cds
+PX395423.1;Chicken astrovirus strain CAst/Bayern/2024 isolate Contig-10 nonstructural polyprotein gene, partial cds
+PX395424.1;Chicken astrovirus strain CAst/Bayern/2024 isolate Contig-11 nonstructural polyprotein gene, partial cds
+PX395425.1;Chicken astrovirus strain CAst/Bayern/2024 isolate Contig-12 nonstructural polyprotein gene, partial cds
+PX619609.1;Human astrovirus 4 isolate p23795, complete genome
+PX666685.1;Bat bastrovirus isolate BastroV/NN59/Rus/Rostov-on-Don/2022 non-structural polyprotein gene, partial cds
+PX730243.1;MAG: Astroviridae isolate C5A_k141_30613 genomic sequence
+PX730395.1;MAG: Astroviridae isolate C10B_k141_66106 genomic sequence
+PX730396.1;MAG: Astroviridae isolate C10B_k141_66489 genomic sequence
+PX730404.1;MAG: Astroviridae isolate C10B_k141_91743 genomic sequence
+PX731517.1;MAG: Astroviridae isolate T15B_k141_32413 genomic sequence
+PX848849.1;MAG: Porcine astrovirus 4 isolate 176_astro genomic sequence
+PX870872.1;MAG: Avastrovirus 2 isolate k141_25052 cRNA sequence
+PX870873.1;MAG: Avian astrovirus 3 isolate k141_839 mRNA sequence
+PX870874.1;MAG: Avian astrovirus 2 isolate k141_139861 cRNA sequence
+PX870875.1;MAG: Astroviridae isolate k141_131608 mRNA sequence
+PX870876.1;MAG: Astroviridae isolate k141_189198 cRNA sequence
+PX876879.1;Duck astrovirus isolate AX11 non-structural polyprotein gene, complete cds; RdRp gene, partial cds; and capsid protein gene, complete cds
+PZ000436.1;MAG: Solanum melongena bastro-like virus isolate 20_12794 genomic sequence
+PZ000437.1;MAG: Solanum melongena bastro-like virus isolate 20_25478 genomic sequence
+PZ000438.1;MAG: Solanum melongena bastro-like virus isolate 34_36643 genomic sequence
+PZ000439.1;MAG: Solanum melongena bastro-like virus isolate 34_758 genomic sequence
+PZ000440.1;MAG: Solanum melongena bastro-like virus isolate 52_2619 genomic sequence
+PZ000441.1;MAG: Solanum melongena bastro-like virus isolate JZ-4_4590 genomic sequence
+PZ000442.1;MAG: Solanum melongena bastro-like virus isolate SD-T-5_18133 genomic sequence
+PZ000443.1;MAG: Solanum melongena bastro-like virus isolate SD-T-5_27782 genomic sequence
+PZ000444.1;MAG: Solanum melongena bastro-like virus isolate SD-T-7_68871 genomic sequence
+PZ133622.1;Chicken astrovirus isolate Z1105-GD/2024, partial genome
+PZ195454.1;Goose astrovirus isolate G24, complete genome
+PZ195455.1;Goose astrovirus isolate G47, complete genome
+PZ195456.1;Goose astrovirus isolate G134, complete genome
+PZ195457.1;Goose astrovirus isolate G148, complete genome
+PZ195458.1;Goose astrovirus isolate G200, complete genome
+PZ195459.1;Goose astrovirus isolate G253, complete genome
+PZ195460.1;Goose astrovirus isolate G259, complete genome
+PZ195461.1;Goose astrovirus isolate G292, complete genome
+PZ195462.1;Goose astrovirus isolate X-1, complete genome
+PZ195463.1;Goose astrovirus isolate G29, complete genome
+Z11682.1;Human astrovirus type 1, 3' terminal sequence RNA
