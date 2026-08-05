@@ -19,4 +19,6 @@ MN033177.1:3290:MAG: Astroviridae sp. isolate H4_Rhizo_44_scaffold_584 sequence
 MN033141.1:1181:MAG: Astroviridae sp. isolate H4_Bulk_46_scaffold_28672 sequence
 MN032977.1:6676:MAG: Astroviridae sp. isolate H1_Bulk_Litter_4_scaffold_35 sequence
 EF490429.1:267:Human astrovirus isolate Madagascar/DT1004/2004 similar to putative serine protease genomic sequence
+L23511.1:283:Human astrovirus serotype 5 (a5) RNA fragment
+L23508.1:283:Human astrovirus serotype 2 (a2) RNA fragment
 L13745.1:6828:Human astrovirus serotype 2, complete sequence of genomic RNA

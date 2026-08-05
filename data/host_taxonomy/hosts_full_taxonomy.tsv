@@ -1,0 +1,890 @@
+host_original	host_clean	species	genus	family	order	class	phylum	kingdom
+chicken	Gallus gallus	Gallus gallus	Gallus	Phasianidae	Galliformes	Aves	Chordata	Metazoa
+goose	Anser anser	Anser anser	Anser	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+cow	Bos taurus	Bos taurus	Bos	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+buffalo	Bubalus bubalis	Bubalus bubalis	Bubalus	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Ptyas mucosa	Ptyas mucosa	Ptyas mucosa	Ptyas	Colubridae	Squamata	Lepidosauria	Chordata	Metazoa
+Geotria australis	Geotria australis	Geotria australis	Geotria	Geotriidae	Petromyzontiformes	Hyperoartia	Chordata	Metazoa
+Gallus gallus	Gallus gallus	Gallus gallus	Gallus	Phasianidae	Galliformes	Aves	Chordata	Metazoa
+Homo sapiens	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+lion head goose	Anser cygnoides	Anser cygnoides	Anser	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Ducklings	Anas platyrhynchos	Anas platyrhynchos	Anas	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Haemaphysalis longicornis	Haemaphysalis longicornis	Haemaphysalis longicornis	Haemaphysalis	Ixodidae	Ixodida	Arachnida	Arthropoda	Metazoa
+bovine	Bos taurus	Bos taurus	Bos	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Ovis aries	Ovis aries	Ovis aries	Ovis	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Bos taurus	Bos taurus	Bos taurus	Bos	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Capra hircus	Capra hircus	Capra hircus	Capra	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Bos grunniens	Bos grunniens	Bos grunniens	Bos	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+feline	Felis catus	Felis catus	Felis	Felidae	Carnivora	Mammalia	Chordata	Metazoa
+Anser cygnoides	Anser cygnoides	Anser cygnoides	Anser	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+pigeon	Columba livia	Columba livia	Columba	Columbidae	Columbiformes	Aves	Chordata	Metazoa
+Nyctalus noctula	Nyctalus noctula	Nyctalus noctula	Nyctalus	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Felis catus	Felis catus	Felis catus	Felis	Felidae	Carnivora	Mammalia	Chordata	Metazoa
+Sus scrofa	Sus scrofa	Sus scrofa	Sus	Suidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Triatoma indictiva	Triatoma indictiva	Triatoma indictiva	Triatoma	Reduviidae	Hemiptera	Insecta	Arthropoda	Metazoa
+Subantarctic skua	Stercorarius antarcticus	Stercorarius antarcticus	Stercorarius	Stercorariidae	Charadriiformes	Aves	Chordata	Metazoa
+Erect-crested penguin	Erect-crested penguin	Eudyptes sclateri	Eudyptes	Spheniscidae	Sphenisciformes	Aves	Chordata	Metazoa
+Bar-tailed godwit	Bar-tailed godwit	Limosa lapponica	Limosa	Scolopacidae	Charadriiformes	Aves	Chordata	Metazoa
+Red knot	Calidris canutus	Calidris canutus	Calidris	Scolopacidae	Charadriiformes	Aves	Chordata	Metazoa
+South Island pied oystercatcher	Haematopus finschi	Haematopus finschi	Haematopus	Haematopodidae	Charadriiformes	Aves	Chordata	Metazoa
+Anas platyrhynchos domestica; breed: Cherry Valley	Anas platyrhynchos domestica	Anas platyrhynchos	Anas	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+caprine	Capra hircus	Capra hircus	Capra	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Circus maillardi; male	Circus maillardi	Circus maillardi	Circus	Accipitridae	Accipitriformes	Aves	Chordata	Metazoa
+Circus maillardi; female	Circus maillardi	Circus maillardi	Circus	Accipitridae	Accipitriformes	Aves	Chordata	Metazoa
+canine	Canis lupus familiaris	Canis lupus	Canis	Canidae	Carnivora	Mammalia	Chordata	Metazoa
+Rattus andamanensis	Rattus andamanensis	Rattus andamanensis	Rattus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Apodemus agrarius	Apodemus agrarius	Apodemus agrarius	Apodemus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Rattus tanezumi	Rattus tanezumi	Rattus tanezumi	Rattus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Lasiopodomys brandtii	Lasiopodomys brandtii	Lasiopodomys brandtii	Lasiopodomys	Cricetidae	Rodentia	Mammalia	Chordata	Metazoa
+Myotis austroriparius	Myotis austroriparius	Myotis austroriparius	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Rattus rattus	Rattus rattus	Rattus rattus	Rattus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Mus musculus	Mus musculus	Mus musculus	Mus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+sea lion	Otariidae	NA	NA	Otariidae	Carnivora	Mammalia	Chordata	Metazoa
+domestic pig	Sus scrofa	Sus scrofa	Sus	Suidae	Artiodactyla	Mammalia	Chordata	Metazoa
+swine	Sus scrofa	Sus scrofa	Sus	Suidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Pteropus medius	Pteropus medius	Pteropus medius	Pteropus	Pteropodidae	Chiroptera	Mammalia	Chordata	Metazoa
+Suncus murinus	Suncus murinus	Suncus murinus	Suncus	Soricidae	Eulipotyphla	Mammalia	Chordata	Metazoa
+Bandicota indica	Bandicota indica	Bandicota indica	Bandicota	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Rattus norvegicus	Rattus norvegicus	Rattus norvegicus	Rattus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Canis lupus familiaris	Canis lupus familiaris	Canis lupus	Canis	Canidae	Carnivora	Mammalia	Chordata	Metazoa
+chicken (broiler)	Gallus gallus	Gallus gallus	Gallus	Phasianidae	Galliformes	Aves	Chordata	Metazoa
+Trichosurus vulpecula	Trichosurus vulpecula	Trichosurus vulpecula	Trichosurus	Phalangeridae	Diprotodontia	Mammalia	Chordata	Metazoa
+Rhinolophus sinicus	Rhinolophus sinicus	Rhinolophus sinicus	Rhinolophus	Rhinolophidae	Chiroptera	Mammalia	Chordata	Metazoa
+Rhinolophus affinis	Rhinolophus affinis	Rhinolophus affinis	Rhinolophus	Rhinolophidae	Chiroptera	Mammalia	Chordata	Metazoa
+Rhinolophus ferrumequinum	Rhinolophus ferrumequinum	Rhinolophus ferrumequinum	Rhinolophus	Rhinolophidae	Chiroptera	Mammalia	Chordata	Metazoa
+Myotis sp.	Myotis	NA	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus schreibersii	Miniopterus schreibersii	Miniopterus schreibersii	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Chiroptera sp.	Chiroptera	NA	NA	NA	Chiroptera	Mammalia	Chordata	Metazoa
+Hipposideros sp.	Hipposideros	NA	Hipposideros	Hipposideridae	Chiroptera	Mammalia	Chordata	Metazoa
+Rhinolophus pusillus	Rhinolophus pusillus	Rhinolophus pusillus	Rhinolophus	Rhinolophidae	Chiroptera	Mammalia	Chordata	Metazoa
+Taphozous sp.	Taphozous	NA	Taphozous	Emballonuridae	Chiroptera	Mammalia	Chordata	Metazoa
+Myotis chinensis	Myotis chinensis	Myotis chinensis	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Myotis laniger	Myotis laniger	Myotis laniger	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Rousettus leschenaultii	Rousettus leschenaultii	Rousettus leschenaultii	Rousettus	Pteropodidae	Chiroptera	Mammalia	Chordata	Metazoa
+Myotis adversus	Myotis adversus	Myotis adversus	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Myotis siligorensis	Myotis siligorensis	Myotis siligorensis	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Hipposideros pomona	Hipposideros pomona	Hipposideros pomona	Hipposideros	Hipposideridae	Chiroptera	Mammalia	Chordata	Metazoa
+Taphozous melanopogon	Taphozous melanopogon	Taphozous melanopogon	Taphozous	Emballonuridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus pusillus	Miniopterus pusillus	Miniopterus pusillus	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Myotis pilosus	Myotis pilosus	Myotis pilosus	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+fish	Actinopterygii	NA	NA	NA	NA	NA	Chordata	Metazoa
+Hipposideros larvatus	Hipposideros larvatus	Hipposideros larvatus	Hipposideros	Hipposideridae	Chiroptera	Mammalia	Chordata	Metazoa
+Scotophilus kuhlii	Scotophilus kuhlii	Scotophilus kuhlii	Scotophilus	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Tylonycteris pachypus	Tylonycteris pachypus	Tylonycteris pachypus	Tylonycteris	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Gallus gallus gallus	Gallus gallus	Gallus gallus	Gallus	Phasianidae	Galliformes	Aves	Chordata	Metazoa
+pig	Sus scrofa	Sus scrofa	Sus	Suidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Chroicocephalus ridibundus	Chroicocephalus ridibundus	Chroicocephalus ridibundus	Chroicocephalus	Laridae	Charadriiformes	Aves	Chordata	Metazoa
+Leopardus guttulus	Leopardus guttulus	Leopardus guttulus	Leopardus	Felidae	Carnivora	Mammalia	Chordata	Metazoa
+rat	Rattus norvegicus	Rattus norvegicus	Rattus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Gyps himalayensis	Gyps himalayensis	Gyps himalayensis	Gyps	Accipitridae	Accipitriformes	Aves	Chordata	Metazoa
+Anser anser	Anser anser	Anser anser	Anser	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Neodon fuscus	Neodon fuscus	Neodon fuscus	Neodon	Cricetidae	Rodentia	Mammalia	Chordata	Metazoa
+Pseudois nayaur	Pseudois nayaur	Pseudois nayaur	Pseudois	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Urocricetus kamensis	Urocricetus kamensis	Urocricetus kamensis	Urocricetus	Cricetidae	Rodentia	Mammalia	Chordata	Metazoa
+sheep	Ovis aries	Ovis aries	Ovis	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Bactrian camel	Camelus bactrianus	Camelus bactrianus	Camelus	Camelidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Vulpes vulpes (fox)	Vulpes vulpes	Vulpes vulpes	Vulpes	Canidae	Carnivora	Mammalia	Chordata	Metazoa
+Su. murinus	Suncus murinus	Suncus murinus	Suncus	Soricidae	Eulipotyphla	Mammalia	Chordata	Metazoa
+goat; Mixed breed	Capra hircus	Capra hircus	Capra	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Myotis ciliolabrum	Myotis ciliolabrum	Myotis ciliolabrum	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Leucogeranus leucogeranus	Leucogeranus leucogeranus	Leucogeranus leucogeranus	Leucogeranus	Gruidae	Gruiformes	Aves	Chordata	Metazoa
+Anser sp.	Anser	NA	Anser	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Crocidura dracula	Crocidura dracula	Crocidura dracula	Crocidura	Soricidae	Eulipotyphla	Mammalia	Chordata	Metazoa
+Anourosorex squamipes	Anourosorex squamipes	Anourosorex squamipes	Anourosorex	Soricidae	Eulipotyphla	Mammalia	Chordata	Metazoa
+Episoriculus caudatus	Episoriculus caudatus	Episoriculus caudatus	Episoriculus	Soricidae	Eulipotyphla	Mammalia	Chordata	Metazoa
+Crocidura suaveolens	Crocidura suaveolens	Crocidura suaveolens	Crocidura	Soricidae	Eulipotyphla	Mammalia	Chordata	Metazoa
+Uropsilus gracilis	Uropsilus gracilis	Uropsilus gracilis	Uropsilus	Talpidae	Eulipotyphla	Mammalia	Chordata	Metazoa
+Crocidura attenuata	Crocidura attenuata	Crocidura attenuata	Crocidura	Soricidae	Eulipotyphla	Mammalia	Chordata	Metazoa
+cat	Felis catus	Felis catus	Felis	Felidae	Carnivora	Mammalia	Chordata	Metazoa
+Dicentrarchus labrax	Dicentrarchus labrax	Dicentrarchus labrax	Dicentrarchus	Moronidae	NA	Actinopteri	Chordata	Metazoa
+Sus scrofa domesticus	Sus scrofa domesticus	Sus scrofa	Sus	Suidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Sus scrofa (wild boar)	Sus scrofa	Sus scrofa	Sus	Suidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Marmota sibirica	Marmota sibirica	Marmota sibirica	Marmota	Sciuridae	Rodentia	Mammalia	Chordata	Metazoa
+Botrylloides leachii	Botrylloides leachii	Botrylloides leachii	Botrylloides	Styelidae	Stolidobranchia	Ascidiacea	Chordata	Metazoa
+Cebus cuscinus	Cebus cuscinus	Cebus cuscinus	Cebus	Cebidae	Primates	Mammalia	Chordata	Metazoa
+Cricetulus longicaudatus	Cricetulus longicaudatus	Cricetulus longicaudatus	Cricetulus	Cricetidae	Rodentia	Mammalia	Chordata	Metazoa
+Ateles chamek	Ateles chamek	Ateles chamek	Ateles	Atelidae	Primates	Mammalia	Chordata	Metazoa
+porcine	Sus scrofa	Sus scrofa	Sus	Suidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Tufted duck	Tufted duck	Aythya fuligula	Aythya	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Gadwall	Gadwall	Mareca strepera	Mareca	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Meleagris gallopavo domesticus	Meleagris gallopavo	Meleagris gallopavo	Meleagris	Phasianidae	Galliformes	Aves	Chordata	Metazoa
+Pig	Sus scrofa	Sus scrofa	Sus	Suidae	Artiodactyla	Mammalia	Chordata	Metazoa
+cattle	Bos taurus	Bos taurus	Bos	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Tursiops truncatus (Bottlenose dolphin)	Tursiops truncatus	Tursiops truncatus	Tursiops	Delphinidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Eumetopias jubatus (Steller sea lion)	Eumetopias jubatus	Eumetopias jubatus	Eumetopias	Otariidae	Carnivora	Mammalia	Chordata	Metazoa
+Zalophus californianus (California sea lion)	Zalophus californianus	Zalophus californianus	Zalophus	Otariidae	Carnivora	Mammalia	Chordata	Metazoa
+Hipposideros armiger	Hipposideros armiger	Hipposideros armiger	Hipposideros	Hipposideridae	Chiroptera	Mammalia	Chordata	Metazoa
+duck	Anas platyrhynchos	Anas platyrhynchos	Anas	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Muscovy duck	Cairina moschata	Cairina moschata	Cairina	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Phocarctos hookeri (New Zealand sea lion)	Phocarctos hookeri	Phocarctos hookeri	Phocarctos	Otariidae	Carnivora	Mammalia	Chordata	Metazoa
+rook	Corvus frugilegus	Corvus frugilegus	Corvus	Corvidae	Passeriformes	Aves	Chordata	Metazoa
+Eurasian tree sparrow	Eurasian tree sparrow	Passer montanus	Passer	Passeridae	Passeriformes	Aves	Chordata	Metazoa
+hooded crow	Corvus cornix	Corvus cornix	Corvus	Corvidae	Passeriformes	Aves	Chordata	Metazoa
+Scotophilus dinganii; sex: male	Scotophilus dinganii	Scotophilus dinganii	Scotophilus	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus fraterculus; sex: male	Miniopterus fraterculus	Miniopterus fraterculus	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Neogale vison	Neogale vison	Neogale vison	Neogale	Mustelidae	Carnivora	Mammalia	Chordata	Metazoa
+Praomys rostratus	Praomys rostratus	Praomys rostratus	Praomys	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Mus setulosus	Mus setulosus	Mus setulosus	Mus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Miniopterus inflatus	Miniopterus inflatus	Miniopterus inflatus	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Mastomys erythroleucus	Mastomys erythroleucus	Mastomys erythroleucus	Mastomys	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Lophuromys chrysopus	Lophuromys chrysopus	Lophuromys chrysopus	Lophuromys	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Felis catus (domestic cat)	Felis catus	Felis catus	Felis	Felidae	Carnivora	Mammalia	Chordata	Metazoa
+Rhipicephalus sanguineus	Rhipicephalus sanguineus	Rhipicephalus sanguineus	Rhipicephalus	Ixodidae	Ixodida	Arachnida	Arthropoda	Metazoa
+goat	Capra hircus	Capra hircus	Capra	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Niviventer confucianus	Niviventer confucianus	Niviventer confucianus	Niviventer	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Apodemus chevrieri	Apodemus chevrieri	Apodemus chevrieri	Apodemus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Crocidura fuliginosa	Crocidura fuliginosa	Crocidura fuliginosa	Crocidura	Soricidae	Eulipotyphla	Mammalia	Chordata	Metazoa
+Eothenomys miletus	Eothenomys miletus	Eothenomys miletus	Eothenomys	Cricetidae	Rodentia	Mammalia	Chordata	Metazoa
+Rattus nitidus	Rattus nitidus	Rattus nitidus	Rattus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Niviventer huang	Niviventer huang	Niviventer huang	Niviventer	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Leopoldamys neilli	Leopoldamys neilli	Leopoldamys neilli	Leopoldamys	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Araneus ventricosus	Araneus ventricosus	Araneus ventricosus	Araneus	Araneidae	Araneae	Arachnida	Arthropoda	Metazoa
+Helobdella robusta	Helobdella robusta	Helobdella robusta	Helobdella	Glossiphoniidae	Rhynchobdellida	Clitellata	Annelida	Metazoa
+Gekko chinensis	Gekko chinensis	Gekko chinensis	Gekko	Gekkonidae	Squamata	Lepidosauria	Chordata	Metazoa
+Hemidactylus frenatus	Hemidactylus frenatus	Hemidactylus frenatus	Hemidactylus	Gekkonidae	Squamata	Lepidosauria	Chordata	Metazoa
+Eolophus roseicapilla	Eolophus roseicapilla	Eolophus roseicapilla	Eolophus	Cacatuidae	Psittaciformes	Aves	Chordata	Metazoa
+Alisterus scapularis	Alisterus scapularis	Alisterus scapularis	Alisterus	Psittacidae	Psittaciformes	Aves	Chordata	Metazoa
+Acalles camelus	Acalles camelus	Acalles camelus	Acalles	Curculionidae	Coleoptera	Insecta	Arthropoda	Metazoa
+Columba livia	Columba livia	Columba livia	Columba	Columbidae	Columbiformes	Aves	Chordata	Metazoa
+Mormopterus francoismoutoui	Mormopterus francoismoutoui	Mormopterus francoismoutoui	Mormopterus	Molossidae	Chiroptera	Mammalia	Chordata	Metazoa
+dairy cow	Bos taurus	Bos taurus	Bos	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Nyctereutes procyonoides(racoon dog)	Nyctereutes procyonoides	Nyctereutes procyonoides	Nyctereutes	Canidae	Carnivora	Mammalia	Chordata	Metazoa
+Ortmanniana pectorosa	Ortmanniana pectorosa	Lampsilis pectorosa	Lampsilis	Unionidae	Unionida	Bivalvia	Mollusca	Metazoa
+Myotis macrodactylus	Myotis macrodactylus	Myotis macrodactylus	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus fuliginosus	Miniopterus fuliginosus	Miniopterus fuliginosus	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Anser indicus (Bar-headed goose)	Anser indicus	Anser indicus	Anser	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+duck; breed: muscovy	Anas platyrhynchos	Anas platyrhynchos	Anas	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Procambarus clarkii	Procambarus clarkii	Procambarus clarkii	Procambarus	Cambaridae	Decapoda	Malacostraca	Arthropoda	Metazoa
+Urva auropunctata	Urva auropunctata	Urva auropunctata	Urva	Herpestidae	Carnivora	Mammalia	Chordata	Metazoa
+Bos mutus	Bos mutus	Bos mutus	Bos	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+calf	Bos taurus	Bos taurus	Bos	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Jiangnan White Goose	Anser cygnoides	Anser cygnoides	Anser	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Mareca falcata	Mareca falcata	Mareca falcata	Mareca	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Crocidura tanakae	Crocidura tanakae	Crocidura tanakae	Crocidura	Soricidae	Eulipotyphla	Mammalia	Chordata	Metazoa
+Crocidura shantungensis	Crocidura shantungensis	Crocidura shantungensis	Crocidura	Soricidae	Eulipotyphla	Mammalia	Chordata	Metazoa
+Crocidura lasiura	Crocidura lasiura	Crocidura lasiura	Crocidura	Soricidae	Eulipotyphla	Mammalia	Chordata	Metazoa
+Oryctes sp.	Oryctes	NA	Oryctes	Solanaceae	Solanales	Magnoliopsida	Streptophyta	Viridiplantae
+carrier pigeon	Columba livia	Columba livia	Columba	Columbidae	Columbiformes	Aves	Chordata	Metazoa
+Rousettus madagascariensis	Rousettus madagascariensis	Rousettus madagascariensis	Rousettus	Pteropodidae	Chiroptera	Mammalia	Chordata	Metazoa
+Eidolon dupreanum	Eidolon dupreanum	Eidolon dupreanum	Eidolon	Pteropodidae	Chiroptera	Mammalia	Chordata	Metazoa
+ticks	Ixodida	NA	NA	NA	Ixodida	Arachnida	Arthropoda	Metazoa
+Heteronotia binoei	Heteronotia binoei	Heteronotia binoei	Heteronotia	Gekkonidae	Squamata	Lepidosauria	Chordata	Metazoa
+Heteronotia planiceps	Heteronotia planiceps	Heteronotia planiceps	Heteronotia	Gekkonidae	Squamata	Lepidosauria	Chordata	Metazoa
+Pogonophryne immaculata	Pogonophryne immaculata	Pogonophryne immaculata	Pogonophryne	Artedidraconidae	Perciformes	Actinopteri	Chordata	Metazoa
+Muraenolepis sp.	Muraenolepis	NA	Muraenolepis	Muraenolepididae	Gadiformes	Actinopteri	Chordata	Metazoa
+Microgale brevicaudata; sex: male	Microgale brevicaudata	Microgale brevicaudata	Microgale	Tenrecidae	Afrosoricida	Mammalia	Chordata	Metazoa
+Rattus rattus; sex: female	Rattus rattus	Rattus rattus	Rattus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Rattus rattus; sex: male	Rattus rattus	Rattus rattus	Rattus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Rattus rattus; female	Rattus rattus	Rattus rattus	Rattus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Rattus rattus; male	Rattus rattus	Rattus rattus	Rattus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Mus musculus; male	Mus musculus	Mus musculus	Mus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Mus musculus; female	Mus musculus	Mus musculus	Mus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Rousettus aegyptiacus	Rousettus aegyptiacus	Rousettus aegyptiacus	Rousettus	Pteropodidae	Chiroptera	Mammalia	Chordata	Metazoa
+Aethomys hindei	Aethomys hindei	Aethomys hindei	Aethomys	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Coleura afra	Coleura afra	Coleura afra	Coleura	Emballonuridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus sp. clade 1 TD-2020	Miniopterus sp. clade 1 TD-2020	Miniopterus sp. clade 1 TD-2020	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus sp. clade 10 TD-2020	Miniopterus sp. clade 10 TD-2020	Miniopterus sp. clade 10 TD-2020	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus sp. B76	Miniopterus sp.	Miniopterus sp.	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus minor	Miniopterus minor	Miniopterus minor	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Cardioderma cor	Cardioderma cor	Cardioderma cor	Cardioderma	Megadermatidae	Chiroptera	Mammalia	Chordata	Metazoa
+Hipposideros caffer	Hipposideros caffer	Hipposideros caffer	Hipposideros	Hipposideridae	Chiroptera	Mammalia	Chordata	Metazoa
+Mops condylurus	Mops condylurus	Mops condylurus	Mops	Molossidae	Chiroptera	Mammalia	Chordata	Metazoa
+Rhinolophus pearsonii	Rhinolophus pearsonii	Rhinolophus pearsonii	Rhinolophus	Rhinolophidae	Chiroptera	Mammalia	Chordata	Metazoa
+Myotis ricketti	Myotis ricketti	Myotis pilosus	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Ia io	Ia io	Ia io	Ia	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Rhizomys pruinosus	Rhizomys pruinosus	Rhizomys pruinosus	Rhizomys	Spalacidae	Rodentia	Mammalia	Chordata	Metazoa
+Rattus pyctoris	Rattus pyctoris	Rattus pyctoris	Rattus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Niviventer sp.	Niviventer	NA	Niviventer	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Caracal caracal	Caracal caracal	Caracal caracal	Caracal	Felidae	Carnivora	Mammalia	Chordata	Metazoa
+Eviota sp.	Eviota	NA	Eviota	Gobiidae	Gobiiformes	Actinopteri	Chordata	Metazoa
+Dascyllus reticulatus	Dascyllus reticulatus	Dascyllus reticulatus	Dascyllus	Pomacentridae	NA	Actinopteri	Chordata	Metazoa
+Chaetodon baronessa	Chaetodon baronessa	Chaetodon baronessa	Chaetodon	Chaetodontidae	Chaetodontiformes	Actinopteri	Chordata	Metazoa
+Plagiotremus tapeinosoma	Plagiotremus tapeinosoma	Plagiotremus tapeinosoma	Plagiotremus	Blenniidae	Blenniiformes	Actinopteri	Chordata	Metazoa
+Chromis viridis	Chromis viridis	Chromis viridis	Chromis	Pomacentridae	NA	Actinopteri	Chordata	Metazoa
+Nyctalus plancyi; sex: female	Nyctalus plancyi	Nyctalus plancyi	Nyctalus	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Nyctalus plancyi; sex: male	Nyctalus plancyi	Nyctalus plancyi	Nyctalus	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Rhinolophus pusillus; sex: male	Rhinolophus pusillus	Rhinolophus pusillus	Rhinolophus	Rhinolophidae	Chiroptera	Mammalia	Chordata	Metazoa
+Scotophilus kuhlii; sex: male	Scotophilus kuhlii	Scotophilus kuhlii	Scotophilus	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Scotophilus kuhlii; sex: female	Scotophilus kuhlii	Scotophilus kuhlii	Scotophilus	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Taphozous melanopogon; sex: female	Taphozous melanopogon	Taphozous melanopogon	Taphozous	Emballonuridae	Chiroptera	Mammalia	Chordata	Metazoa
+Taphozous melanopogon; sex: female (pregnant)	Taphozous melanopogon	Taphozous melanopogon	Taphozous	Emballonuridae	Chiroptera	Mammalia	Chordata	Metazoa
+Tylonycteris robustula; sex: male	Tylonycteris robustula	Tylonycteris robustula	Tylonycteris	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Eptesicus pachyomus; sex: female	Eptesicus pachyomus	Cnephaeus pachyomus	Cnephaeus	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Myotis ricketti; sex: male	Myotis ricketti	Myotis pilosus	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Myotis ricketti; sex: female	Myotis ricketti	Myotis pilosus	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus schreibersii; sex: female	Miniopterus schreibersii	Miniopterus schreibersii	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus schreibersii; sex: male	Miniopterus schreibersii	Miniopterus schreibersii	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Marmota caudata	Marmota caudata	Marmota caudata	Marmota	Sciuridae	Rodentia	Mammalia	Chordata	Metazoa
+Betta splendens	Betta splendens	Betta splendens	Betta	Osphronemidae	Anabantiformes	Actinopteri	Chordata	Metazoa
+Oryctolagus cuniculus	Oryctolagus cuniculus	Oryctolagus cuniculus	Oryctolagus	Leporidae	Lagomorpha	Mammalia	Chordata	Metazoa
+Peking duckling	Anas platyrhynchos	Anas platyrhynchos	Anas	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Woodworthia maculata	Woodworthia maculata	Woodworthia maculata	Woodworthia	Diplodactylidae	Squamata	Lepidosauria	Chordata	Metazoa
+Oligosoma aeneum	Oligosoma aeneum	Oligosoma aeneum	Oligosoma	Scincidae	Squamata	Lepidosauria	Chordata	Metazoa
+Pelophylax nigromaculatus	Pelophylax nigromaculatus	Pelophylax nigromaculatus	Pelophylax	Ranidae	Anura	Amphibia	Chordata	Metazoa
+duck; breed: Pekin	Anas platyrhynchos	Anas platyrhynchos	Anas	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+dog	Canis lupus familiaris	Canis lupus	Canis	Canidae	Carnivora	Mammalia	Chordata	Metazoa
+racing pigeon	Columba livia	Columba livia	Columba	Columbidae	Columbiformes	Aves	Chordata	Metazoa
+Anguilla dieffenbachii	Anguilla dieffenbachii	Anguilla dieffenbachii	Anguilla	Anguillidae	Anguilliformes	Actinopteri	Chordata	Metazoa
+wild boar	Sus scrofa	Sus scrofa	Sus	Suidae	Artiodactyla	Mammalia	Chordata	Metazoa
+red fox	Vulpes vulpes	Vulpes vulpes	Vulpes	Canidae	Carnivora	Mammalia	Chordata	Metazoa
+Goose	Anser anser	Anser anser	Anser	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Duck	Anas platyrhynchos	Anas platyrhynchos	Anas	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Canis lupus familiaris; sex: male	Canis lupus familiaris	Canis lupus	Canis	Canidae	Carnivora	Mammalia	Chordata	Metazoa
+Canis lupus familiaris; sex: female	Canis lupus familiaris	Canis lupus	Canis	Canidae	Carnivora	Mammalia	Chordata	Metazoa
+Hierococcyx sparverioides	Hierococcyx sparverioides	Hierococcyx sparverioides	Hierococcyx	Cuculidae	Cuculiformes	Aves	Chordata	Metazoa
+Pachyptila vittata	Pachyptila vittata	Pachyptila vittata	Pachyptila	Procellariidae	Procellariiformes	Aves	Chordata	Metazoa
+Gonidea angulata	Gonidea angulata	Gonidea angulata	Gonidea	Unionidae	Unionida	Bivalvia	Mollusca	Metazoa
+Araneae	Araneae	NA	NA	NA	Araneae	Arachnida	Arthropoda	Metazoa
+Oribatida	Oribatida	NA	NA	NA	Sarcoptiformes	Arachnida	Arthropoda	Metazoa
+Rattus_tanezumi	Rattus_tanezumi	Rattus tanezumi	Rattus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Turdus dissimilis	Turdus dissimilis	Turdus dissimilis	Turdus	Turdidae	Passeriformes	Aves	Chordata	Metazoa
+Bandicota savilei	Bandicota savilei	Bandicota savilei	Bandicota	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Chalinolobus tuberculatus	Chalinolobus tuberculatus	Chalinolobus tuberculatus	Chalinolobus	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Rhinolophus sp.	Rhinolophus	NA	Rhinolophus	Rhinolophidae	Chiroptera	Mammalia	Chordata	Metazoa
+Pipistrellus pipistrellus	Pipistrellus pipistrellus	Pipistrellus pipistrellus	Pipistrellus	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Vespertilio sinensis	Vespertilio sinensis	Vespertilio sinensis	Vespertilio	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Phasianus colchicus	Phasianus colchicus	Phasianus colchicus	Phasianus	Phasianidae	Galliformes	Aves	Chordata	Metazoa
+Aythya marila	Aythya marila	Aythya marila	Aythya	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Anas acuta	Anas acuta	Anas acuta	Anas	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Anas crecca	Anas crecca	Anas crecca	Anas	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Streptopelia orientalis	Streptopelia orientalis	Streptopelia orientalis	Streptopelia	Columbidae	Columbiformes	Aves	Chordata	Metazoa
+ferret	Mustela putorius furo	Mustela putorius	Mustela	Mustelidae	Carnivora	Mammalia	Chordata	Metazoa
+Chodsigoa smithii	Chodsigoa smithii	Chodsigoa smithii	Chodsigoa	Soricidae	Eulipotyphla	Mammalia	Chordata	Metazoa
+Niviventer niviventer	Niviventer niviventer	Niviventer niviventer	Niviventer	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Typhlomys cinereus	Typhlomys cinereus	Typhlomys cinereus	Typhlomys	Platacanthomyidae	Rodentia	Mammalia	Chordata	Metazoa
+Pipistrellus abramus	Pipistrellus abramus	Pipistrellus abramus	Pipistrellus	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Myotis davidii	Myotis davidii	Myotis davidii	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Hypsugo pulveratus	Hypsugo pulveratus	Hypsugo pulveratus	Hypsugo	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Leopoldamys edwardsi	Leopoldamys edwardsi	Leopoldamys edwardsi	Leopoldamys	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Niviventer fulvescens	Niviventer fulvescens	Niviventer fulvescens	Niviventer	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Berylmys bowersi	Berylmys bowersi	Berylmys bowersi	Berylmys	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Rattus losea	Rattus losea	Rattus losea	Rattus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Hipposideros pratti	Hipposideros pratti	Hipposideros pratti	Hipposideros	Hipposideridae	Chiroptera	Mammalia	Chordata	Metazoa
+laying hens	Gallus gallus	Gallus gallus	Gallus	Phasianidae	Galliformes	Aves	Chordata	Metazoa
+Bovine	Bos taurus	Bos taurus	Bos	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Hipposideros sp. (bat)	Hipposideros	NA	Hipposideros	Hipposideridae	Chiroptera	Mammalia	Chordata	Metazoa
+bat	Chiroptera	NA	NA	NA	Chiroptera	Mammalia	Chordata	Metazoa
+Rhinolophus sp. (bat)	Rhinolophus	NA	Rhinolophus	Rhinolophidae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus sp. (bat)	Miniopterus	NA	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Eidolon helvum (bat)	Eidolon helvum	Eidolon helvum	Eidolon	Pteropodidae	Chiroptera	Mammalia	Chordata	Metazoa
+Nycteris sp. (bat)	Nycteris	NA	Nycteris	Nycteridae	Chiroptera	Mammalia	Chordata	Metazoa
+bird	Aves	NA	NA	NA	NA	Aves	Chordata	Metazoa
+Domestic goat	Domestic goat	Capra hircus	Capra	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+amur tiger	Panthera tigris altaica	Panthera tigris	Panthera	Felidae	Carnivora	Mammalia	Chordata	Metazoa
+Limnochromis auritus	Limnochromis auritus	Limnochromis auritus	Limnochromis	Cichlidae	Cichliformes	Actinopteri	Chordata	Metazoa
+Benthochromis horii	Benthochromis horii	Benthochromis horii	Benthochromis	Cichlidae	Cichliformes	Actinopteri	Chordata	Metazoa
+Xenotilapia nasus	Xenotilapia nasus	Xenotilapia nasus	Xenotilapia	Cichlidae	Cichliformes	Actinopteri	Chordata	Metazoa
+Lamprologus kungweensis	Lamprologus kungweensis	Neolamprologus kungweensis	Neolamprologus	Cichlidae	Cichliformes	Actinopteri	Chordata	Metazoa
+Petrochromis famula	Petrochromis famula	Petrochromis famula	Petrochromis	Cichlidae	Cichliformes	Actinopteri	Chordata	Metazoa
+Neolamprologus brevis	Neolamprologus brevis	Neolamprologus brevis	Neolamprologus	Cichlidae	Cichliformes	Actinopteri	Chordata	Metazoa
+Enantiopus melanogenys	Enantiopus melanogenys	Xenotilapia melanogenys	Xenotilapia	Cichlidae	Cichliformes	Actinopteri	Chordata	Metazoa
+Xenotilapia boulengeri	Xenotilapia boulengeri	Xenotilapia boulengeri	Xenotilapia	Cichlidae	Cichliformes	Actinopteri	Chordata	Metazoa
+Neolamprologus tetracanthus	Neolamprologus tetracanthus	Neolamprologus tetracanthus	Neolamprologus	Cichlidae	Cichliformes	Actinopteri	Chordata	Metazoa
+Retropinna retropinna	Retropinna retropinna	Retropinna retropinna	Retropinna	Retropinnidae	Osmeriformes	Actinopteri	Chordata	Metazoa
+Nyctereutes procyonoides (Raccoon dog)	Nyctereutes procyonoides	Nyctereutes procyonoides	Nyctereutes	Canidae	Carnivora	Mammalia	Chordata	Metazoa
+Miniopterus orianae oceanensis	Miniopterus orianae oceanensis	Miniopterus orianae	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+donkey	Equus asinus	Equus asinus	Equus	Equidae	Perissodactyla	Mammalia	Chordata	Metazoa
+Bos taurus breed Hanwoo	Bos taurus	Bos taurus	Bos	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Eonycteris spelaea	Eonycteris spelaea	Eonycteris spelaea	Eonycteris	Pteropodidae	Chiroptera	Mammalia	Chordata	Metazoa
+Rhinolophus stheno	Rhinolophus stheno	Rhinolophus stheno	Rhinolophus	Rhinolophidae	Chiroptera	Mammalia	Chordata	Metazoa
+Rhinolophus thomasi	Rhinolophus thomasi	Rhinolophus thomasi	Rhinolophus	Rhinolophidae	Chiroptera	Mammalia	Chordata	Metazoa
+Cynopterus sphinx	Cynopterus sphinx	Cynopterus sphinx	Cynopterus	Pteropodidae	Chiroptera	Mammalia	Chordata	Metazoa
+Rhinolophus macrotis	Rhinolophus macrotis	Rhinolophus macrotis	Rhinolophus	Rhinolophidae	Chiroptera	Mammalia	Chordata	Metazoa
+Ovibos moschatus	Ovibos	NA	Ovibos	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Podarcis siculus; sex: female	Podarcis siculus	Podarcis siculus	Podarcis	Lacertidae	Squamata	Lepidosauria	Chordata	Metazoa
+Podarcis siculus; sex: male	Podarcis siculus	Podarcis siculus	Podarcis	Lacertidae	Squamata	Lepidosauria	Chordata	Metazoa
+Tarentola mauritanica; sex: female	Tarentola mauritanica	Tarentola mauritanica	Tarentola	Phyllodactylidae	Squamata	Lepidosauria	Chordata	Metazoa
+Tarentola mauritanica; sex: male	Tarentola mauritanica	Tarentola mauritanica	Tarentola	Phyllodactylidae	Squamata	Lepidosauria	Chordata	Metazoa
+Canis lupus (wolf)	Canis lupus	Canis lupus	Canis	Canidae	Carnivora	Mammalia	Chordata	Metazoa
+Cervus elaphus (red deer)	Cervus elaphus	Cervus elaphus	Cervus	Cervidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Mustelidae	Mustelidae	NA	NA	Mustelidae	Carnivora	Mammalia	Chordata	Metazoa
+Hystrix cristata (porcupine)	Hystrix cristata	Hystrix cristata	Hystrix	Hystricidae	Rodentia	Mammalia	Chordata	Metazoa
+rodent	Rodentia	NA	NA	NA	Rodentia	Mammalia	Chordata	Metazoa
+Bufo gargarizans	Bufo gargarizans	Bufo gargarizans	Bufo	Bufonidae	Anura	Amphibia	Chordata	Metazoa
+Sus scrofa domesticus (pig)	Sus scrofa domesticus	Sus scrofa	Sus	Suidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Rattus flavipectus	Rattus flavipectus	Rattus tanezumi	Rattus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Hippocampus erectus	Hippocampus erectus	Hippocampus erectus	Hippocampus	Syngnathidae	Syngnathiformes	Actinopteri	Chordata	Metazoa
+environment	environmental	NA	NA	NA	NA	NA	NA	NA
+goose embryo	Anser anser	Anser anser	Anser	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Cow	Bos taurus	Bos taurus	Bos	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Blenniella sp.	Blenniella	NA	Blenniella	Blenniidae	Blenniiformes	Actinopteri	Chordata	Metazoa
+Luposicya lupus	Luposicya lupus	Luposicya lupus	Luposicya	Gobiidae	Gobiiformes	Actinopterygii	Chordata	Metazoa
+Istigobius goldmanni	Istigobius goldmanni	Istigobius goldmanni	Istigobius	Gobiidae	Gobiiformes	Actinopteri	Chordata	Metazoa
+Asterropteryx semipunctata	Asterropteryx semipunctata	Asterropteryx semipunctata	Asterropteryx	Gobiidae	Gobiiformes	Actinopteri	Chordata	Metazoa
+Istigobius nigroocellatus	Istigobius nigroocellatus	Istigobius nigroocellatus	Istigobius	Gobiidae	Gobiiformes	Actinopteri	Chordata	Metazoa
+Istigobius decoratus	Istigobius decoratus	Istigobius decoratus	Istigobius	Gobiidae	Gobiiformes	Actinopteri	Chordata	Metazoa
+Cabillus tongarevae	Cabillus tongarevae	Cabillus tongarevae	Cabillus	Gobiidae	Gobiiformes	Actinopteri	Chordata	Metazoa
+Capreolus capreolus (roe deer)	Capreolus capreolus	Capreolus capreolus	Capreolus	Cervidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Vulpes vulpes (red fox)	Vulpes vulpes	Vulpes vulpes	Vulpes	Canidae	Carnivora	Mammalia	Chordata	Metazoa
+Sichuan takin	Budorcas tibetana	Budorcas tibetana	Budorcas	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Water buffalo	Bubalus bubalis	Bubalus bubalis	Bubalus	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Gallus gallus domesticus (broiler)	Gallus gallus	Gallus gallus	Gallus	Phasianidae	Galliformes	Aves	Chordata	Metazoa
+rhinos	Rhinocerotidae	NA	NA	Rhinocerotidae	Perissodactyla	Mammalia	Chordata	Metazoa
+deer	Cervidae	NA	NA	Cervidae	Artiodactyla	Mammalia	Chordata	Metazoa
+piglet	Sus scrofa	Sus scrofa	Sus	Suidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Camelus bactrianus	Camelus bactrianus	Camelus bactrianus	Camelus	Camelidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Camelus dromedarius	Camelus dromedarius	Camelus dromedarius	Camelus	Camelidae	Artiodactyla	Mammalia	Chordata	Metazoa
+landaise	Anser anser	Anser anser	Anser	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+murine	Murinae	NA	NA	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Corvus frugilegus	Corvus frugilegus	Corvus frugilegus	Corvus	Corvidae	Passeriformes	Aves	Chordata	Metazoa
+Coloeus monedula	Coloeus	NA	Coloeus	Corvidae	Passeriformes	Aves	Chordata	Metazoa
+Hirundo rustica	Hirundo rustica	Hirundo rustica	Hirundo	Hirundinidae	Passeriformes	Aves	Chordata	Metazoa
+Merops apiaster	Merops apiaster	Merops apiaster	Merops	Meropidae	Coraciiformes	Aves	Chordata	Metazoa
+Hydroprogne caspia	Hydroprogne caspia	Hydroprogne caspia	Hydroprogne	Laridae	Charadriiformes	Aves	Chordata	Metazoa
+Porcine	Sus scrofa	Sus scrofa	Sus	Suidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Strophurus ciliaris	Strophurus ciliaris	Strophurus ciliaris	Strophurus	Diplodactylidae	Squamata	Lepidosauria	Chordata	Metazoa
+goslings	Anser anser	Anser anser	Anser	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Anser indicus	Anser indicus	Anser indicus	Anser	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Mus pahari	Mus pahari	Mus pahari	Mus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Mus caroli	Mus caroli	Mus caroli	Mus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+porcupine	Hystrix	NA	Hystrix	Poaceae	Poales	Magnoliopsida	Streptophyta	Viridiplantae
+Manis javanica	Manis javanica	Manis javanica	Manis	Manidae	Pholidota	Mammalia	Chordata	Metazoa
+50-day-old Landes geese	Anser anser	Anser anser	Anser	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Miniopterus africanus	Miniopterus africanus	Miniopterus africanus	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus natalensis	Miniopterus natalensis	Miniopterus natalensis	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Meriones unguiculatus	Meriones unguiculatus	Meriones unguiculatus	Meriones	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Crow	Corvus	NA	Corvus	Corvidae	Passeriformes	Aves	Chordata	Metazoa
+home mice	Mus musculus	Mus musculus	Mus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Spilopelia senegalensis	Spilopelia senegalensis	Spilopelia senegalensis	Spilopelia	Columbidae	Columbiformes	Aves	Chordata	Metazoa
+Spatula clypeata	Spatula clypeata	Spatula clypeata	Spatula	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Myotis fimbriatus	Myotis fimbriatus	Myotis fimbriatus	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Leersia hexandra	Leersia hexandra	Leersia hexandra	Leersia	Poaceae	Poales	Magnoliopsida	Streptophyta	Viridiplantae
+Mus musculus; IFNAR KO	Mus musculus	Mus musculus	Mus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Calliope calliope	Calliope calliope	Calliope calliope	Calliope	Muscicapidae	Passeriformes	Aves	Chordata	Metazoa
+Cyanopica cyanus	Cyanopica cyanus	Cyanopica cyanus	Cyanopica	Corvidae	Passeriformes	Aves	Chordata	Metazoa
+Phylloscopus inornatus	Phylloscopus inornatus	Phylloscopus inornatus	Phylloscopus	Phylloscopidae	Passeriformes	Aves	Chordata	Metazoa
+Periparus ater	Periparus ater	Periparus ater	Periparus	Paridae	Passeriformes	Aves	Chordata	Metazoa
+Prunella montanella	Prunella	NA	Prunella	Prunellidae	Passeriformes	Aves	Chordata	Metazoa
+domestic cat; sex: male	Felis catus	Felis catus	Felis	Felidae	Carnivora	Mammalia	Chordata	Metazoa
+Turdus philomelos	Turdus philomelos	Turdus philomelos	Turdus	Turdidae	Passeriformes	Aves	Chordata	Metazoa
+chimpanzee	Pan troglodytes	Pan troglodytes	Pan	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Petroica macrocephala	Petroica macrocephala	Petroica macrocephala	Petroica	Petroicidae	Passeriformes	Aves	Chordata	Metazoa
+Zosterops lateralis	Zosterops lateralis	Zosterops lateralis	Zosterops	Zosteropidae	Passeriformes	Aves	Chordata	Metazoa
+Paradoxurus hermaphroditus	Paradoxurus hermaphroditus	Paradoxurus hermaphroditus	Paradoxurus	Viverridae	Carnivora	Mammalia	Chordata	Metazoa
+Paguma larvata	Paguma larvata	Paguma larvata	Paguma	Viverridae	Carnivora	Mammalia	Chordata	Metazoa
+Chicken	Gallus gallus	Gallus gallus	Gallus	Phasianidae	Galliformes	Aves	Chordata	Metazoa
+Myodes	Myodes	NA	Myodes	Cricetidae	Rodentia	Mammalia	Chordata	Metazoa
+Coypu	Myocastor coypus	Myocastor coypus	Myocastor	Myocastoridae	Rodentia	Mammalia	Chordata	Metazoa
+Gobiomorphus cotidianus	Gobiomorphus cotidianus	Gobiomorphus cotidianus	Gobiomorphus	Eleotridae	Gobiiformes	Actinopteri	Chordata	Metazoa
+Hoary bamboo rat	Rhizomys pruinosus	Rhizomys pruinosus	Rhizomys	Spalacidae	Rodentia	Mammalia	Chordata	Metazoa
+Porcupine	Hystrix	NA	Hystrix	Poaceae	Poales	Magnoliopsida	Streptophyta	Viridiplantae
+rabbit	Oryctolagus cuniculus	Oryctolagus cuniculus	Oryctolagus	Leporidae	Lagomorpha	Mammalia	Chordata	Metazoa
+coypu	Myocastor coypus	Myocastor coypus	Myocastor	Myocastoridae	Rodentia	Mammalia	Chordata	Metazoa
+raccoon dog	Nyctereutes procyonoides	Nyctereutes procyonoides	Nyctereutes	Canidae	Carnivora	Mammalia	Chordata	Metazoa
+eurasian red squirrel	Sciurus vulgaris	Sciurus vulgaris	Sciurus	Sciuridae	Rodentia	Mammalia	Chordata	Metazoa
+masked palm civet	Paguma larvata	Paguma larvata	Paguma	Viverridae	Carnivora	Mammalia	Chordata	Metazoa
+pallas's squirrel	Callosciurus erythraeus	Callosciurus erythraeus	Callosciurus	Sciuridae	Rodentia	Mammalia	Chordata	Metazoa
+hoary bamboo rat	Rhizomys pruinosus	Rhizomys pruinosus	Rhizomys	Spalacidae	Rodentia	Mammalia	Chordata	Metazoa
+Raccoon dog	Nyctereutes procyonoides	Nyctereutes procyonoides	Nyctereutes	Canidae	Carnivora	Mammalia	Chordata	Metazoa
+Eurasian red squirrel	Sciurus vulgaris	Sciurus vulgaris	Sciurus	Sciuridae	Rodentia	Mammalia	Chordata	Metazoa
+Ailurus fulgens	Ailurus fulgens	Ailurus fulgens	Ailurus	Ailuridae	Carnivora	Mammalia	Chordata	Metazoa
+Tetragnatha nitens	Tetragnatha nitens	Tetragnatha nitens	Tetragnatha	Tetragnathidae	Araneae	Arachnida	Arthropoda	Metazoa
+Culex tritaeniorhynchus	Culex tritaeniorhynchus	Culex tritaeniorhynchus	Culex	Culicidae	Diptera	Insecta	Arthropoda	Metazoa
+shellfish	Mollusca	NA	NA	NA	NA	NA	Mollusca	Metazoa
+Miniopterus gleni; UABBA 33031; male	Miniopterus gleni	Miniopterus gleni	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus gleni; FMNH 221332; male	Miniopterus gleni	Miniopterus gleni	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus gleni; FMNH 221331; male	Miniopterus gleni	Miniopterus gleni	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus gleni; FMNH 221330; male	Miniopterus gleni	Miniopterus gleni	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus gleni; UADBA 33027; male	Miniopterus gleni	Miniopterus gleni	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Macronycteris commersoni; UADBA 50272; female	Macronycteris commersoni	Macronycteris commersonii	Macronycteris	Hipposideridae	Chiroptera	Mammalia	Chordata	Metazoa
+Macronycteris commersoni; UADBA 50270; female	Macronycteris commersoni	Macronycteris commersonii	Macronycteris	Hipposideridae	Chiroptera	Mammalia	Chordata	Metazoa
+Macronycteris commersoni; FMNH 218012; female	Macronycteris commersoni	Macronycteris commersonii	Macronycteris	Hipposideridae	Chiroptera	Mammalia	Chordata	Metazoa
+Mops leucostigma; female	Mops leucostigma	Mops leucostigma	Mops	Molossidae	Chiroptera	Mammalia	Chordata	Metazoa
+Mops leucostigma; male	Mops leucostigma	Mops leucostigma	Mops	Molossidae	Chiroptera	Mammalia	Chordata	Metazoa
+Chaerephon leucogaster; male	Chaerephon leucogaster	Mops leucogaster	Mops	Molossidae	Chiroptera	Mammalia	Chordata	Metazoa
+Triaenops menamena; FMNH 218069; male	Triaenops menamena	Triaenops menamena	Triaenops	Rhinonycteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Triaenops menamena; FMNH 218064; male	Triaenops menamena	Triaenops menamena	Triaenops	Rhinonycteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Triaenops menamena; UADBA 50149; male	Triaenops menamena	Triaenops menamena	Triaenops	Rhinonycteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Triaenops menamena; UADBA 50147; male	Triaenops menamena	Triaenops menamena	Triaenops	Rhinonycteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Triaenops menamena; UADBA 50148; male	Triaenops menamena	Triaenops menamena	Triaenops	Rhinonycteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus sororculus; FMNH 218037; female	Miniopterus sororculus	Miniopterus sororculus	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus sororculus; FMNH 218034; female	Miniopterus sororculus	Miniopterus sororculus	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus sororculus; UADBA 50344; female	Miniopterus sororculus	Miniopterus sororculus	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus mahafaliensis; FMNH 218028; male	Miniopterus mahafaliensis	Miniopterus mahafaliensis	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus manavi; UADBA 33041; male	Miniopterus manavi	Miniopterus manavi	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus manavi; UADBA 33039; male	Miniopterus manavi	Miniopterus manavi	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus manavi; UADBA 33038; male	Miniopterus manavi	Miniopterus manavi	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus manavi; UADBA 33036; male	Miniopterus manavi	Miniopterus manavi	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus manavi; UADBA 33034; male	Miniopterus manavi	Miniopterus manavi	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus manavi; UADBA 33033; male	Miniopterus manavi	Miniopterus manavi	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus manavi; FMNH 221429; male	Miniopterus manavi	Miniopterus manavi	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus manavi; FMNH 221428; male	Miniopterus manavi	Miniopterus manavi	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus mahafaliensis; UADBA 50159; male	Miniopterus mahafaliensis	Miniopterus mahafaliensis	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus mahafaliensis; FMNH 218040; male	Miniopterus mahafaliensis	Miniopterus mahafaliensis	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus gleni; UADBA 50170; male	Miniopterus gleni	Miniopterus gleni	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus gleni; UADBA 50174; male	Miniopterus gleni	Miniopterus gleni	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus gleni; UADBA 50171; male	Miniopterus gleni	Miniopterus gleni	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+spotted dove	Spilopelia chinensis	Spilopelia chinensis	Spilopelia	Columbidae	Columbiformes	Aves	Chordata	Metazoa
+feral pigeon	Columba livia	Columba livia	Columba	Columbidae	Columbiformes	Aves	Chordata	Metazoa
+white eye	Zosteropidae	NA	NA	Zosteropidae	Passeriformes	Aves	Chordata	Metazoa
+house crow	Corvus splendens	Corvus splendens	Corvus	Corvidae	Passeriformes	Aves	Chordata	Metazoa
+Phrynocephalus theobaldi	Phrynocephalus theobaldi	Phrynocephalus theobaldi	Phrynocephalus	Agamidae	Squamata	Lepidosauria	Chordata	Metazoa
+Phrynocephalus erythrurus	Phrynocephalus erythrurus	Phrynocephalus erythrurus	Phrynocephalus	Agamidae	Squamata	Lepidosauria	Chordata	Metazoa
+Eptesicus regulus	Eptesicus regulus	Vespadelus regulus	Vespadelus	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Muscovy-duck	Muscovy-duck	Cairina moschata	Cairina	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+mice	Mus musculus	Mus musculus	Mus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Vespula vulgaris	Vespula vulgaris	Vespula vulgaris	Vespula	Vespidae	Hymenoptera	Insecta	Arthropoda	Metazoa
+Mormopterus francoismoutoui (Reunion Free-tailed Bat)	Mormopterus francoismoutoui	Mormopterus francoismoutoui	Mormopterus	Molossidae	Chiroptera	Mammalia	Chordata	Metazoa
+Macaca mulatta	Macaca mulatta	Macaca mulatta	Macaca	Cercopithecidae	Primates	Mammalia	Chordata	Metazoa
+Arenaria interpres (ruddy turnstone)	Arenaria interpres	Arenaria interpres	Arenaria	Scolopacidae	Charadriiformes	Aves	Chordata	Metazoa
+Rhinolophus thomasi; mixed sex	Rhinolophus thomasi	Rhinolophus thomasi	Rhinolophus	Rhinolophidae	Chiroptera	Mammalia	Chordata	Metazoa
+Roussetus leschenaulti; mixed sex	Roussetus leschenaulti	Roussetus leschenaulti	Roussetus	Pteropodidae	Chiroptera	Mammalia	Chordata	Metazoa
+marmot	Marmota	NA	Marmota	Sciuridae	Rodentia	Mammalia	Chordata	Metazoa
+Rattus norvegicus (Norway rat)	Rattus norvegicus	Rattus norvegicus	Rattus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Odobenus rosmarus	Odobenus rosmarus	Odobenus rosmarus	Odobenus	Odobenidae	Carnivora	Mammalia	Chordata	Metazoa
+Myotis daubentonii	Myotis daubentonii	Myotis daubentonii	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Zalophus californianus	Zalophus californianus	Zalophus californianus	Zalophus	Otariidae	Carnivora	Mammalia	Chordata	Metazoa
+Helianthus niveus	Helianthus niveus	Helianthus niveus	Helianthus	Asteraceae	Asterales	Magnoliopsida	Streptophyta	Viridiplantae
+Vespertilio murinus	Vespertilio murinus	Vespertilio murinus	Vespertilio	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Nyctaus noctula	Nyctalus noctula	Nyctalus noctula	Nyctalus	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Plecotus auritus	Plecotus auritus	Plecotus auritus	Plecotus	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Pipistrellus sp. pipistrellus/pygmaeus AO-2021	Pipistrellus sp. pipistrellus/pygmaeus AO-2021	Pipistrellus sp.	Pipistrellus	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Melanotaenia fluviatilis	Melanotaenia fluviatilis	Melanotaenia fluviatilis	Melanotaenia	Melanotaeniidae	Atheriniformes	Actinopteri	Chordata	Metazoa
+Gambusia holbrooki	Gambusia holbrooki	Gambusia holbrooki	Gambusia	Poeciliidae	Cyprinodontiformes	Actinopteri	Chordata	Metazoa
+Leiopotherapon unicolor	Leiopotherapon unicolor	Leiopotherapon unicolor	Leiopotherapon	Terapontidae	Centrarchiformes	Actinopteri	Chordata	Metazoa
+water buffalo	Bubalus bubalis	Bubalus bubalis	Bubalus	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Neovison vison	Neovison vison	Neogale vison	Neogale	Mustelidae	Carnivora	Mammalia	Chordata	Metazoa
+Jinding ducks	Anas platyrhynchos	Anas platyrhynchos	Anas	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Desmodus rotundus	Desmodus rotundus	Desmodus rotundus	Desmodus	Phyllostomidae	Chiroptera	Mammalia	Chordata	Metazoa
+Meleagris gallopavo	Meleagris gallopavo	Meleagris gallopavo	Meleagris	Phasianidae	Galliformes	Aves	Chordata	Metazoa
+Homo sapiens; 2 years 2 months old; female	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; 2 years old; female	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; 1 year 9 months old; female	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; 2 years 6 months old; female	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; 36 years old; female	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; 2 years 5 months old; male	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; 1 year 10 months old; male	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; 2 years 3 months old; female	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; 1 year 11 months old; female	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; 1 year 5 months old; female	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; 1 year 3 months old; male	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; 1 year 3 months old; female	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; 5 months old; female	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; 1 year old; male	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; 1 year old; female	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; 7 months old; female	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; 11 months old; male	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; infant (<5 years)	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; infant	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Chelidonichthys cuculus	Chelidonichthys cuculus	Chelidonichthys cuculus	Chelidonichthys	Triglidae	Perciformes	Actinopteri	Chordata	Metazoa
+Zeus faber	Zeus faber	Zeus faber	Zeus	Zeidae	Zeiformes	Actinopteri	Chordata	Metazoa
+Platycephalus richardsoni	Platycephalus richardsoni	Platycephalus richardsoni	Platycephalus	Platycephalidae	Perciformes	Actinopteri	Chordata	Metazoa
+Helicolenus barathri	Helicolenus barathri	Helicolenus barathri	Helicolenus	Sebastidae	Perciformes	Actinopteri	Chordata	Metazoa
+Rattus annandalei	Rattus annandalei	Sundamys annandalei	Sundamys	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Mus musculus castaneus	Mus musculus castaneus	Mus musculus	Mus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Callosciurus notatus	Callosciurus notatus	Callosciurus notatus	Callosciurus	Sciuridae	Rodentia	Mammalia	Chordata	Metazoa
+Tupaia glis	Tupaia glis	Tupaia glis	Tupaia	Tupaiidae	Scandentia	Mammalia	Chordata	Metazoa
+Gallus gallus broiler chicken	Gallus gallus	Gallus gallus	Gallus	Phasianidae	Galliformes	Aves	Chordata	Metazoa
+Landaise goose	Landaise goose	Anser sp.	Anser	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Vulpes vulpes	Vulpes vulpes	Vulpes vulpes	Vulpes	Canidae	Carnivora	Mammalia	Chordata	Metazoa
+Pipistrellus kuhlii	Pipistrellus kuhlii	Pipistrellus kuhlii	Pipistrellus	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Artibeus planirostris	Artibeus planirostris	Artibeus planirostris	Artibeus	Phyllostomidae	Chiroptera	Mammalia	Chordata	Metazoa
+Anas castanea	Anas castanea	Anas castanea	Anas	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Anas superciliosa	Anas superciliosa	Anas superciliosa	Anas	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Sus Scrofa	Sus Scrofa	Sus scrofa	Sus	Suidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Mandrillus sphinx	Mandrillus sphinx	Mandrillus sphinx	Mandrillus	Cercopithecidae	Primates	Mammalia	Chordata	Metazoa
+Bubalus bubalis	Bubalus bubalis	Bubalus bubalis	Bubalus	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+us musculus	Mus musculus	Mus musculus	Mus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+guinea pig	Cavia porcellus	Cavia porcellus	Cavia	Caviidae	Rodentia	Mammalia	Chordata	Metazoa
+mouse	Mus musculus	Mus musculus	Mus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Mus musculus; Rag2-/-Il2rg-/- genotype	Mus musculus	Mus musculus	Mus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Tadarida brasiliensis bat	Tadarida brasiliensis bat	Tadarida brasiliensis	Tadarida	Molossidae	Chiroptera	Mammalia	Chordata	Metazoa
+Pan troglodytes (chimpanzee)	Pan troglodytes	Pan troglodytes	Pan	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Solanum melongena L.	Solanum melongena	Solanum melongena	Solanum	Solanaceae	Solanales	Magnoliopsida	Streptophyta	Viridiplantae
+grey squirrel	Sciurus	NA	Sciurus	Sciuridae	Rodentia	Mammalia	Chordata	Metazoa
+Sus scrofa domestica (domestic swine)	Sus scrofa domestica	Sus scrofa	Sus	Suidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Bos taurus breed Marchigiana	Bos taurus	Bos taurus	Bos	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Eidolon helvum	Eidolon helvum	Eidolon helvum	Eidolon	Pteropodidae	Chiroptera	Mammalia	Chordata	Metazoa
+white-tailed deer	Odocoileus virginianus	Odocoileus virginianus	Odocoileus	Cervidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Macroglossus sobrinus	Macroglossus sobrinus	Macroglossus sobrinus	Macroglossus	Pteropodidae	Chiroptera	Mammalia	Chordata	Metazoa
+Rhinosciurus laticaudatus	Rhinosciurus laticaudatus	Rhinosciurus laticaudatus	Rhinosciurus	Sciuridae	Rodentia	Mammalia	Chordata	Metazoa
+Sundamys infraluteus	Sundamys infraluteus	Sundamys infraluteus	Sundamys	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Rousettus amplexicaudatus	Rousettus amplexicaudatus	Rousettus amplexicaudatus	Rousettus	Pteropodidae	Chiroptera	Mammalia	Chordata	Metazoa
+Balionycteris maculata	Balionycteris maculata	Balionycteris maculata	Balionycteris	Pteropodidae	Chiroptera	Mammalia	Chordata	Metazoa
+Macaca nemestrina	Macaca nemestrina	Macaca nemestrina	Macaca	Cercopithecidae	Primates	Mammalia	Chordata	Metazoa
+Macaca fascicularis	Macaca fascicularis	Macaca fascicularis	Macaca	Cercopithecidae	Primates	Mammalia	Chordata	Metazoa
+Arenaria interpres	Arenaria interpres	Arenaria interpres	Arenaria	Scolopacidae	Charadriiformes	Aves	Chordata	Metazoa
+Accipiter nisus (Eurasian sparrowhawk)	Accipiter nisus	Accipiter nisus	Accipiter	Accipitridae	Accipitriformes	Aves	Chordata	Metazoa
+Pteropus alecto	Pteropus alecto	Pteropus alecto	Pteropus	Pteropodidae	Chiroptera	Mammalia	Chordata	Metazoa
+Acerodon celebensis	Acerodon celebensis	Acerodon celebensis	Acerodon	Pteropodidae	Chiroptera	Mammalia	Chordata	Metazoa
+Eothenomys cachinus	Eothenomys cachinus	Eothenomys eleusis	Eothenomys	Cricetidae	Rodentia	Mammalia	Chordata	Metazoa
+Rhizomys sinensis	Rhizomys sinensis	Rhizomys sinensis	Rhizomys	Spalacidae	Rodentia	Mammalia	Chordata	Metazoa
+Hystrix brachyura	Hystrix brachyura	Hystrix brachyura	Hystrix	Hystricidae	Rodentia	Mammalia	Chordata	Metazoa
+Crocidura sp.	Crocidura	NA	Crocidura	Soricidae	Eulipotyphla	Mammalia	Chordata	Metazoa
+Sorex sp.	Sorex	NA	Sorex	Soricidae	Eulipotyphla	Mammalia	Chordata	Metazoa
+Ochotona thibetana	Ochotona thibetana	Ochotona thibetana	Ochotona	Ochotonidae	Lagomorpha	Mammalia	Chordata	Metazoa
+Niviventer eha	Niviventer eha	Niviventer eha	Niviventer	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Akodon cursor	Akodon cursor	Akodon cursor	Akodon	Cricetidae	Rodentia	Mammalia	Chordata	Metazoa
+Sturnira lilium	Sturnira lilium	Sturnira lilium	Sturnira	Phyllostomidae	Chiroptera	Mammalia	Chordata	Metazoa
+Artibeus lituratus	Artibeus lituratus	Artibeus lituratus	Artibeus	Phyllostomidae	Chiroptera	Mammalia	Chordata	Metazoa
+Carollia perspicillata	Carollia perspicillata	Carollia perspicillata	Carollia	Phyllostomidae	Chiroptera	Mammalia	Chordata	Metazoa
+Anoura caudifer	Anoura caudifer	Anoura caudifer	Anoura	Phyllostomidae	Chiroptera	Mammalia	Chordata	Metazoa
+Hipposideros commersoni	Hipposideros commersoni	Macronycteris commersonii	Macronycteris	Hipposideridae	Chiroptera	Mammalia	Chordata	Metazoa
+Myonycteris angolensis	Myonycteris angolensis	Myonycteris angolensis	Myonycteris	Pteropodidae	Chiroptera	Mammalia	Chordata	Metazoa
+Nycteris hispida	Nycteris hispida	Nycteris hispida	Nycteris	Nycteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Mus musculoides	Mus musculoides	Mus musculoides	Mus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Praomys tullbergi	Praomys tullbergi	Praomys tullbergi	Praomys	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Crocidura goliath	Crocidura goliath	Crocidura goliath	Crocidura	Soricidae	Eulipotyphla	Mammalia	Chordata	Metazoa
+Hylomyscus sp.	Hylomyscus	NA	Hylomyscus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Heimyscus fumosus	Heimyscus fumosus	Heimyscus fumosus	Heimyscus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Malacomys longipes	Malacomys longipes	Malacomys longipes	Malacomys	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Hylomyscus stella	Hylomyscus stella	Hylomyscus stella	Hylomyscus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Miniopterus magnater	Miniopterus magnater	Miniopterus magnater	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Rhinolophus coelophyllus	Rhinolophus coelophyllus	Rhinolophus coelophyllus	Rhinolophus	Rhinolophidae	Chiroptera	Mammalia	Chordata	Metazoa
+Rattus exulans	Rattus exulans	Rattus exulans	Rattus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Hipposideros lekaguli	Hipposideros lekaguli	Hipposideros lekaguli	Hipposideros	Hipposideridae	Chiroptera	Mammalia	Chordata	Metazoa
+Rhinolophus shameli	Rhinolophus shameli	Rhinolophus shameli	Rhinolophus	Rhinolophidae	Chiroptera	Mammalia	Chordata	Metazoa
+Myotis horsfieldii	Myotis horsfieldii	Myotis horsfieldii	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Bandicota bengalensis	Bandicota bengalensis	Bandicota bengalensis	Bandicota	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Chaerephon pumilus	Chaerephon pumilus	Mops pumilus	Mops	Molossidae	Chiroptera	Mammalia	Chordata	Metazoa
+Praomys sp.	Praomys	NA	Praomys	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Mastomys sp.	Mastomys	NA	Mastomys	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Triaenops persicus	Triaenops persicus	Triaenops persicus	Triaenops	Rhinonycteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Chiroptera	Chiroptera	NA	NA	NA	Chiroptera	Mammalia	Chordata	Metazoa
+Tadarida sp.	Tadarida	NA	Tadarida	Molossidae	Chiroptera	Mammalia	Chordata	Metazoa
+Apodemus sylvaticus	Apodemus sylvaticus	Apodemus sylvaticus	Apodemus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Mastomys natalensis	Mastomys natalensis	Mastomys natalensis	Mastomys	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Hipposideros ruber	Hipposideros ruber	Hipposideros ruber	Hipposideros	Hipposideridae	Chiroptera	Mammalia	Chordata	Metazoa
+Parahypsugo crassulus	Parahypsugo crassulus	Afropipistrellus crassulus	Afropipistrellus	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Triaenops afer	Triaenops afer	Triaenops afer	Triaenops	Rhinonycteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Pteropus giganteus	Pteropus giganteus	Pteropus vampyrus	Pteropus	Pteropodidae	Chiroptera	Mammalia	Chordata	Metazoa
+Gallus gallus (broiler)	Gallus gallus	Gallus gallus	Gallus	Phasianidae	Galliformes	Aves	Chordata	Metazoa
+roe deer	Capreolus capreolus	Capreolus capreolus	Capreolus	Cervidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Homo sapiens 4-year-old boy	Homo sapiens 4-year-old	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: M; age: 9 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: F; age: 3 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: M; age: 6 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: M; age: 3 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Microtus agrestis	Microtus agrestis	Microtus agrestis	Microtus	Cricetidae	Rodentia	Mammalia	Chordata	Metazoa
+Cricetomys gambianus	Cricetomys gambianus	Cricetomys gambianus	Cricetomys	Nesomyidae	Rodentia	Mammalia	Chordata	Metazoa
+broiler chicken	Gallus gallus	Gallus gallus	Gallus	Phasianidae	Galliformes	Aves	Chordata	Metazoa
+Amur tiger	Panthera tigris altaica	Panthera tigris	Panthera	Felidae	Carnivora	Mammalia	Chordata	Metazoa
+domestic cat with diarrhea	Felis catus	Felis catus	Felis	Felidae	Carnivora	Mammalia	Chordata	Metazoa
+health cat	Felis catus	Felis catus	Felis	Felidae	Carnivora	Mammalia	Chordata	Metazoa
+stool	stool	NA	NA	NA	NA	NA	NA	NA
+Culex sp. (mosquito)	Culex	NA	Culex	Culicidae	Diptera	Insecta	Arthropoda	Metazoa
+Mus_musculus	Mus_musculus	Mus musculus	Mus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Malacorhynchus membranaceus	Malacorhynchus membranaceus	Malacorhynchus membranaceus	Malacorhynchus	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Calidris ruficollis	Calidris ruficollis	Calidris ruficollis	Calidris	Scolopacidae	Charadriiformes	Aves	Chordata	Metazoa
+Homo sapiens; sex: F; age: 9 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: F; age: 23 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: M; age: 20 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: F; age: 26 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: F; age: 28 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: F; age: 47 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: F; age: 35 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: F; age: 15 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: F; age: 21 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: M; age: 28 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: M; age: 21 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: M; age: 30 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: F; age: 24 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Steer	Bos taurus	Bos taurus	Bos	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Taphozous perforatus	Taphozous perforatus	Taphozous perforatus	Taphozous	Emballonuridae	Chiroptera	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: M; age: 19 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+gosling	Anser anser	Anser anser	Anser	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Passeriformes	Passeriformes	NA	NA	NA	Passeriformes	Aves	Chordata	Metazoa
+Miniopterus schreibersi	Miniopterus schreibersi	Miniopterus schreibersii	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Scotomannes kuhlii	Scotophilus kuhli	Scotophilus kuhli	Scotophilus	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Hipposideros turpis	Hipposideros turpis	Hipposideros turpis	Hipposideros	Hipposideridae	Chiroptera	Mammalia	Chordata	Metazoa
+Coracias garrulus (European roller)	Coracias garrulus	Coracias garrulus	Coracias	Coraciidae	Coraciiformes	Aves	Chordata	Metazoa
+Homo sapiens; female	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Mus musculus; CD1 Nude	Mus musculus	Mus musculus	Mus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Canine lupus familaris	Canine lupus familaris	Canis lupus	Canis	Canidae	Carnivora	Mammalia	Chordata	Metazoa
+Sarcophilus harrisii	Sarcophilus harrisii	Sarcophilus harrisii	Sarcophilus	Dasyuridae	Dasyuromorphia	Mammalia	Chordata	Metazoa
+Homo sapiens; sex:F; age:63	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex:F; age:1	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex:F; age:27	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: M; age:63	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+yak	Bos grunniens	Bos grunniens	Bos	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: M; age: 11 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: M; age: 5 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: M; age: 2 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: F; age: 13 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: F; age: 8 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: M; age: 1 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: M; age: 13 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: M; age: 10 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: F; age: 6 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: F; age: 31 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: F; age: 14 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: F; age: 1 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: M; age: 7 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: F; age: 2 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: M; age: 17 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: F; age: 5 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: F; age: 1 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; age: 3 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; age: 4 M	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; age: 8 M	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; age: 2 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; age: 9 M	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: F; age: 4 M	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: F; age: 11 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: M; age: 8 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: M; age: 3 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; age: 79 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: F; age: 14 M	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: M; age: 8 M	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: F; age: 3 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Hybomys univittatus	Hybomys univittatus	Hybomys univittatus	Hybomys	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Pheasant	Pheasant	NA	NA	Phasianidae	Galliformes	Aves	Chordata	Metazoa
+Hyporhamphus australis	Hyporhamphus australis	Hyporhamphus australis	Hyporhamphus	Hemiramphidae	Beloniformes	Actinopteri	Chordata	Metazoa
+Scorpaena jacksoniensis	Scorpaena jacksoniensis	Scorpaena jacksoniensis	Scorpaena	Scorpaenidae	Perciformes	Actinopteri	Chordata	Metazoa
+Pseudorhombus arsius	Pseudorhombus arsius	Pseudorhombus arsius	Pseudorhombus	Paralichthyidae	Pleuronectiformes	Actinopteri	Chordata	Metazoa
+Lingxian White Goose	Anser cygnoides	Anser cygnoides	Anser	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Homo sapiens; sex: F; age: 17 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Tscherskia triton	Tscherskia triton	Tscherskia triton	Tscherskia	Cricetidae	Rodentia	Mammalia	Chordata	Metazoa
+Sorex araneus	Sorex araneus	Sorex araneus	Sorex	Soricidae	Eulipotyphla	Mammalia	Chordata	Metazoa
+Microtus fortis	Microtus fortis	Alexandromys fortis	Alexandromys	Cricetidae	Rodentia	Mammalia	Chordata	Metazoa
+Neodon clarkei	Neodon clarkei	Neodon clarkei	Neodon	Cricetidae	Rodentia	Mammalia	Chordata	Metazoa
+Apodemus peninsulae	Apodemus peninsulae	Apodemus peninsulae	Apodemus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Myodes rufocanus	Myodes rufocanus	Myodes rufocanus	Myodes	Cricetidae	Rodentia	Mammalia	Chordata	Metazoa
+Cricetulus barabensis	Cricetulus barabensis	Cricetulus barabensis	Cricetulus	Cricetidae	Rodentia	Mammalia	Chordata	Metazoa
+Rattus tanezumi sladeni	Rattus tanezumi sladeni	Rattus tanezumi	Rattus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Eothenomys custos	Eothenomys custos	Anteliomys custos	Anteliomys	Cricetidae	Rodentia	Mammalia	Chordata	Metazoa
+Lasiopodomys gregalis	Lasiopodomys gregalis	Stenocranius gregalis	Stenocranius	Cricetidae	Rodentia	Mammalia	Chordata	Metazoa
+Meriones meridianus	Meriones meridianus	Meriones meridianus	Meriones	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: F; age: 64 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: F; age: 20 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+calf (bovine)	Bos taurus	Bos taurus	Bos	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: M; age: 22 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Red-necked Avocet	Recurvirostra novaehollandiae	Recurvirostra novaehollandiae	Recurvirostra	Recurvirostridae	Charadriiformes	Aves	Chordata	Metazoa
+Sylvirana guentheri	Sylvirana guentheri	Sylvirana guentheri	Sylvirana	Ranidae	Anura	Amphibia	Chordata	Metazoa
+Myrrophis chinensis	Myrrophis chinensis	Myrrophis chinensis	Myrrophis	Homalopsidae	Squamata	Lepidosauria	Chordata	Metazoa
+Pleuronichthys japonicus	Pleuronichthys japonicus	Pleuronichthys japonicus	Pleuronichthys	Pleuronectidae	Pleuronectiformes	Actinopteri	Chordata	Metazoa
+Coelorinchus multispinulosus	Coelorinchus multispinulosus	Coelorinchus multispinulosus	Coelorinchus	Macrouridae	Gadiformes	Actinopteri	Chordata	Metazoa
+Scoliodon macrorhynchos	Scoliodon macrorhynchos	Scoliodon macrorhynchos	Scoliodon	Carcharhinidae	Carcharhiniformes	Chondrichthyes	Chordata	Metazoa
+Lethenteron camtschaticum	Lethenteron camtschaticum	Lethenteron camtschaticum	Lethenteron	Petromyzontidae	Petromyzontiformes	Hyperoartia	Chordata	Metazoa
+Chimaera sp.	Chimaera	NA	Chimaera	Chimaeridae	Chimaeriformes	Chondrichthyes	Chordata	Metazoa
+Polypedates megacephalus	Polypedates megacephalus	Polypedates megacephalus	Polypedates	Rhacophoridae	Anura	Amphibia	Chordata	Metazoa
+Echelus uropterus	Echelus uropterus	Echelus uropterus	Echelus	Ophichthidae	Anguilliformes	Actinopteri	Chordata	Metazoa
+Sardinella lemuru	Sardinella lemuru	Sardinella lemuru	Sardinella	Clupeidae	Clupeiformes	Actinopteri	Chordata	Metazoa
+Gonorynchus abbreviatus	Gonorynchus abbreviatus	Gonorynchus abbreviatus	Gonorynchus	Gonorynchidae	Gonorynchiformes	Actinopteri	Chordata	Metazoa
+Tropidophorus sinicus	Tropidophorus sinicus	Tropidophorus sinicus	Tropidophorus	Scincidae	Squamata	Lepidosauria	Chordata	Metazoa
+Hemidactylus bowringii	Hemidactylus bowringii	Hemidactylus bowringii	Hemidactylus	Gekkonidae	Squamata	Lepidosauria	Chordata	Metazoa
+Gekko similignum	Gekko similignum	Gekko similignum	Gekko	Gekkonidae	Squamata	Lepidosauria	Chordata	Metazoa
+Cynops orientalis	Cynops orientalis	Hypselotriton orientalis	Hypselotriton	Salamandridae	Caudata	Amphibia	Chordata	Metazoa
+Microhyla pulchra	Microhyla pulchra	Microhyla pulchra	Microhyla	Microhylidae	Anura	Amphibia	Chordata	Metazoa
+Teratoscincus roborowskii	Teratoscincus roborowskii	Teratoscincus roborowskii	Teratoscincus	Sphaerodactylidae	Squamata	Lepidosauria	Chordata	Metazoa
+Leptobrachium hainanense	Leptobrachium hainanense	Leptobrachium hainanense	Leptobrachium	Megophryidae	Anura	Amphibia	Chordata	Metazoa
+Hime japonica	Hime japonica	Hime japonica	Hime	Aulopidae	Aulopiformes	Actinopteri	Chordata	Metazoa
+Macroramphosus scolopax	Macroramphosus scolopax	Macroramphosus scolopax	Macroramphosus	Centriscidae	Syngnathiformes	Actinopteri	Chordata	Metazoa
+Hyporhamphus sajori	Hyporhamphus sajori	Hyporhamphus sajori	Hyporhamphus	Hemiramphidae	Beloniformes	Actinopteri	Chordata	Metazoa
+Hemitriakis japanica	Hemitriakis japanica	Hemitriakis japanica	Hemitriakis	Triakidae	Carcharhiniformes	Chondrichthyes	Chordata	Metazoa
+Calotes versicolor	Calotes versicolor	Calotes versicolor	Calotes	Agamidae	Squamata	Lepidosauria	Chordata	Metazoa
+Minous monodactylus	Minous	NA	Minous	Synanceiidae	Perciformes	Actinopteri	Chordata	Metazoa
+Parapercis lutevittata	Parapercis lutevittata	Parapercis lutevittata	Parapercis	Pinguipedidae	Uranoscopiformes	Actinopteri	Chordata	Metazoa
+Arnoglossus sp.	Arnoglossus	NA	Arnoglossus	Bothidae	Pleuronectiformes	Actinopteri	Chordata	Metazoa
+Crossorhombus sp.	Crossorhombus	NA	Crossorhombus	Bothidae	Pleuronectiformes	Actinopteri	Chordata	Metazoa
+Plagiopsetta sp.	Plagiopsetta	NA	Plagiopsetta	Samaridae	Pleuronectiformes	Actinopteri	Chordata	Metazoa
+Pachytriton brevipes	Pachytriton brevipes	Pachytriton brevipes	Pachytriton	Salamandridae	Caudata	Amphibia	Chordata	Metazoa
+Hyla simplex	Hyla simplex	Hyla simplex	Hyla	Hylidae	Anura	Amphibia	Chordata	Metazoa
+Duttaphrynus melanostictus	Duttaphrynus melanostictus	Duttaphrynus melanostictus	Duttaphrynus	Bufonidae	Anura	Amphibia	Chordata	Metazoa
+Pterygotrigla hemisticta	Pterygotrigla hemisticta	Pterygotrigla hemisticta	Pterygotrigla	Triglidae	Perciformes	Actinopteri	Chordata	Metazoa
+Lepidotrigla sp.	Lepidotrigla	NA	Lepidotrigla	Triglidae	Perciformes	Actinopteri	Chordata	Metazoa
+Cynoglossus sp.	Cynoglossus	NA	Cynoglossus	Cynoglossidae	Pleuronectiformes	Actinopteri	Chordata	Metazoa
+Dasyatis akajei	Dasyatis akajei	Hemitrygon akajei	Hemitrygon	Dasyatidae	Myliobatiformes	Chondrichthyes	Chordata	Metazoa
+Cephalopholis spiloparaea	Cephalopholis spiloparaea	Cephalopholis spiloparaea	Cephalopholis	Serranidae	Perciformes	Actinopteri	Chordata	Metazoa
+Banjos banjos	Banjos banjos	Banjos banjos	Banjos	Banjosidae	Acropomatiformes	Actinopteri	Chordata	Metazoa
+domestic cat	Felis catus	Felis catus	Felis	Felidae	Carnivora	Mammalia	Chordata	Metazoa
+Myotis petax	Myotis petax	Myotis petax	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: M; age: 8 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+mink	Neogale vison	Neogale vison	Neogale	Mustelidae	Carnivora	Mammalia	Chordata	Metazoa
+Budorcas taxicolor tibetana	Budorcas taxicolor tibetana	Budorcas tibetana	Budorcas	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Bat	Chiroptera	NA	NA	NA	Chiroptera	Mammalia	Chordata	Metazoa
+Hortobagy goose	Anser anser	Anser anser	Anser	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Marmota himalayana	Marmota himalayana	Marmota himalayana	Marmota	Sciuridae	Rodentia	Mammalia	Chordata	Metazoa
+Sus scrofa (swine)	Sus scrofa	Sus scrofa	Sus	Suidae	Artiodactyla	Mammalia	Chordata	Metazoa
+turkey	Meleagris gallopavo	Meleagris gallopavo	Meleagris	Phasianidae	Galliformes	Aves	Chordata	Metazoa
+Cerdocyon thous	Cerdocyon thous	Cerdocyon thous	Cerdocyon	Canidae	Carnivora	Mammalia	Chordata	Metazoa
+Nycteris thebaica	Nycteris thebaica	Nycteris thebaica	Nycteris	Nycteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus mossambicus	Miniopterus	NA	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Eptesicus serotinus	Eptesicus serotinus	Cnephaeus serotinus	Cnephaeus	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Myotis capaccinii	Myotis capaccinii	Myotis capaccinii	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Barbastella barbastellus	Barbastella barbastellus	Barbastella barbastellus	Barbastella	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Myotis myotis/blythii	Myotis myotis/blythii	Myotis myotis/blythii	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Myotis emarginatus	Myotis emarginatus	Myotis emarginatus	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+commercial broiler chicken	Gallus gallus	Gallus gallus	Gallus	Phasianidae	Galliformes	Aves	Chordata	Metazoa
+poultry	Aves	NA	NA	NA	NA	Aves	Chordata	Metazoa
+Lande geese	Anser anser	Anser anser	Anser	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Gallus gallus domesticus	Gallus gallus	Gallus gallus	Gallus	Phasianidae	Galliformes	Aves	Chordata	Metazoa
+Rhinolophus rouxii	Rhinolophus rouxii	Rhinolophus rouxii	Rhinolophus	Rhinolophidae	Chiroptera	Mammalia	Chordata	Metazoa
+Rhinolophus lepidus	Rhinolophus lepidus	Rhinolophus lepidus	Rhinolophus	Rhinolophidae	Chiroptera	Mammalia	Chordata	Metazoa
+Beijing duck	Anas platyrhynchos	Anas platyrhynchos	Anas	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Anous tenuirostris	Anous tenuirostris	Anous tenuirostris	Anous	Laridae	Charadriiformes	Aves	Chordata	Metazoa
+Tadarida brasiliensis	Tadarida brasiliensis	Tadarida brasiliensis	Tadarida	Molossidae	Chiroptera	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: M; age: 18 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: M; age: 25 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: M; age: 4 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: M; age: 23 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: F; age: 30 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens; sex: F; age: 18 Y	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Gorilla gorilla gorilla	Gorilla gorilla gorilla	Gorilla gorilla	Gorilla	Hominidae	Primates	Mammalia	Chordata	Metazoa
+ovine	Ovis aries	Ovis aries	Ovis	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Miniopterus griveaudi; FMNH 228875	Miniopterus griveaudi	Miniopterus griveaudi	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Triaenops menamena; UADBA SMG18885	Triaenops menamena	Triaenops menamena	Triaenops	Rhinonycteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Triaenops menamena; UADBA SMG18884	Triaenops menamena	Triaenops menamena	Triaenops	Rhinonycteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Triaenops menamena; UADBA SMG18883	Triaenops menamena	Triaenops menamena	Triaenops	Rhinonycteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Triaenops menamena; FMNH 228864	Triaenops menamena	Triaenops menamena	Triaenops	Rhinonycteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Triaenops menamena; FMNH 228863	Triaenops menamena	Triaenops menamena	Triaenops	Rhinonycteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Triaenops menamena; FMNH 228860	Triaenops menamena	Triaenops menamena	Triaenops	Rhinonycteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Rousettus madagascariensis; UADBA SMG18921	Rousettus madagascariensis	Rousettus madagascariensis	Rousettus	Pteropodidae	Chiroptera	Mammalia	Chordata	Metazoa
+Rousettus madagascariensis; FMNH 228826	Rousettus madagascariensis	Rousettus madagascariensis	Rousettus	Pteropodidae	Chiroptera	Mammalia	Chordata	Metazoa
+Paratriaenops furculus; UADBA SMG18902	Paratriaenops furculus	Paratriaenops furcula	Paratriaenops	Rhinonycteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Paratriaenops furculus; UADBA SMG18894	Paratriaenops furculus	Paratriaenops furcula	Paratriaenops	Rhinonycteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Paratriaenops furculus; UADBA SMG18892	Paratriaenops furculus	Paratriaenops furcula	Paratriaenops	Rhinonycteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Paratriaenops furculus; UADBA SMG18890	Paratriaenops furculus	Paratriaenops furcula	Paratriaenops	Rhinonycteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Paratriaenops furculus; UADBA SMG18888	Paratriaenops furculus	Paratriaenops furcula	Paratriaenops	Rhinonycteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Paratriaenops furculus; UADBA SMG18886	Paratriaenops furculus	Paratriaenops furcula	Paratriaenops	Rhinonycteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Paratriaenops furculus; FMNH 228851	Paratriaenops furculus	Paratriaenops furcula	Paratriaenops	Rhinonycteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Paratriaenops furculus; FMNH 228848	Paratriaenops furculus	Paratriaenops furcula	Paratriaenops	Rhinonycteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Paratriaenops furculus; FMNH 228844	Paratriaenops furculus	Paratriaenops furcula	Paratriaenops	Rhinonycteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Myotis goudoti; UADBA SMG18920	Myotis goudoti	Myotis goudotii	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Myotis goudoti; FMNH 228866	Myotis goudoti	Myotis goudotii	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Myotis goudoti; FMNH 229045	Myotis goudoti	Myotis goudotii	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus griveaudi; UADBA SMG18905	Miniopterus griveaudi	Miniopterus griveaudi	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus griveaudi; UADBA SMG18874	Miniopterus griveaudi	Miniopterus griveaudi	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus griveaudi; UADBA SMG18853	Miniopterus griveaudi	Miniopterus griveaudi	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus griveaudi; FMNH 228882	Miniopterus griveaudi	Miniopterus griveaudi	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus griveaudi; FMNH 228881	Miniopterus griveaudi	Miniopterus griveaudi	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus griveaudi; FMNH 228878	Miniopterus griveaudi	Miniopterus griveaudi	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus griveaudi; FMNH 228876	Miniopterus griveaudi	Miniopterus griveaudi	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus griveaudi; FMNH 228874	Miniopterus griveaudi	Miniopterus griveaudi	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus griveaudi; FMNH 228872	Miniopterus griveaudi	Miniopterus griveaudi	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Miniopterus griveaudi; FMNH 228870	Miniopterus griveaudi	Miniopterus griveaudi	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
+Canis lupus familaris	Canis lupus familaris	Canis lupus	Canis	Canidae	Carnivora	Mammalia	Chordata	Metazoa
+lamb	Ovis aries	Ovis aries	Ovis	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Scotophilus sp.	Scotophilus	NA	Scotophilus	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Macaca leonina	Macaca leonina	Macaca leonina	Macaca	Cercopithecidae	Primates	Mammalia	Chordata	Metazoa
+Rousettus sp.	Rousettus	NA	Rousettus	Pteropodidae	Chiroptera	Mammalia	Chordata	Metazoa
+Megaderma lyra	Megaderma lyra	Lyroderma lyra	Lyroderma	Megadermatidae	Chiroptera	Mammalia	Chordata	Metazoa
+Rattus sp.	Rattus	NA	Rattus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Rattus argentiventer	Rattus argentiventer	Rattus argentiventer	Rattus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Hylopetes sp.	Hylopetes	NA	Hylopetes	Sciuridae	Rodentia	Mammalia	Chordata	Metazoa
+Leopoldamys sabanus	Leopoldamys sabanus	Leopoldamys sabanus	Leopoldamys	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Anas platyrhynchos	Anas platyrhynchos	Anas platyrhynchos	Anas	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Hipposideros gigas	Hipposideros gigas	Macronycteris gigas	Macronycteris	Hipposideridae	Chiroptera	Mammalia	Chordata	Metazoa
+Myotis pequinius	Myotis pequinius	Myotis pequinius	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Eptesicus serotinus serotinus	Eptesicus serotinus serotinus	Cnephaeus serotinus	Cnephaeus	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Eptesicus serotinus andersoni	Eptesicus serotinus andersoni	Cnephaeus serotinus	Cnephaeus	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Mytilus galloprovincialis	Mytilus galloprovincialis	Mytilus galloprovincialis	Mytilus	Mytilidae	Mytilida	Bivalvia	Mollusca	Metazoa
+Himalayan marmot	Marmota himalayana	Marmota himalayana	Marmota	Sciuridae	Rodentia	Mammalia	Chordata	Metazoa
+Pekin duck	Anas platyrhynchos	Anas platyrhynchos	Anas	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+turkey; young poult presenting PEMS	Meleagris gallopavo	Meleagris gallopavo	Meleagris	Phasianidae	Galliformes	Aves	Chordata	Metazoa
+Acinonyx jubatus	Acinonyx jubatus	Acinonyx jubatus	Acinonyx	Felidae	Carnivora	Mammalia	Chordata	Metazoa
+Guinea fowl	Numida meleagris	Numida meleagris	Numida	Numididae	Galliformes	Aves	Chordata	Metazoa
+Sus scrofa (domestic pig)	Sus scrofa	Sus scrofa	Sus	Suidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Myotis myotis	Myotis myotis	Myotis myotis	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Balaenoptera acutorostrata	Balaenoptera acutorostrata	Balaenoptera acutorostrata	Balaenoptera	Balaenopteridae	Artiodactyla	Mammalia	Chordata	Metazoa
+Orcinus orca	Orcinus orca	Orcinus orca	Orcinus	Delphinidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Tursiops truncatus	Tursiops truncatus	Tursiops truncatus	Tursiops	Delphinidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Anas platyrhynchos f. domestica	Anas platyrhynchos f. domestica	Anas platyrhynchos	Anas	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Capreolus capreolus	Capreolus capreolus	Capreolus capreolus	Capreolus	Cervidae	Artiodactyla	Mammalia	Chordata	Metazoa
+commercial broiler	Gallus gallus	Gallus gallus	Gallus	Phasianidae	Galliformes	Aves	Chordata	Metazoa
+Myotis longipes	Myotis longipes	Myotis longipes	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Swine	Sus scrofa	Sus scrofa	Sus	Suidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Semnopithecus entellus	Semnopithecus entellus	Semnopithecus entellus	Semnopithecus	Cercopithecidae	Primates	Mammalia	Chordata	Metazoa
+Hylobatidae	Hylobatidae	NA	NA	Hylobatidae	Primates	Mammalia	Chordata	Metazoa
+Papio anubis	Papio anubis	Papio anubis	Papio	Cercopithecidae	Primates	Mammalia	Chordata	Metazoa
+Chlorocebus pygerythrus	Chlorocebus pygerythrus	Chlorocebus pygerythrus	Chlorocebus	Cercopithecidae	Primates	Mammalia	Chordata	Metazoa
+Papio hamadryas	Papio hamadryas	Papio hamadryas	Papio	Cercopithecidae	Primates	Mammalia	Chordata	Metazoa
+Trachypithecus pileatus	Trachypithecus pileatus	Trachypithecus pileatus	Trachypithecus	Cercopithecidae	Primates	Mammalia	Chordata	Metazoa
+Hoolock hoolock	Hoolock hoolock	Hoolock hoolock	Hoolock	Hylobatidae	Primates	Mammalia	Chordata	Metazoa
+Hypothymis azurea	Hypothymis azurea	Hypothymis azurea	Hypothymis	Monarchidae	Passeriformes	Aves	Chordata	Metazoa
+Megaerops kusnotoi	Megaerops kusnotoi	Megaerops kusnotoi	Megaerops	Pteropodidae	Chiroptera	Mammalia	Chordata	Metazoa
+Myotis nattereri	Myotis nattereri	Myotis nattereri	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Myotis bechsteinii	Myotis bechsteinii	Myotis bechsteinii	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Pipistrellus nathusii;Pipistrellus pygmaeus	Pipistrellus nathusii	Pipistrellus nathusii	Pipistrellus	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Rhinolophus hipposideros	Rhinolophus hipposideros	Rhinolophus hipposideros	Rhinolophus	Rhinolophidae	Chiroptera	Mammalia	Chordata	Metazoa
+Myotis mystacinus	Myotis mystacinus	Myotis mystacinus	Myotis	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Landes goose	Landes goose	Anser sp.	Anser	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Ma duck	Anas platyrhynchos	Anas platyrhynchos	Anas	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Pekin duckling	Pekin duckling	Anas platyrhynchos	Anas	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+shorebird	Aves	NA	NA	NA	Charadriiformes	Aves	Chordata	Metazoa
+Homo sapiens 5 month old female	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 1 year old male	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 62 year old female	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 1 year 6 month old female	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 2 year old male	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 6 year old male	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 1 year 6 month old male	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 9 month old male	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 10 month female	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 10 year old female	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 1 year 6 month old male child	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Pygoscelis adeliae	Pygoscelis adeliae	Pygoscelis adeliae	Pygoscelis	Spheniscidae	Sphenisciformes	Aves	Chordata	Metazoa
+Hystrix brachyurus	Hystrix brachyurus	Hystrix brachyura	Hystrix	Hystricidae	Rodentia	Mammalia	Chordata	Metazoa
+Episoriculus leucops	Episoriculus leucops	Episoriculus leucops	Episoriculus	Soricidae	Eulipotyphla	Mammalia	Chordata	Metazoa
+Volemys millicens	Volemys millicens	Volemys millicens	Volemys	Cricetidae	Rodentia	Mammalia	Chordata	Metazoa
+Tylonycteris robustula	Tylonycteris robustula	Tylonycteris robustula	Tylonycteris	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Homo sapiens 62 year old lady	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 6 year old boy	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 5 month old girl	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 9 month old boy	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 10 year old girl	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens one and half year old boy	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 1 year old boy	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Pipistrellus pygmaeus	Pipistrellus pygmaeus	Pipistrellus pygmaeus	Pipistrellus	Vespertilionidae	Chiroptera	Mammalia	Chordata	Metazoa
+Hipposideros cineraceus	Hipposideros cineraceus	Hipposideros cineraceus	Hipposideros	Hipposideridae	Chiroptera	Mammalia	Chordata	Metazoa
+Homo sapiens 34 month-old girl	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 36 month-old girl	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 23 month-old boy	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 24 month-old girl	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 10 month-old girl	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 8 month-old girl	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 11 month-old girl	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 12 month-old girl	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens under 5 years old	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 5 month-old boy	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Meleagris gallopavo; female	Meleagris gallopavo	Meleagris gallopavo	Meleagris	Phasianidae	Galliformes	Aves	Chordata	Metazoa
+Canis familiaris	Canis familiaris	Canis lupus	Canis	Canidae	Carnivora	Mammalia	Chordata	Metazoa
+Homo sapiens, 24 months old femail	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 1 months old male	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 16 months old male	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Numida meleagris	Numida meleagris	Numida meleagris	Numida	Numididae	Galliformes	Aves	Chordata	Metazoa
+Apodemus flavicollis (yellow necked mouse)	Apodemus flavicollis	Apodemus flavicollis	Apodemus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+laboratory mouse	Mus musculus	Mus musculus	Mus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
+Homo sapiens 5 months old female	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 62 years old female	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 1 year 6 months old baby girl	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 2 years old baby boy	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 6 years old boy	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 1 year 6 months old baby boy	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 5 months old baby girl	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 9 months old baby boy	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 10 months old baby girl	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 10 years old girl	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens 45 years old female	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+puppy	Canis lupus familiaris	Canis lupus	Canis	Canidae	Carnivora	Mammalia	Chordata	Metazoa
+Anas penelope	Anas penelope	Mareca penelope	Mareca	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Anas clypeata	Anas clypeata	Spatula clypeata	Spatula	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Tringa nebularia	Tringa nebularia	Tringa nebularia	Tringa	Scolopacidae	Charadriiformes	Aves	Chordata	Metazoa
+Platalea minor	Platalea minor	Platalea minor	Platalea	Threskiornithidae	Pelecaniformes	Aves	Chordata	Metazoa
+Ardeola sp.	Ardeola	NA	Ardeola	Ardeidae	Pelecaniformes	Aves	Chordata	Metazoa
+Dendrocygna javanica	Dendrocygna javanica	Dendrocygna javanica	Dendrocygna	Anatidae	Anseriformes	Aves	Chordata	Metazoa
+Spilopelia chinensis	Spilopelia chinensis	Spilopelia chinensis	Spilopelia	Columbidae	Columbiformes	Aves	Chordata	Metazoa
+guinea fowl	Numida meleagris	Numida meleagris	Numida	Numididae	Galliformes	Aves	Chordata	Metazoa
+domestic sheep	Ovis aries	Ovis aries	Ovis	Bovidae	Artiodactyla	Mammalia	Chordata	Metazoa
+Homo sapiens age 57 years	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens age 69 years	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens age 52 years	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens age 80 years	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens age 85 years	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens age 8 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens age 3 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens age 1 month	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens age 12 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens age 4 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens age 9 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens age 5 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens age 6 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens age 10 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens age 2 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens age 16 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens age 11 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens age 14 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens age 7 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Homo sapiens age 25 months	Homo sapiens	Homo sapiens	Homo	Hominidae	Primates	Mammalia	Chordata	Metazoa
+Wood pigeon	Columba palumbus	Columba palumbus	Columba	Columbidae	Columbiformes	Aves	Chordata	Metazoa
+Feral pigeon	Columba livia	Columba livia	Columba	Columbidae	Columbiformes	Aves	Chordata	Metazoa
