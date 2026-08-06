@@ -158,7 +158,7 @@ rule prodigal:
             echo "Input FASTA is empty. Skipping Prodigal." > {output.log}
             touch {output.proteins} {output.gff} {output.gbk}
         else
-            {config[tools][prodigal]} -i {input.fasta} -a {output.proteins} -d {output.gbk} -o {output.gff} -p meta > {output.log} 2>&1
+            {config[tools][prodigal]} -i {input.fasta} -a {output.proteins} -d {output.fna} -o {output.gff} -p meta > {output.log} 2>&1
         fi
         """
 

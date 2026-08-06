@@ -1,6 +1,6 @@
 paths:
-  search_query: '"txid35300"[Organism]'
-  genbank: "data/raw/HAstV4_02062026.gb"
+  search_query: '"txid39733"[Organism]'
+  genbank: "data/raw/Astroviridae_30062026.gb"
   orf_map: "data/annotations/ORF_names.csv"
   domain_map: "data/annotations/domain_map.csv"
   pfam_db: "/data/DB/PFAM-A/Pfam-A.hmm"
