@@ -9,9 +9,12 @@ GB = config["paths"]["genbank"]
 ORF_MAP = config["paths"]["orf_map"]
 DOMAIN_MAP = config["paths"]["domain_map"]
 PFAM = config["paths"]["pfam_db"]
-ROOT = Path(config["paths"]["output_root"])
 
+
+RUN_ID = config["run_id"]
+ROOT = Path(config["paths"]["output_root"]) / RUN_ID
 BASE = Path(GB).stem
+FINAL_DIR = ROOT / "final"
 
 COORDS = ROOT / "coords"
 UPDATED = ROOT / "updated_coords"
@@ -35,11 +38,18 @@ HOST_MAP = Path("data/annotations/host_map.csv")
 
 ANNOTATED_METADATA = ROOT / "final" / f"{BASE}_annotated.tsv"
 
+CLUSTER_UC = Path("data/results/clustering/ORF1B_upd2_17nt_mmseq2.uc")
+WG_METADATA = Path("data/annotations/WG_2025_metadata.tsv")
+
+# Output: the final master table with ICTV species
+FINAL_MASTER = FINAL_DIR / f"{BASE}_annotated_MAstV_species.tsv"
+
+
 
 rule all:
     input:
         UPDATED / f"{BASE}_orf-coords_full.csv"
-        FINAL_ANNOTATED_TSV
+        FINAL_MASTER
 
 # ----------------------------------------------------------------------
 rule fetch_genbank:
@@ -223,3 +233,31 @@ rule merge_final:
         annotated = ANNOTATED_METADATA,
     shell:
         "python scripts/run_merge_metadata_coords.py {input.metadata} {input.coords} {input.taxonomy} {output.annotated}"
+
+
+# ----------------------------------------------------------------------
+# Rule: add cluster species (ICTV and virus name)
+# ----------------------------------------------------------------------
+rule add_cluster_species:
+    input:
+        annotated = FINAL_ANNOTATED_TSV,
+        uc = CLUSTER_UC,
+        wg_meta = WG_METADATA,
+    output:
+        master = FINAL_MASTER,
+    shell:
+        """
+        python scripts/add_cluster_species.py \
+            --annotated {input.annotated} \
+            --uc {input.uc} \
+            --wg_metadata {input.wg_meta} \
+            --output {output.master}
+        """
+
+rule update_symlink:
+    input:
+        latest_run = FINAL_MASTER,
+    output:
+        symlink = Path("data/results/latest"),
+    run:
+        os.symlink(RUN_ID, output.symlink, target_is_directory=True)

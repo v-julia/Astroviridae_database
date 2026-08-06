@@ -1,3 +1,5 @@
+run_id: "2026_07_30"
+
 paths:
   search_query: '"txid39733"[Organism]'
   genbank: "data/raw/Astroviridae_30062026.gb"
