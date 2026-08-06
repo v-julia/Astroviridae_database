@@ -14,7 +14,7 @@ The pipeline automates:
 
 ## Dataset
 
-`data/results/final/Astroviridae_30062026_annotated_MAstV_species.tsv` is a curated, tab‑separated TSV file containing metadata extracted from GenBank entries, coordinates of astrovirus ORFs, host lineage information, and ICTV species assignments for classified mamastroviruses.
+`data/results/30-06-2026/final/Astroviridae_30062026_annotated_MAstV_species.tsv` is a curated, tab‑separated TSV file containing metadata extracted from GenBank entries, coordinates of astrovirus ORFs, host lineage information, and ICTV species assignments for classified mamastroviruses.
 
 The file can be imported into Excel, R, Python (pandas), or any other spreadsheet software.
 
@@ -71,7 +71,6 @@ The pipeline is implemented as a **Snakemake workflow** and consists of the foll
 | 9 | `run_get_host_taxonomy.py` | Query NCBI Taxonomy for each host and retrieve full lineage |
 | 10 | `run_merge_all.py` | Combine metadata, coordinates, and host taxonomy into a single TSV |
 | 11 | `add_cluster_species.py` | Propagate ICTV species and virus names from reference clusters using mmseq2 |
-| 12 | `run_extract_orfs_named.py` | Extract individual ORF FASTA files with metadata‑derived headers |
 
 ---
 
@@ -82,6 +81,25 @@ The following scripts are **not** required for the main pipeline but provide add
 | Script | Description |
 |--------|-------------|
 | `run_extract_orfs_named.py` | Extract individual ORF FASTA files with metadata‑derived headers (host class, host, accession, collection date, country). Useful for downstream phylogenetic analyses. |
+
+
+## Folder Structure (Versioned Results)
+
+Every full pipeline run is stored in a separate folder named with the run date (e.g., `data/results/2025_10_15/`). The `data/results/latest` symlink always points to the most recent run.
+
+```
+data/results/
+├── 30-06-2026/                     # First run
+│   ├── coords/
+│   ├── prodigal/
+│   ├── hmmer/
+│   ├── updated_coords/
+│   ├── host_taxonomy/
+│   ├── final/
+│   └── logs/
+│   
+└── latest -> 30-06-2026/           # Symlink to the most recent version
+```
 
 
 ## Host lineages
