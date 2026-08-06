@@ -54,6 +54,51 @@ All ORF coordinates are **0‑based and exclusive**, consistent with Biopython's
 
 ---
 
+## Folder Structure
+
+Every full pipeline run is stored in a separate folder named with the run date (e.g., `data/results/30-06-2026/`). The `data/results/latest` symlink points to the most recent run.
+
+```
+├── data/
+│   ├── raw/                          # Input GenBank files (versioned by date)
+│   │   └── Astroviridae_YYYY_MM_DD.gb
+│   ├── annotations/                  # Static mapping and reference file
+│   │
+│   ├── host_taxonomy/                # Full lineages of hosts
+│   │
+│   └── results/                      # All pipeline outputs (versioned)
+│       ├── 30-06-2026/               # First run
+│       │   ├── coords/               # Coordinate tables, FASTA, logs
+│       │   ├── prodigal/             # Prodigal gene predictions
+│       │   ├── hmmer/                # HMMER domain tables
+│       │   │   ├── annotated_orfs/   # Domain hits for annotated ORFs
+│       │   │   ├── problematic_orfs/ # Domain hits for ambiguous CDSs
+│       │   │   └── predicted_orfs/   # Domain hits for Prodigal‑predicted ORFs
+│       │   ├── updated_coords/       # Merged coordinate tables
+│       │   ├── host_taxonomy/        # Host lineage mappings
+│       │   ├── clustering/           # mmseq2 clustering results for ORF1b of Mamastroviruses (17% nt p-distance)
+│       │   ├── final/                # Final annotated TSV tables
+│       │   └── orfs_named/           # Nucleotide and amino acid sequences of ORF1a, ORF1b, and ORF2 in fasta format
+│       └── latest -> 30-06-2026/     # Symlink to the most recent version
+├── src/                              # Python modules (core logic)
+├── scripts/                          # Entry-point scripts (CLI wrappers)
+│   ├── run_fetch_genbank.py
+│   ├── run_fetch_metadata.py
+│   ├── run_orf_extraction.py
+│   ├── run_check_mismatches.py
+│   ├── run_assign_problematic.py
+│   ├── run_assign_predicted.py
+│   ├── run_update_coords.py
+│   ├── run_get_host_taxonomy.py
+│   ├── run_merge_all.py
+│   ├── add_cluster_species.py
+│   └── run_extract_orfs_named.py     # Auxiliary script (not part of core pipeline)
+├── config.yaml                       # Pipeline configuration
+├── Snakefile                         # Snakemake workflow definition
+└── README.md
+```
+
+
 ## Pipeline Overview
 
 The pipeline is implemented as a **Snakemake workflow** and consists of the following steps:
@@ -83,23 +128,7 @@ The following scripts are **not** required for the main pipeline but provide add
 | `run_extract_orfs_named.py` | Extract individual ORF FASTA files with metadata‑derived headers (host class, host, accession, collection date, country). Useful for downstream phylogenetic analyses. |
 
 
-## Folder Structure (Versioned Results)
 
-Every full pipeline run is stored in a separate folder named with the run date (e.g., `data/results/2025_10_15/`). The `data/results/latest` symlink always points to the most recent run.
-
-```
-data/results/
-├── 30-06-2026/                     # First run
-│   ├── coords/
-│   ├── prodigal/
-│   ├── hmmer/
-│   ├── updated_coords/
-│   ├── host_taxonomy/
-│   ├── final/
-│   └── logs/
-│   
-└── latest -> 30-06-2026/           # Symlink to the most recent version
-```
 
 
 ## Host lineages
