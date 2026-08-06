@@ -1,8 +1,5 @@
 # Astroviridae Database
 
-
-# Astroviridae Database
-
 This repository contains a **Snakemake pipeline** for annotating astrovirus CDSs from GenBank entries, along with a curated dataset of astrovirus and astro‑like sequences deposited in GenBank.
 
 The pipeline automates:
@@ -51,7 +48,7 @@ The file can be imported into Excel, R, Python (pandas), or any other spreadshee
 | `1A‑strand`, `1B‑strand`, `2‑strand` | Strand orientation (`1` or `-1`) |
 | `Host_species`, `Host_genus`, `Host_family`, `Host_order`, `Host_class`, `Host_phylum`, `Host_kingdom` | Full host lineage (from NCBI Taxonomy) |
 | `Species_ICTV` | ICTV species designation (for classified mamastroviruses) |
-| `virus_name` | Virus name (from WG2025 reference metadata) |
+| `virus_name` | Virus name (from 10.1093/ve/veaf006) |
 
 All ORF coordinates are **0‑based and exclusive**, consistent with Biopython's `feature.location` representation.
 
@@ -105,8 +102,8 @@ Host lineage is retrieved from the NCBI Taxonomy database. The dataset includes 
 
 ## Species Assignment
 
-The `Species_ICTV` column contains ICTV‑recognised species designations propagated from a reference dataset of complete genomes of the genus Mamastrovirus using mmseq2 clustering (17% p-distance in nucleotide ORF1b). 
-Species are assigned to all sequences that cluster with a reference classified sequence. This column is being expanded as the Astroviridae Study Group progresses.
+The `Species_ICTV` column contains ICTV‑recognised species designations propagated from a reference dataset of complete genomes of the genus *Mamastrovirus* using mmseq2 clustering (17% p-distance in nucleotide ORF1b). 
+Species are assigned to all sequences that cluster with a reference classified sequence. This column is being expanded as the *Astroviridae* Study Group progresses.
 
 ---
 
@@ -225,8 +222,6 @@ snakemake --cores 8 --use-conda
 - Host taxonomy retrieval may fail for poorly formatted host strings. The pipeline includes a mapping file (`host_mapping.csv`) to handle common cases.
 - The Pfam database is large (~2.5 GB). Ensure sufficient disk space.
 
----
-
 
 ---
 
@@ -239,7 +234,7 @@ If you use this pipeline or dataset, please cite:
 - HMMER: Eddy, 2011
 - Prodigal‑gv: Hyatt et al., 2010
 
-For the curated dataset, please cite the original GenBank entries and acknowledge the Astroviridae Study Group.
+For the curated dataset, please cite the original GenBank entries and acknowledge the *Astroviridae* Study Group.
 
 ---
 
