@@ -173,9 +173,9 @@ AY179509	NA	mink	NA	NA	MAstV13	Mamastrovirus mustelae
 GU985458	SWE	mink	NA	SMS-AstV	MAstV13	Mamastrovirus mustelae
 MK211323	CHE	ovibos	1982	NA	MAstV13	Mamastrovirus ovis
 NC_002469	NA	sheep	NA	NA	MAstV13	Mamastrovirus ovis
-MW504546	USA	pig	2018	15217-AST-len-6452-cov-17-307332	MAstV3	Mamastrovirus suis
-NC_025379	CHN	pig	2013	PAstV-GX1	MAstV3	Mamastrovirus suis
-OL689632	CHN	pig	2021	AH-1	MAstV3	Mamastrovirus suis
+MW504546	USA	pig	2018	15217-AST-len-6452-cov-17-307332	MAstV3	Mamastrovirus suisorientalis
+NC_025379	CHN	pig	2013	PAstV-GX1	MAstV3	Mamastrovirus suisorientalis
+OL689632	CHN	pig	2021	AH-1	MAstV3	Mamastrovirus suisorientalis
 GQ891990	USA	human	2007	SG	MAstV9	Mamastrovirus virginiaense
 KJ920196	GBR	human	2013	HMO-CLondon1	MAstV9	Mamastrovirus virginiaense
 KJ920197	GBR	human	2014	HMO-CLondon2	MAstV9	Mamastrovirus virginiaense
