@@ -181,7 +181,7 @@ def extract_orfs(input_file, coord_tsv, meta_tsv, output_dir,
     country_compiled = load_mapping(country_map) if country_map else []
 
     # 3. Read coordinate file
-    coords = pd.read_csv(coord_csv, index_col=0, sep='\t')   # index is Accession
+    coords = pd.read_csv(coord_tsv, index_col=0, sep='\t')   # index is Accession
     orf_list = ['1A', '1B', '2']
     for orf in orf_list:
         if orf not in coords.columns:
@@ -216,7 +216,7 @@ def extract_orfs(input_file, coord_tsv, meta_tsv, output_dir,
 
         for orf in orf_list:
             coord_str = coords.loc[acc, orf]
-            if coord_str == 'NA-NA':
+            if coord_str == 'NA-NA' or pd.isna(coord_str):
                 continue
             start, end = map(int, coord_str.split('-'))
             strand = coords.loc[acc, f'{orf}-strand']
@@ -264,7 +264,7 @@ def extract_orfs(input_file, coord_tsv, meta_tsv, output_dir,
 # ----------------------------------------------------------------------
 def main():
     parser = argparse.ArgumentParser(
-        description="Extract ORFs from GenBank/FASTA using coordinates from CSV, with metadata-based naming."
+        description="Extract ORFs from GenBank/FASTA using coordinates from TSV, with metadata-based naming."
     )
     parser.add_argument('--input', required=True,
                         help='Input file (GenBank or FASTA)')
@@ -277,7 +277,7 @@ def main():
     parser.add_argument('--output_dir', required=True,
                         help='Output directory for FASTA files')
     parser.add_argument('--columns', required=True,
-                        help='Comma-separated columns for sequence name (e.g., Host_class,Host,Accession,Collection_date,Country)')
+                        help='Comma-separated columns for sequence name (e.g., "Accession,Host_class,Host,Collection date,Country")')
     parser.add_argument('--basename', help='Base name for output files (default: stem of input file)')
     parser.add_argument('--host_map', help='TSV mapping for host names (regex, short_code) – optional')
     parser.add_argument('--country_map', help='TSV mapping for country names (regex, short_code) – optional')
