@@ -8,6 +8,7 @@ with open("config.yaml") as f:
 GB = config["paths"]["genbank"]
 ORF_MAP = config["paths"]["orf_map"]
 DOMAIN_MAP = config["paths"]["domain_map"]
+COUNTRY_MAP = config["paths"]["country_map"]
 PFAM = config["paths"]["pfam_db"]
 
 
@@ -72,8 +73,9 @@ rule extract_metadata:
         tsv = METADATA_TSV,
     params:
         coords_dir = COORDS,
+        country_map = COUNTRY_MAP
     shell:
-        "python scripts/run_fetch_metadata.py {input.gb} {params.coords_dir}"
+        "python scripts/run_fetch_metadata.py {input.gb} {params.coords_dir} {params.country_map}"
 
 # ----------------------------------------------------------------------
 rule orf_extraction:

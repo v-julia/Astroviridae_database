@@ -11,7 +11,7 @@ import time
 from Bio import SeqIO, Entrez
 import pandas as pd
 
-
+from src.mapping_utils import load_mapping,apply_mapping,standardize_date
 '''
 Downloads entries from GenBank Nucleotide by given query in batches with checkpoint/resume capability
 Saves entries to file in GenBank format
@@ -107,7 +107,7 @@ def fetch_seq_from_Nucleotide(query, outfile, batch_size=100, checkpoint_file=No
     print(f"Finished. Output saved to {os.path.abspath(outfile)}")
     return(os.path.abspath(outfile))
 
-def fetch_metadata_from_gb(input_file, output_dir):
+def fetch_metadata_from_gb(input_file, output_dir, country_map):
     '''
     For each entry in GenBank file retrieves the following data:
 
@@ -233,7 +233,10 @@ def fetch_metadata_from_gb(input_file, output_dir):
             if feature.type == 'source':
                 for qualif, colname in zip(source_qualifiers, source_qualifiers_columns):
                     if qualif in feature.qualifiers:
-                        entries_data[entry_name][colname] = feature.qualifiers[qualif][0]
+                            if qualif == "collection_date":
+                                entries_data[entry_name][colname] = standardize_date(feature.qualifiers[qualif][0])
+                            else:
+                                entries_data[entry_name][colname] = feature.qualifiers[qualif][0]
                     else:
                         entries_data[entry_name][colname] = 'NA'
                 if 'environmental_sample' in feature.qualifiers:
@@ -274,7 +277,13 @@ def fetch_metadata_from_gb(input_file, output_dir):
         out_dir = os.path.abspath(output_dir)
         os.makedirs(out_dir, exist_ok=True)
         out_file_name_temp = os.path.join(out_dir, base_name)
+
+    # Map geo loc names to country code
+    country_compiled = load_mapping(country_map)
+    meta_dataframe['Country'] = meta_dataframe['Geo location'].apply(lambda x: apply_mapping(x, country_compiled))
     
     meta_dataframe.to_csv(out_file_name_temp + '_metadata.tsv', sep='\t', index_label="Accession")
-    #country_map - file with abbreviations of countries
+
+    
+
     return meta_dataframe
