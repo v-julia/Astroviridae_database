@@ -5,12 +5,13 @@ Generate sequence names based on metadata (host, country, date, etc.) with optio
 """
 import argparse
 import os
-import re
-import calendar
+import sys
 import pandas as pd
 from Bio import SeqIO
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.mapping_utils import load_mapping,clean_field,apply_mapping,standardize_date
 
