@@ -101,13 +101,13 @@ def assign_orf_from_domains(domain_hits, domain_map, min_score=0, min_coverage=0
             return domain_map[dom_name]
     return None
 
-def check_annotated_orfs(coord_csv, domain_table_file, domain_map_file):
+def check_annotated_orfs(coord_tsv, domain_table_file, domain_map_file):
     # Parse domain hits
     domain_hits = parse_hmmscan_domtbl(domain_table_file)
     domain_map = load_domain_map(domain_map_file)
     mismatches = []
-    with open(coord_csv) as f:
-        reader = csv.DictReader(f)
+    with open(coord_tsv) as f:
+        reader = csv.DictReader(f,delimiter='\t')
         rows = list(reader)
     
     for row in rows:

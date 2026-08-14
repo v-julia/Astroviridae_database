@@ -19,12 +19,12 @@ FINAL_DIR = ROOT / "final"
 COORDS = ROOT / "coords"
 UPDATED = ROOT / "updated_coords"
 PRODIGAL = ROOT / "prodigal"
-HMMER_ANNOT = ROOT / "hmmer" / f"{BASE}annotated_orfs"
-HMMER_PROB = ROOT / "hmmer" / f"{BASE}problematic_orfs"
-HMMER_PRED = ROOT / "hmmer" / f"{BASE}predicted_orfs"
+HMMER_ANNOT = ROOT / "hmmer" / "annotated_orfs"
+HMMER_PROB = ROOT / "hmmer" / "problematic_orfs"
+HMMER_PRED = ROOT / "hmmer" / "predicted_orfs"
 
 
-FINAL_COORD_CSV = UPDATED / f"{BASE}_orf-coords_full.csv"
+FINAL_COORD_TSV = UPDATED / f"{BASE}_orf-coords_full.tsv"
 
 
 METADATA_TSV = COORDS / f"{BASE}_metadata.tsv"
@@ -38,8 +38,8 @@ HOST_MAP = Path("data/annotations/host_map.csv")
 
 ANNOTATED_METADATA = ROOT / "final" / f"{BASE}_annotated.tsv"
 
-CLUSTER_UC = Path("data/results/clustering/ORF1B_upd2_17nt_mmseq2.uc")
-WG_METADATA = Path("data/annotations/WG_2025_metadata.tsv")
+CLUSTER_UC = ROOT / "clustering/ORF1B_upd2_17nt_mmseq2.uc"
+WG_METADATA = Path("data/annotations/MAstV_WG_2025_metadata.tsv")
 
 # Output: the final master table with ICTV species
 FINAL_MASTER = FINAL_DIR / f"{BASE}_annotated_MAstV_species.tsv"
@@ -48,7 +48,7 @@ FINAL_MASTER = FINAL_DIR / f"{BASE}_annotated_MAstV_species.tsv"
 
 rule all:
     input:
-        UPDATED / f"{BASE}_orf-coords_full.csv"
+        UPDATED / f"{BASE}_orf-coords_full.tsv",
         FINAL_MASTER
 
 # ----------------------------------------------------------------------
@@ -81,7 +81,7 @@ rule orf_extraction:
         gb = GB,
         orf_map = ORF_MAP,
     output:
-        coord_csv = COORDS / f"{BASE}_orf-coords.csv",
+        coord_tsv = COORDS / f"{BASE}_orf-coords.tsv",
         orfs_faa = COORDS / f"{BASE}_orfs.faa",
         prob_faa = COORDS / f"{BASE}_problematic_candidates.faa",
         prob_tsv = COORDS / f"{BASE}_problematic_candidates.tsv",
@@ -106,13 +106,13 @@ rule hmmscan_annotated:
 # ----------------------------------------------------------------------
 rule check_mismatches:
     input:
-        coord_csv = COORDS / f"{BASE}_orf-coords.csv",
-        domtbl = HMMER_ANNOT / "annotated_domains.tbl",
+        coord_tsv = COORDS / f"{BASE}_orf-coords.tsv",
+        domtbl = HMMER_ANNOT / f"{BASE}_annotated_domains.tbl",
         domain_map = DOMAIN_MAP,
     output:
-        report = HMMER_ANNOT / "mismatches_report.tsv",
+        report = HMMER_ANNOT / f"{BASE}_mismatches_report.tsv",
     shell:
-        "python scripts/run_check_mismatches.py {input.coord_csv} {input.domtbl} {input.domain_map} {output.report}"
+        "python scripts/run_check_mismatches.py {input.coord_tsv} {input.domtbl} {input.domain_map} {output.report}"
 
 # ----------------------------------------------------------------------
 rule hmmscan_problematic:
@@ -120,8 +120,8 @@ rule hmmscan_problematic:
         fasta = COORDS / f"{BASE}_problematic_candidates.faa",
         db = PFAM,
     output:
-        domtbl = HMMER_PROB / "problematic_domains.tbl",
-        log = HMMER_PROB / "hmmscan.log",
+        domtbl = HMMER_PROB / f"{BASE}_problematic_domains.tbl",
+        log = HMMER_PROB / f"{BASE}_hmmscan.log",
     shell:
         """
         if [ ! -s {input.fasta} ]; then
@@ -131,27 +131,26 @@ rule hmmscan_problematic:
             {config[tools][hmmscan]} --domtblout {output.domtbl} --noali {input.db} {input.fasta} > {output.log} 2>&1
         fi
         """
-
 # ----------------------------------------------------------------------
 rule assign_problematic:
     input:
         cand_tsv = COORDS / f"{BASE}_problematic_candidates.tsv",
-        domtbl = HMMER_PROB / "problematic_domains.tbl",
+        domtbl = HMMER_PROB / f"{BASE}_problematic_domains.tbl",
         domain_map = DOMAIN_MAP,
     output:
-        assigned_tsv = HMMER_PROB / "problematic_assigned.tsv",
+        assigned_tsv = HMMER_PROB / f"{BASE}_problematic_assigned.tsv",
     shell:
         "python scripts/run_assign_problematic_cds.py {input.cand_tsv} {input.domtbl} {input.domain_map} {output.assigned_tsv}"
 
 # ----------------------------------------------------------------------
 rule update_with_problematic:
     input:
-        coord_csv = COORDS / f"{BASE}_orf-coords.csv",
-        assigned_tsv = HMMER_PROB / "problematic_assigned.tsv",
+        coord_tsv = COORDS / f"{BASE}_orf-coords.tsv",
+        assigned_tsv = HMMER_PROB / f"{BASE}_problematic_assigned.tsv",
     output:
-        updated_csv = UPDATED / f"{BASE}_orf_coords_with_problematic.csv",
+        updated_tsv = UPDATED / f"{BASE}_orf_coords_with_problematic.tsv",
     shell:
-        "python scripts/run_update_coords.py {input.coord_csv} {input.assigned_tsv} {output.updated_csv}"
+        "python scripts/run_update_coords.py {input.coord_tsv} {input.assigned_tsv} {output.updated_tsv}"
 
 # ----------------------------------------------------------------------
 rule prodigal:
@@ -160,13 +159,13 @@ rule prodigal:
     output:
         proteins = PRODIGAL / f"{BASE}_no_cds_sequences_proteins.faa",
         gff = PRODIGAL / f"{BASE}_no_cds_predgenes.gff",
-        gbk = PRODIGAL / f"{BASE}_no_cds_predgenes.gbk",
+        fna = PRODIGAL / f"{BASE}_no_cds_predgenes.fna",
         log = PRODIGAL / "prodigal.log",
     shell:
         """
         if [ ! -s {input.fasta} ]; then
             echo "Input FASTA is empty. Skipping Prodigal." > {output.log}
-            touch {output.proteins} {output.gff} {output.gbk}
+            touch {output.proteins} {output.gff} {output.fna}
         else
             {config[tools][prodigal]} -i {input.fasta} -a {output.proteins} -d {output.fna} -o {output.gff} -p meta > {output.log} 2>&1
         fi
@@ -178,8 +177,8 @@ rule hmmscan_predicted:
         fasta = PRODIGAL / f"{BASE}_no_cds_sequences_proteins.faa",
         db = PFAM,
     output:
-        domtbl = HMMER_PRED / "predicted_domains.tbl",
-        log = HMMER_PRED / "hmmscan.log",
+        domtbl = HMMER_PRED / f"{BASE}_predicted_domains.tbl",
+        log = HMMER_PRED / f"{BASE}_hmmscan.log",
     shell:
         """
         if [ ! -s {input.fasta} ]; then
@@ -194,22 +193,22 @@ rule hmmscan_predicted:
 rule assign_predicted:
     input:
         proteins = PRODIGAL / f"{BASE}_no_cds_sequences_proteins.faa",
-        domtbl = HMMER_PRED / "predicted_domains.tbl",
+        domtbl = HMMER_PRED / f"{BASE}_predicted_domains.tbl",
         domain_map = DOMAIN_MAP,
     output:
-        assigned_tsv = HMMER_PRED / "predicted_assigned.tsv",
+        assigned_tsv = HMMER_PRED / f"{BASE}_predicted_assigned.tsv",
     shell:
         "python scripts/run_assign_predicted_cds.py {input.proteins} {input.domtbl} {input.domain_map} {output.assigned_tsv}"
 
 # ----------------------------------------------------------------------
 rule update_full:
     input:
-        coord_csv = UPDATED / f"{BASE}_orf_coords_with_problematic.csv",
-        assigned_tsv = HMMER_PRED / "predicted_assigned.tsv",
+        coord_tsv = UPDATED / f"{BASE}_orf_coords_with_problematic.tsv",
+        assigned_tsv = HMMER_PRED / f"{BASE}_predicted_assigned.tsv",
     output:
-        final_csv = UPDATED / f"{BASE}_orf-coords_full.csv",
+        final_tsv = UPDATED / f"{BASE}_orf-coords_full.tsv",
     shell:
-        "python scripts/run_update_coords.py {input.coord_csv} {input.assigned_tsv} {output.final_csv}"
+        "python scripts/run_update_coords.py {input.coord_tsv} {input.assigned_tsv} {output.final_tsv}"
 
 
 rule get_host_taxonomy:
@@ -227,7 +226,7 @@ rule get_host_taxonomy:
 rule merge_final:
     input:
         metadata = METADATA_TSV,
-        coords = FINAL_COORD_CSV,
+        coords = FINAL_COORD_TSV,
         taxonomy = HOST_TAXONOMY_TSV,   # now generated by the pipeline
     output:
         annotated = ANNOTATED_METADATA,
@@ -240,7 +239,7 @@ rule merge_final:
 # ----------------------------------------------------------------------
 rule add_cluster_species:
     input:
-        annotated = FINAL_ANNOTATED_TSV,
+        annotated = ANNOTATED_METADATA,
         uc = CLUSTER_UC,
         wg_meta = WG_METADATA,
     output:

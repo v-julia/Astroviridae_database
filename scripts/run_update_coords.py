@@ -14,11 +14,11 @@ from src.update_utils import update_coords_from_assignments
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Update coordinate CSV with assigned ORFs from a TSV file."
+        description="Update coordinate TSV with assigned ORFs from a TSV file."
     )
     parser.add_argument(
-        "coord_csv",
-        help="Input coordinate CSV (e.g., *_orf-coords.csv)"
+        "coord_tsv",
+        help="Input coordinate TSV (e.g., *_orf-coords.tsv)"
     )
     parser.add_argument(
         "assignments_tsv",
@@ -31,7 +31,7 @@ def main():
     args = parser.parse_args()
 
     update_coords_from_assignments(
-        args.coord_csv,
+        args.coord_tsv,
         args.assignments_tsv,
         args.output_csv
     )

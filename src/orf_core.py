@@ -355,7 +355,7 @@ def orf_coord_updated(input_file, orf_map, output_dir):
         os.makedirs(out_dir, exist_ok=True)
         out_file_name_temp = os.path.join(out_dir, base_name)
         
-    out_file_name = out_file_name_temp  + '_orf-coords.csv'
+    out_file_name = out_file_name_temp  + '_orf-coords.tsv'
     print(out_file_name)
 
     # Create a subfolder for logs (inside the same output directory)
@@ -540,6 +540,7 @@ def orf_coord_updated(input_file, orf_map, output_dir):
                                                     cds_info["original_translation"] = cds_info["translation"]
                                                     cds_info["translation"] = corrected["translation"]
                                                     cds_info["correction_frame_offset"] = offset
+                                                    cds_info["codon_start"] = int(cds_info["codon_start"]) + offset
                                                 else:
                                                     cds_info["is_corrected"] = False
                                                     cds_info["correction_failed"] = True
@@ -600,6 +601,7 @@ def orf_coord_updated(input_file, orf_map, output_dir):
                                         cds_info["original_translation"] = cds_info["translation"]
                                         cds_info["translation"] = corrected["translation"]
                                         cds_info["correction_frame_offset"] = offset
+                                        cds_info["codon_start"] = int(cds_info["codon_start"]) + offset
                                     else:
                                         cds_info["is_corrected"] = False
                                         cds_info["correction_failed"] = True
@@ -767,15 +769,15 @@ def orf_coord_updated(input_file, orf_map, output_dir):
         with open(out_file_name, 'w') as out_file:
             line = "Accession"
             for ORF in orf_types_final:
-                line = line + ',' + ORF + ',' + ORF + '-strand'
+                line = line + '\t' + ORF + '\t' + ORF + '-strand'
             out_file.write(line + '\n')
             for rec_id, values in dict_coord.items():
                 s = rec_id
                 for orf in orf_types_final:
                     if orf in values:
-                        s += f",{values[orf][0]}-{values[orf][1]},{values[orf+'-strand']}"
+                        s += f"\t{values[orf][0]}-{values[orf][1]}\t{values[orf+'-strand']}"
                     else:
-                        s += ",NA-NA,NA"
+                        s += "\tNA-NA\tNA"
                 s += "\n"
                 out_file.write(s)
         out_file.close()

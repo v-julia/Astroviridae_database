@@ -20,7 +20,7 @@ def main():
 
     # Read inputs
     meta = pd.read_csv(args.metadata_tsv, sep='\t')
-    coords = pd.read_csv(args.coord_csv)
+    coords = pd.read_csv(args.coord_csv, sep='\t')
     tax = pd.read_csv(args.host_taxonomy_tsv, sep='\t')
 
     # Merge metadata with coordinates on Accession

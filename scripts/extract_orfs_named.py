@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Extract ORF sequences from GenBank (or FASTA) using coordinates from a CSV file.
+Extract ORF sequences from GenBank (or FASTA) using coordinates from a TSV file.
 Generate sequence names based on metadata (host, country, date, etc.) with optional regex mappings.
 """
 import argparse
@@ -141,19 +141,19 @@ def build_sequence_name(row, columns, host_compiled, country_compiled):
 # ----------------------------------------------------------------------
 # Main extraction function
 # ----------------------------------------------------------------------
-def extract_orfs(input_file, coord_csv, meta_tsv, output_dir,
+def extract_orfs(input_file, coord_tsv, meta_tsv, output_dir,
                  columns, input_format='gb', basename=None,
                  host_map=None, country_map=None, translate=False):
     """
-    Extract ORF sequences using coordinates from a CSV file.
+    Extract ORF sequences using coordinates from a TSV file.
     Names are built from metadata using the provided columns.
 
     Parameters:
     -----------
     input_file : str
         Path to input file (GenBank or FASTA)
-    coord_csv : str
-        CSV file with ORF coordinates; index: Accession, columns: 1A, 1B, 2, and strand columns
+    coord_tsv : str
+        TSV file with ORF coordinates; index: Accession, columns: 1A, 1B, 2, and strand columns
     meta_tsv : str
         Metadata TSV file (must contain all columns used in --columns)
     output_dir : str
@@ -181,7 +181,7 @@ def extract_orfs(input_file, coord_csv, meta_tsv, output_dir,
     country_compiled = load_mapping(country_map) if country_map else []
 
     # 3. Read coordinate file
-    coords = pd.read_csv(coord_csv, index_col=0)   # index is Accession
+    coords = pd.read_csv(coord_csv, index_col=0, sep='\t')   # index is Accession
     orf_list = ['1A', '1B', '2']
     for orf in orf_list:
         if orf not in coords.columns:
@@ -271,7 +271,7 @@ def main():
     parser.add_argument('--format', default='gb', choices=['gb', 'fasta'],
                         help='Input format: gb (GenBank) or fasta (default: gb)')
     parser.add_argument('--coords', required=True,
-                        help='CSV file with ORF coordinates (index: Accession, columns: 1A,1B,2,...-strand)')
+                        help='TSV file with ORF coordinates (index: Accession, columns: 1A,1B,2,...-strand)')
     parser.add_argument('--metadata', required=True,
                         help='TSV metadata file (must contain all columns used in --columns)')
     parser.add_argument('--output_dir', required=True,
@@ -287,7 +287,7 @@ def main():
 
     extract_orfs(
         input_file=args.input,
-        coord_csv=args.coords,
+        coord_tsv=args.coords,
         meta_tsv=args.metadata,
         output_dir=args.output_dir,
         columns=args.columns,
