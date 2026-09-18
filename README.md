@@ -92,7 +92,7 @@ Every full pipeline run is stored in a separate folder named with the run date (
 │   ├── run_get_host_taxonomy.py
 │   ├── run_merge_all.py
 │   ├── add_cluster_species.py
-│   └── run_extract_orfs_named.py     # Auxiliary script (not part of core pipeline)
+│   └── extract_orfs_named.py     # Auxiliary script (not part of core pipeline)
 ├── config.yaml                       # Pipeline configuration
 ├── Snakefile                         # Snakemake workflow definition
 └── README.md
@@ -125,7 +125,7 @@ The following scripts are **not** required for the main pipeline but provide add
 
 | Script | Description |
 |--------|-------------|
-| `run_extract_orfs_named.py` | Extract individual ORF FASTA files with metadata‑derived headers (host class, host, accession, collection date, country). Useful for downstream phylogenetic analyses. |
+| `extract_orfs_named.py` | Extract individual ORF FASTA files with metadata‑derived headers (host class, host, accession, collection date, country). Useful for downstream phylogenetic analyses. |
 
 
 

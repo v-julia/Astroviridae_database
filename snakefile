@@ -100,8 +100,8 @@ rule hmmscan_annotated:
         fasta = COORDS / f"{BASE}_orfs.faa",
         db = PFAM,
     output:
-        domtbl = HMMER_ANNOT / "annotated_domains.tbl",
-        log = HMMER_ANNOT / "hmmscan.log",
+        domtbl = HMMER_ANNOT / f"{BASE}_annotated_domains.tbl",
+        log = HMMER_ANNOT / f"{BASE}_hmmscan.log",
     shell:
         "{config[tools][hmmscan]} --domtblout {output.domtbl} --noali {input.db} {input.fasta} > {output.log} 2>&1"
 

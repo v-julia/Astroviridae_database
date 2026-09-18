@@ -110,7 +110,7 @@ def export_orfs_to_fasta(records, coord_dict, fasta_filename, transl_table=1):
                 # Translate (stop codon removed)
                 protein = str(seq.translate(table=transl_table, to_stop=True))
                 # FASTA header
-                header = (f">{acc}|{orf}|{start}-{end}|strand={strand}|len={len(protein)}")
+                header = (f">{acc}|{orf}|{start}-{end}|strand={strand}")
                 out_fasta.write(header + "\n")
                 # Write protein in lines of 60 characters
                 for i in range(0, len(protein), 60):
