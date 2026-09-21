@@ -234,7 +234,7 @@ def extract_orfs(input_file, coord_csv, meta_tsv, output_dir,
             # Build sequence name (without ORF in the name)
             name = build_sequence_name(meta_row, columns.split(','), host_compiled, country_compiled)
             # Replace '/' with '_' for safety, remove extra spaces
-            name = name.replace('/', '_').strip()
+            #name = name.replace('/', '_').strip()
 
             # Create SeqRecord
             new_seq = SeqRecord(seq, id=name, description='')
