@@ -85,6 +85,7 @@ def parse_hmmscan_domtbl(domtbl_file, evalue_threshold=0.01):
             }
             domain_hits.setdefault(query, []).append(hit)
     return domain_hits
+
 def assign_orf_from_domains(domain_hits, domain_map, min_score=0, min_coverage=0.5):
     """
     Given a list of domain hits for a single sequence,
@@ -95,19 +96,28 @@ def assign_orf_from_domains(domain_hits, domain_map, min_score=0, min_coverage=0
         return None
     # Sort by E-value (ascending)
     sorted_hits = sorted(domain_hits, key=lambda x: x['evalue'])
+    domains = []
     for hit in sorted_hits:
         dom_name = hit['domain_name']
         if dom_name in domain_map:
-            return domain_map[dom_name]
-    return None
+            domains.append(domain_map[dom_name])
+    domains = list(set(domains))
+    if len(domains) > 1:
+        print("Two domains are found in one CDS")
+        print(domains)
+        return "_".join(domains)
+    if len(domains) == 1:
+        return domains[0]
+    else:
+        return None
 
-def check_annotated_orfs(coord_csv, domain_table_file, domain_map_file):
+def check_annotated_orfs(coord_tsv, domain_table_file, domain_map_file):
     # Parse domain hits
     domain_hits = parse_hmmscan_domtbl(domain_table_file)
     domain_map = load_domain_map(domain_map_file)
     mismatches = []
-    with open(coord_csv) as f:
-        reader = csv.DictReader(f)
+    with open(coord_tsv) as f:
+        reader = csv.DictReader(f,delimiter='\t')
         rows = list(reader)
     
     for row in rows:
@@ -118,14 +128,13 @@ def check_annotated_orfs(coord_csv, domain_table_file, domain_map_file):
             start, end = row[orf].split('-')
             strand = row[orf + '-strand']
             # Build the exact header used in FASTA
-            header = f"{acc}|{orf}|{start}-{end}|strand={strand}"  # no len, but you can include if needed
+            header = f"{acc}|{orf}|{start}-{end}|strand={strand}"
             # Find domain hits for this header
             hits = domain_hits.get(header, [])
             assigned = assign_orf_from_domains(hits, domain_map)
             if assigned and assigned != orf:
                 mismatches.append((acc, orf, assigned, start, end, strand))
     return mismatches
-
 
 def assign_problematic_orfs(candidate_tsv, domain_table_file, domain_map_file, output_tsv):
     """

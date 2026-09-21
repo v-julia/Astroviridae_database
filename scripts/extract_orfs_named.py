@@ -1,118 +1,19 @@
 #!/usr/bin/env python3
 """
-Extract ORF sequences from GenBank (or FASTA) using coordinates from a CSV file.
+Extract ORF sequences from GenBank (or FASTA) using coordinates from a TSV file.
 Generate sequence names based on metadata (host, country, date, etc.) with optional regex mappings.
 """
 import argparse
 import os
-import re
-import calendar
+import sys
 import pandas as pd
 from Bio import SeqIO
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
 
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-# ----------------------------------------------------------------------
-# Helper functions
-# ----------------------------------------------------------------------
-def load_mapping(mapping_file):
-    """
-    Load a TSV mapping file with columns: regex_pattern, short_code.
-    Returns a list of (compiled_regex, short_code) tuples.
-    """
-    if not mapping_file or not os.path.exists(mapping_file):
-        return []
-    df = pd.read_csv(mapping_file, sep='\t', header=None, names=['pattern', 'code'])
-    compiled = []
-    for _, row in df.iterrows():
-        try:
-            pat = re.compile(str(row['pattern']), re.IGNORECASE)
-            compiled.append((pat, row['code']))
-        except re.error as e:
-            print(f"Warning: invalid regex '{row['pattern']}': {e}")
-    return compiled
-
-
-def apply_mapping(value, compiled_patterns, default='NA'):
-    """
-    Apply regex patterns to a value and return the first matching short code.
-    If no pattern matches, return a cleaned version of the original value.
-    """
-    if pd.isna(value):
-        return default
-    for pat, code in compiled_patterns:
-        if pat.search(str(value)):
-            return code
-    # Fallback: clean the original value
-    return str(value).replace(' ', '-').replace('/', '-')
-
-
-def clean_field(value):
-    """Replace problematic characters for safe use in filenames."""
-    if pd.isna(value):
-        return 'NA'
-    return str(value).replace('/', '-').replace(' ', '-').replace(',', '-').replace('(', '-').replace(')', '-')
-
-
-def standardize_date(date_str):
-    """
-    Convert various date formats to ISO 8601-like string:
-      - YYYY-MM-DD if day available
-      - YYYY-MM if only month available
-      - YYYY if only year available
-    Handles ranges (e.g., 08-Jul-2014/11-Oct-2016) by joining with '_'.
-    """
-    if pd.isna(date_str):
-        return 'NA'
-    s = str(date_str).strip()
-
-    # Handle date range: split on '/' and standardize each part, then join with '_'
-    if '/' in s and not re.match(r'^\d{4}$', s) and not re.match(r'^\d{4}-\d{2}$', s):
-        parts = s.split('/')
-        std_parts = [standardize_date(p) for p in parts]
-        return '_'.join(std_parts)
-
-    # DD-MMM-YYYY (e.g., 13-Jun-2024)
-    match = re.match(r'^(\d{1,2})-([A-Za-z]{3})-(\d{4})$', s)
-    if match:
-        day, mon, year = match.groups()
-        month_num = list(calendar.month_abbr).index(mon.capitalize())
-        return f"{year}-{month_num:02d}-{int(day):02d}"
-
-    # DD.MM.YYYY (e.g., 02.10.2019)
-    match = re.match(r'^(\d{1,2})\.(\d{1,2})\.(\d{4})$', s)
-    if match:
-        day, mon, year = match.groups()
-        return f"{year}-{int(mon):02d}-{int(day):02d}"
-
-    # YYYY-MM (e.g., 2019-10)
-    match = re.match(r'^(\d{4})-(\d{1,2})$', s)
-    if match:
-        year, mon = match.groups()
-        return f"{year}-{int(mon):02d}"
-
-    # MM-YYYY or MM.YYYY (e.g., 11-2025 or 11.2025)
-    match = re.match(r'^(\d{1,2})[-.](\d{4})$', s)
-    if match:
-        mon, year = match.groups()
-        return f"{year}-{int(mon):02d}"
-
-    # MMM-YYYY (e.g., Nov-2025)
-    match = re.match(r'^([A-Za-z]{3})-(\d{4})$', s)
-    if match:
-        mon, year = match.groups()
-        month_num = list(calendar.month_abbr).index(mon.capitalize())
-        return f"{year}-{month_num:02d}"
-
-    # Just YYYY
-    match = re.match(r'^(\d{4})$', s)
-    if match:
-        return s
-
-    # If nothing matches, clean and return as is
-    return clean_field(s)
-
+from src.mapping_utils import load_mapping,clean_field,apply_mapping,standardize_date
 
 def build_sequence_name(row, columns, host_compiled, country_compiled):
     """
@@ -141,19 +42,19 @@ def build_sequence_name(row, columns, host_compiled, country_compiled):
 # ----------------------------------------------------------------------
 # Main extraction function
 # ----------------------------------------------------------------------
-def extract_orfs(input_file, coord_csv, meta_tsv, output_dir,
+def extract_orfs(input_file, coord_tsv, meta_tsv, output_dir,
                  columns, input_format='gb', basename=None,
                  host_map=None, country_map=None, translate=False):
     """
-    Extract ORF sequences using coordinates from a CSV file.
+    Extract ORF sequences using coordinates from a TSV file.
     Names are built from metadata using the provided columns.
 
     Parameters:
     -----------
     input_file : str
         Path to input file (GenBank or FASTA)
-    coord_csv : str
-        CSV file with ORF coordinates; index: Accession, columns: 1A, 1B, 2, and strand columns
+    coord_tsv : str
+        TSV file with ORF coordinates; index: Accession, columns: 1A, 1B, 2, and strand columns
     meta_tsv : str
         Metadata TSV file (must contain all columns used in --columns)
     output_dir : str
@@ -181,7 +82,7 @@ def extract_orfs(input_file, coord_csv, meta_tsv, output_dir,
     country_compiled = load_mapping(country_map) if country_map else []
 
     # 3. Read coordinate file
-    coords = pd.read_csv(coord_csv, index_col=0)   # index is Accession
+    coords = pd.read_csv(coord_tsv, index_col=0, sep='\t')   # index is Accession
     orf_list = ['1A', '1B', '2']
     for orf in orf_list:
         if orf not in coords.columns:
@@ -216,7 +117,7 @@ def extract_orfs(input_file, coord_csv, meta_tsv, output_dir,
 
         for orf in orf_list:
             coord_str = coords.loc[acc, orf]
-            if coord_str == 'NA-NA':
+            if coord_str == 'NA-NA' or pd.isna(coord_str):
                 continue
             start, end = map(int, coord_str.split('-'))
             strand = coords.loc[acc, f'{orf}-strand']
@@ -264,20 +165,20 @@ def extract_orfs(input_file, coord_csv, meta_tsv, output_dir,
 # ----------------------------------------------------------------------
 def main():
     parser = argparse.ArgumentParser(
-        description="Extract ORFs from GenBank/FASTA using coordinates from CSV, with metadata-based naming."
+        description="Extract ORFs from GenBank/FASTA using coordinates from TSV, with metadata-based naming."
     )
     parser.add_argument('--input', required=True,
                         help='Input file (GenBank or FASTA)')
     parser.add_argument('--format', default='gb', choices=['gb', 'fasta'],
                         help='Input format: gb (GenBank) or fasta (default: gb)')
     parser.add_argument('--coords', required=True,
-                        help='CSV file with ORF coordinates (index: Accession, columns: 1A,1B,2,...-strand)')
+                        help='TSV file with ORF coordinates (index: Accession, columns: 1A,1B,2,...-strand)')
     parser.add_argument('--metadata', required=True,
                         help='TSV metadata file (must contain all columns used in --columns)')
     parser.add_argument('--output_dir', required=True,
                         help='Output directory for FASTA files')
     parser.add_argument('--columns', required=True,
-                        help='Comma-separated columns for sequence name (e.g., Host_class,Host,Accession,Collection_date,Country)')
+                        help='Comma-separated columns for sequence name (e.g., "Accession,Host_class,Host,Collection date,Country")')
     parser.add_argument('--basename', help='Base name for output files (default: stem of input file)')
     parser.add_argument('--host_map', help='TSV mapping for host names (regex, short_code) – optional')
     parser.add_argument('--country_map', help='TSV mapping for country names (regex, short_code) – optional')
@@ -287,7 +188,7 @@ def main():
 
     extract_orfs(
         input_file=args.input,
-        coord_csv=args.coords,
+        coord_tsv=args.coords,
         meta_tsv=args.metadata,
         output_dir=args.output_dir,
         columns=args.columns,

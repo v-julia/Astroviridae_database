@@ -55,7 +55,7 @@ def main():
     wg = pd.read_csv(args.wg_metadata, sep='\t')
     wg_dict = {}
     for _, row in wg.iterrows():
-        acc = str(row['GenBank.Accession']).strip()
+        acc = str(row['Accession']).strip()
         wg_dict[acc] = {
                 'species': clean_value(row.get('species_binomial', 'NA')),
                 'virus_name': clean_value(row.get('virus name(10.1093/ve/veaf006)', 'NA'))

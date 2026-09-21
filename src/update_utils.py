@@ -1,19 +1,19 @@
 """"
 Utilities to merge assigned ORFs (from problematic or predicted candidates)
-into the master coordinate CSV.
+into the master coordinate TSV.
 """
 
 
 import csv
 from collections import defaultdict
 
-def update_coords_from_assignments(coord_csv, assignments_tsv, output_csv):
+def update_coords_from_assignments(coord_tsv, assignments_tsv, output_tsv):
     """
-    Read the coordinate CSV and a TSV of assigned ORFs.
+    Read the coordinate TSV and a TSV of assigned ORFs.
     For each accession+ORF combination in the assignments file,
-    if the ORF is currently 'NA-NA' in the coordinate CSV, fill it with
+    if the ORF is currently 'NA-NA' in the coordinate TSV, fill it with
     the coordinates and strand from the best assignment (longest ORF).
-    If the accession is not present in the coordinate CSV, add a new row.
+    If the accession is not present in the coordinate TSV, add a new row.
     All other columns (other ORFs) remain unchanged.
 
     Expected columns in assignments_tsv:
@@ -46,14 +46,14 @@ def update_coords_from_assignments(coord_csv, assignments_tsv, output_csv):
                     'length': length
                 }
 
-    # --- Read existing coordinate CSV ---
-    with open(coord_csv) as f:
-        reader = csv.DictReader(f)
+    # --- Read existing coordinate TSV ---
+    with open(coord_tsv) as f:
+        reader = csv.DictReader(f, delimiter="\t")
         fieldnames = reader.fieldnames
         rows = list(reader)
 
-    # Build a set of accessions present in the CSV
-    accessions_in_csv = {row['Accession'] for row in rows}
+    # Build a set of accessions present in the coordinate TSV
+    accessions_in_coord = {row['Accession'] for row in rows}
     modified_count = 0  # will count rows that were updated
 
     # --- Update rows for existing accessions ---
@@ -70,10 +70,10 @@ def update_coords_from_assignments(coord_csv, assignments_tsv, output_csv):
                     row_modified = True
         if row_modified:
             modified_count += 1
-    # --- Add rows for new accessions that appear in assignments but not in CSV ---
+    # --- Add rows for new accessions that appear in assignments but not in coordinate TSV ---
     # First, collect all accessions from assignments
     assigned_accessions = {acc for (acc, _) in best.keys()}
-    new_accessions = assigned_accessions - accessions_in_csv
+    new_accessions = assigned_accessions - accessions_in_coord
     print("New accessions:")
     print(new_accessions)
     for acc in new_accessions:
@@ -91,12 +91,12 @@ def update_coords_from_assignments(coord_csv, assignments_tsv, output_csv):
                 new_row[orf + '-strand'] = str(c['strand'])
         rows.append(new_row)
 
-    # --- Write updated CSV ---
-    with open(output_csv, 'w', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+    # --- Write updated coordinate TSV ---
+    with open(output_tsv, 'w', newline='') as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames,delimiter="\t")
         writer.writeheader()
         writer.writerows(rows)
 
-    print(f"Updated coordinate CSV written to: {output_csv}")
+    print(f"Updated coordinate TSV written to: {output_tsv}")
     print(f"  - Modified rows for existing accessions: {modified_count}")
     print(f"  - Added rows for new accessions: {len(new_accessions)}")

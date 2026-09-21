@@ -1,0 +1,1676 @@
+# hmmscan :: search sequence(s) against a profile database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             data/results/30-06-2026/prodigal/Astroviridae_30062026_no_cds_sequences_proteins.faa
+# target HMM database:             /data/DB/PFAM-A/Pfam-A.hmm
+# per-dom hits tabular output:     data/results/30-06-2026/hmmer/predicted_orfs/Astroviridae_30062026_predicted_domains.tbl
+# show alignments in output:       no
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PQ110289.1_1  [L=295]
+Description: # 2 # 886 # 1 # ID=1_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.456
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each model:
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (295 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                      2297  (0.0762262); expected 602.7 (0.02)
+Passed bias filter:                     1163  (0.0385943); expected 602.7 (0.02)
+Passed Vit filter:                        81  (0.00268799); expected 30.1 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.21u 0.13s 00:00:00.34 Elapsed: 00:00:00.33
+# Mc/sec: 4131.29
+//
+Query:       PQ110289.1_2  [L=408]
+Description: # 1003 # 2226 # 1 # ID=1_2;partial=01;start_type=GTG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.431
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+      2e-10   40.7   0.0    2.3e-10   40.5   0.0    1.1  1  RdRP_1    Viral RNA-dependent RNA polymerase
+
+
+Domain annotation for each model:
+>> RdRP_1  Viral RNA-dependent RNA polymerase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.5   0.0   7.7e-15   2.3e-10     144     411 ..     116     387 ..      36     404 .. 0.87
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (408 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                       637  (0.0211389); expected 602.7 (0.02)
+Passed bias filter:                      597  (0.0198115); expected 602.7 (0.02)
+Passed Vit filter:                        44  (0.00146014); expected 30.1 (0.001)
+Passed Fwd filter:                         1  (3.31851e-05); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.21u 0.09s 00:00:00.30 Elapsed: 00:00:00.30
+# Mc/sec: 6273.95
+//
+Query:       PP512783.1_1  [L=337]
+Description: # 1 # 1011 # 1 # ID=2_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.421
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+  ------ inclusion threshold ------
+      0.059   14.7   9.2       0.14   13.4   9.2    1.6  1  YabA            Initiation control protein YabA
+       0.12   13.0   6.0      0.096   13.4   1.4    2.1  2  Syntaxin_2      Syntaxin-like protein
+       0.18   12.5   3.8       0.24   12.2   2.3    2.0  2  Anionic_AP2     Anionic antimicrobial peptide 2
+       0.19   12.4   4.3       0.28   11.9   4.3    1.2  1  Phage_scaffold  Phage capsid assembly scaffolding protein
+       0.25   12.3   3.5        7.9    7.4   0.2    2.6  2  TSC22           TSC-22/dip/bun family
+       0.54   10.4   2.4       0.68   10.1   2.4    1.1  1  Exonuc_VII_L    Exonuclease VII, large subunit
+       0.58   10.9   8.5       0.87   10.3   8.5    1.2  1  Rootletin       Ciliary rootlet component, centrosome cohesio
+       0.66   11.1   2.0        1.1   10.4   2.0    1.3  1  Ribosomal_S13   Ribosomal protein S13/S18
+        2.3    9.2   3.3        4.1    8.4   3.3    1.4  1  FlxA            FlxA-like protein
+
+
+Domain annotation for each model:
+>> YabA  Initiation control protein YabA
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.4   9.2   4.3e-05      0.14       4      78 ..       4      80 ..       2      81 .. 0.82
+
+>> Syntaxin_2  Syntaxin-like protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.4   1.4   2.9e-05     0.096      75     107 ..       2      34 ..       2      51 .. 0.87
+   2 ?    1.6   0.2      0.13   4.3e+02      27      51 ..      55      80 ..      49      84 .. 0.84
+
+>> Anionic_AP2  Anionic antimicrobial peptide 2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.2   2.3   7.1e-05      0.24       1      25 [.       2      26 ..       2      37 .. 0.89
+   2 ?   -2.5   0.0       2.7   9.1e+03      22      31 ..     196     205 ..     196     207 .. 0.80
+
+>> Phage_scaffold  Phage capsid assembly scaffolding protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.9   4.3   8.3e-05      0.28      41     118 ..       1      82 [.       1      89 [. 0.87
+
+>> TSC22  TSC-22/dip/bun family
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.3   0.5     0.011        37      14      34 ..       1      21 [.       1      24 [. 0.91
+   2 ?    7.4   0.2    0.0024       7.9      17      45 ..      26      54 ..      22      67 .. 0.82
+
+>> Exonuc_VII_L  Exonuclease VII, large subunit
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.1   2.4    0.0002      0.68     143     216 ..       4      80 ..       1     108 [. 0.81
+
+>> Rootletin  Ciliary rootlet component, centrosome cohesion
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.3   8.5   0.00026      0.87      18      83 ..       3      74 ..       1      83 [. 0.82
+
+>> Ribosomal_S13  Ribosomal protein S13/S18
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.4   2.0   0.00033       1.1      39     109 ..      13      87 ..       3      90 .. 0.77
+
+>> FlxA  FlxA-like protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.4   3.3    0.0012       4.1      18      53 ..       2      35 ..       1      39 [. 0.73
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (337 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                      3341  (0.110871); expected 602.7 (0.02)
+Passed bias filter:                     1790  (0.0594013); expected 602.7 (0.02)
+Passed Vit filter:                       246  (0.00816354); expected 30.1 (0.001)
+Passed Fwd filter:                        11  (0.000365036); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               9  [number of targets reported over threshold]
+# CPU time: 0.30u 0.10s 00:00:00.40 Elapsed: 00:00:00.40
+# Mc/sec: 3967.41
+//
+Query:       PP512783.1_2  [L=257]
+Description: # 1128 # 1898 # 1 # ID=2_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.418
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------        -----------
+    5.5e-29  101.8   3.5      1e-28  101.0   3.5    1.4  1  Astro_VPg        Astrovirus VPg protein
+  ------ inclusion threshold ------
+       0.14   12.6   0.0       0.22   11.9   0.0    1.3  1  DUF6698          Family of unknown function (DUF6698)
+       0.15   12.3   0.3        8.3    6.7   0.1    2.5  2  Fip1             Fip1 motif
+       0.31   11.8   1.8       0.55   11.0   1.8    1.4  1  PTPlike_phytase  Inositol hexakisphosphate
+       0.84   11.2   0.0       0.84   11.2   0.0    3.3  3  zf-C2H2_4        C2H2-type zinc finger
+       0.84   10.9   0.0       0.84   10.9   0.0    2.7  3  zf-C2H2          Zinc finger, C2H2 type
+        1.1    9.9   6.7        8.2    7.1   0.1    2.7  2  Zn_ribbon_RPB9   RNA polymerases M/15 Kd subunit
+        3.8    8.5  12.7    4.2e+02    1.9  12.7    2.5  1  DZR              Double zinc ribbon
+
+
+Domain annotation for each model:
+>> Astro_VPg  Astrovirus VPg protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  101.0   3.5   2.6e-32     1e-28       2      93 ..      58     142 ..      57     152 .. 0.96
+
+>> DUF6698  Family of unknown function (DUF6698)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.9   0.0   5.9e-05      0.22      28      74 ..      55     103 ..      36     132 .. 0.77
+
+>> Fip1  Fip1 motif
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.7   0.1    0.0022       8.3      15      25 ..       3      13 ..       1      14 [. 0.90
+   2 ?    3.1   0.0      0.03   1.1e+02      27      37 ..     115     125 ..     114     129 .. 0.83
+
+>> PTPlike_phytase  Inositol hexakisphosphate
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.0   1.8   0.00015      0.55      24     103 ..      27     106 ..      15     121 .. 0.77
+
+>> zf-C2H2_4  C2H2-type zinc finger
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.5   0.4         8     3e+04       3       7 ..     190     194 ..     189     195 .. 0.77
+   2 ?    1.7   0.2      0.27     1e+03       2      15 ..     212     225 ..     211     231 .. 0.77
+   3 ?   11.2   0.0   0.00022      0.84       2      20 ..     231     249 ..     230     251 .. 0.92
+
+>> zf-C2H2  Zinc finger, C2H2 type
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.6   0.3       4.4   1.6e+04       2       7 ..     189     194 ..     189     195 .. 0.84
+   2 ?   -3.0   1.5       5.9   2.2e+04       2       8 ..     212     218 ..     211     219 .. 0.78
+   3 ?   10.9   0.0   0.00022      0.84       3      19 ..     232     248 ..     230     250 .. 0.94
+
+>> Zn_ribbon_RPB9  RNA polymerases M/15 Kd subunit
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.1   0.1    0.0022       8.2      20      32 ..     188     198 ..     181     200 .. 0.76
+   2 ?    3.1   3.4     0.039   1.5e+02       2      28 ..     211     236 ..     210     239 .. 0.71
+
+>> DZR  Double zinc ribbon
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.9  12.7      0.11   4.2e+02       1      32 [.     190     237 ..     178     241 .. 0.61
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (257 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                      2936  (0.0974315); expected 602.7 (0.02)
+Passed bias filter:                     1130  (0.0374992); expected 602.7 (0.02)
+Passed Vit filter:                       117  (0.00388266); expected 30.1 (0.001)
+Passed Fwd filter:                        10  (0.000331851); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               8  [number of targets reported over threshold]
+# CPU time: 0.22u 0.11s 00:00:00.33 Elapsed: 00:00:00.32
+# Mc/sec: 3756.44
+//
+Query:       PP512783.1_3  [L=358]
+Description: # 1883 # 2956 # 1 # ID=2_3;partial=00;start_type=TTG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.383
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    6.5e-51  174.2   0.4    7.9e-51  173.9   0.4    1.0  1  RdRP_1    Viral RNA-dependent RNA polymerase
+
+
+Domain annotation for each model:
+>> RdRP_1  Viral RNA-dependent RNA polymerase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  173.9   0.4   2.6e-55   7.9e-51      10     313 ..      41     352 ..      38     357 .. 0.89
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (358 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                       714  (0.0236942); expected 602.7 (0.02)
+Passed bias filter:                      543  (0.0180195); expected 602.7 (0.02)
+Passed Vit filter:                        27  (0.000895998); expected 30.1 (0.001)
+Passed Fwd filter:                         1  (3.31851e-05); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.21u 0.08s 00:00:00.28 Elapsed: 00:00:00.29
+# Mc/sec: 5724.71
+//
+Query:       PP512783.1_4  [L=156]
+Description: # 3196 # 3663 # 1 # ID=2_4;partial=00;start_type=TTG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.438
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+      7e-11   42.7   9.4    9.9e-11   42.2   8.9    1.5  2  Astro_capsid_N  Astrovirus capsid protein nucleoplasmin-like 
+  ------ inclusion threshold ------
+       0.12   11.9   4.0       0.15   11.6   4.0    1.0  1  Glypican        Glypican
+          1    9.0   4.2        1.1    8.9   4.2    1.2  1  EBNA2_Core      EBNA-2 core transactivation domain
+
+
+Domain annotation for each model:
+>> Astro_capsid_N  Astrovirus capsid protein nucleoplasmin-like domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.4   0.0       0.4     4e+03      10      40 ..      29      55 ..      21      64 .. 0.42
+   2 !   42.2   8.9   9.9e-15   9.9e-11       2     102 ..      63     153 ..      49     154 .. 0.74
+
+>> Glypican  Glypican
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.6   4.0   1.5e-05      0.15     321     385 ..      47     113 ..      35     118 .. 0.77
+
+>> EBNA2_Core  EBNA-2 core transactivation domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.9   4.2   0.00011       1.1     241     274 ..      52      83 ..      22     116 .. 0.69
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (156 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                      1859  (0.0616911); expected 602.7 (0.02)
+Passed bias filter:                      841  (0.0279087); expected 602.7 (0.02)
+Passed Vit filter:                        53  (0.00175881); expected 30.1 (0.001)
+Passed Fwd filter:                         3  (9.95553e-05); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.22u 0.06s 00:00:00.28 Elapsed: 00:00:00.27
+# Mc/sec: 2688.87
+//
+Query:       PP512783.1_5  [L=206]
+Description: # 3660 # 4277 # 1 # ID=2_5;partial=00;start_type=TTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.479
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    4.7e-48  164.4   0.8    5.6e-48  164.2   0.8    1.1  1  Astro_capsid_N  Astrovirus capsid protein nucleoplasmin-like 
+  ------ inclusion threshold ------
+       0.14   12.7   0.0       0.25   11.9   0.0    1.4  1  Viral_coat      Viral coat protein (S domain)
+
+
+Domain annotation for each model:
+>> Astro_capsid_N  Astrovirus capsid protein nucleoplasmin-like domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  164.2   0.8   3.7e-52   5.6e-48     115     249 .]       2     137 ..       1     137 [. 0.97
+
+>> Viral_coat  Viral coat protein (S domain)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.9   0.0   1.7e-05      0.25      76     124 ..       3      53 ..       1      66 [. 0.82
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (206 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                       536  (0.0177872); expected 602.7 (0.02)
+Passed bias filter:                      499  (0.0165594); expected 602.7 (0.02)
+Passed Vit filter:                        34  (0.00112829); expected 30.1 (0.001)
+Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.16u 0.11s 00:00:00.27 Elapsed: 00:00:00.26
+# Mc/sec: 3749.28
+//
+Query:       PP512783.1_6  [L=222]
+Description: # 4253 # 4918 # 1 # ID=2_6;partial=00;start_type=TTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.447
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each model:
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (222 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                       424  (0.0140705); expected 602.7 (0.02)
+Passed bias filter:                      355  (0.0117807); expected 602.7 (0.02)
+Passed Vit filter:                        27  (0.000895998); expected 30.1 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.17u 0.09s 00:00:00.26 Elapsed: 00:00:00.26
+# Mc/sec: 4049.87
+//
+Query:       OR800315.1_1  [L=93]
+Description: # 85 # 363 # 1 # ID=3_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.491
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------        -----------
+  ------ inclusion threshold ------
+      0.076   13.8   0.9       0.12   13.1   0.9    1.3  1  zf-RING_DCST1_C  E3 ubiquitin-protein ligase DCST1-like, C-te
+       0.96   10.6   0.1       0.96   10.6   0.1    2.7  3  DUF7564          Family of unknown function (DUF7564)
+
+
+Domain annotation for each model:
+>> zf-RING_DCST1_C  E3 ubiquitin-protein ligase DCST1-like, C-terminal RING domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.1   0.9   7.8e-06      0.12       2      22 ..      71      92 ..      70      92 .. 0.87
+
+>> DUF7564  Family of unknown function (DUF7564)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.4   0.2     0.098   1.5e+03      48      68 ..      18      38 ..       5      43 .. 0.62
+   2 ?    1.8   0.1     0.035   5.2e+02      35      53 ..      49      67 ..      46      71 .. 0.75
+   3 ?   10.6   0.1   6.4e-05      0.96       4      21 ..      68      85 ..      65      89 .. 0.82
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (93 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                      2973  (0.0986593); expected 602.7 (0.02)
+Passed bias filter:                     1031  (0.0342138); expected 602.7 (0.02)
+Passed Vit filter:                       127  (0.00421451); expected 30.1 (0.001)
+Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.18u 0.08s 00:00:00.26 Elapsed: 00:00:00.26
+# Mc/sec: 1665.99
+//
+Query:       OR800315.1_2  [L=53]
+Description: # 432 # 590 # 1 # ID=3_2;partial=01;start_type=ATG;rbs_motif=AATAA;rbs_spacer=13bp;genetic_code=11;gc_cont=0.440
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each model:
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (53 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                       310  (0.0102874); expected 602.7 (0.02)
+Passed bias filter:                      299  (0.00992235); expected 602.7 (0.02)
+Passed Vit filter:                        21  (0.000696887); expected 30.1 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.12u 0.11s 00:00:00.23 Elapsed: 00:00:00.22
+# Mc/sec: 1103.91
+//
+Query:       OP474168.1_1  [L=83]
+Description: # 1 # 249 # 1 # ID=4_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.438
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each model:
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (83 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                       414  (0.0137386); expected 602.7 (0.02)
+Passed bias filter:                      357  (0.0118471); expected 602.7 (0.02)
+Passed Vit filter:                        29  (0.000962368); expected 30.1 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.12u 0.12s 00:00:00.24 Elapsed: 00:00:00.23
+# Mc/sec: 1678.70
+//
+Query:       OP474168.1_2  [L=653]
+Description: # 239 # 2197 # 1 # ID=4_2;partial=01;start_type=ATG;rbs_motif=AGxAG;rbs_spacer=3-4bp;genetic_code=11;gc_cont=0.490
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    8.3e-60  202.9   1.0    1.4e-59  202.2   1.0    1.4  1  Astro_capsid_N  Astrovirus capsid protein nucleoplasmin-like 
+    3.4e-05   24.7   0.0      7e-05   23.7   0.0    1.4  1  SP2_M           Structural protein 2 second domain
+
+
+Domain annotation for each model:
+>> Astro_capsid_N  Astrovirus capsid protein nucleoplasmin-like domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  202.2   1.0   9.4e-64   1.4e-59      27     249 .]      41     260 ..       5     260 .. 0.89
+
+>> SP2_M  Structural protein 2 second domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.7   0.0   4.6e-09     7e-05      22     115 ..     289     385 ..     280     398 .. 0.85
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (653 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                      2008  (0.0666357); expected 602.7 (0.02)
+Passed bias filter:                     1274  (0.0422778); expected 602.7 (0.02)
+Passed Vit filter:                       130  (0.00431406); expected 30.1 (0.001)
+Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.42u 0.06s 00:00:00.48 Elapsed: 00:00:00.72
+# Mc/sec: 4307.43
+//
+Query:       MN733910.1_1  [L=152]
+Description: # 3 # 458 # 1 # ID=5_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.450
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------      -----------
+    4.6e-16   59.4  11.3    5.2e-16   59.2  11.3    1.0  1  MFS_1          Major Facilitator Superfamily
+    6.3e-09   35.9   7.0    7.2e-09   35.7   7.0    1.0  1  Sugar_tr       Sugar (and other) transporter
+     0.0024   17.1   0.2     0.0027   16.9   0.2    1.0  1  MFS_3          Transmembrane secretion effector
+     0.0049   16.7   6.1     0.0055   16.5   6.1    1.0  1  Nuc_H_symport  Nucleoside H+ symporter
+  ------ inclusion threshold ------
+       0.01   15.7   8.1      0.019   14.8   7.8    1.5  1  MFS_1_like     MFS_1 like family
+       0.42    9.6   5.5       0.35    9.8   4.5    1.3  1  OATP           Organic Anion Transporter Polypeptide (OATP) f
+       0.63   10.3   7.4        1.4    9.1   7.4    1.7  1  DUF6652        Family of unknown function (DUF6652)
+
+
+Domain annotation for each model:
+>> MFS_1  Major Facilitator Superfamily
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.2  11.3   1.2e-19   5.2e-16     199     334 ..      15     152 .]       2     152 .] 0.79
+
+>> Sugar_tr  Sugar (and other) transporter
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.7   7.0   1.7e-12   7.2e-09     239     388 ..       9     150 ..       2     152 .] 0.81
+
+>> MFS_3  Transmembrane secretion effector
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.9   0.2   6.4e-07    0.0027      47     121 ..      61     134 ..      37     148 .. 0.83
+
+>> Nuc_H_symport  Nucleoside H+ symporter
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.5   6.1   1.3e-06    0.0055     202     340 ..      14     151 ..       6     152 .] 0.80
+
+>> MFS_1_like  MFS_1 like family
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.8   7.8   4.3e-06     0.019       9     108 ..      34     133 ..      27     141 .. 0.85
+
+>> OATP  Organic Anion Transporter Polypeptide (OATP) family
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.8   4.5   8.2e-05      0.35     287     357 ..      22      91 ..       4     112 .. 0.76
+
+>> DUF6652  Family of unknown function (DUF6652)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.1   7.4   0.00033       1.4     106     141 ..      95     130 ..      52     138 .. 0.88
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (152 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                      1093  (0.0362713); expected 602.7 (0.02)
+Passed bias filter:                      497  (0.016493); expected 602.7 (0.02)
+Passed Vit filter:                        42  (0.00139377); expected 30.1 (0.001)
+Passed Fwd filter:                         8  (0.000265481); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               7  [number of targets reported over threshold]
+# CPU time: 0.20u 0.07s 00:00:00.27 Elapsed: 00:00:00.27
+# Mc/sec: 2639.32
+//
+Query:       MN036159.1_1  [L=100]
+Description: # 1 # 300 # -1 # ID=6_1;partial=10;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.513
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each model:
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (100 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                      1306  (0.0433397); expected 602.7 (0.02)
+Passed bias filter:                      710  (0.0235614); expected 602.7 (0.02)
+Passed Vit filter:                        46  (0.00152651); expected 30.1 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.16u 0.10s 00:00:00.26 Elapsed: 00:00:00.24
+# Mc/sec: 1915.36
+//
+Query:       MN036159.1_2  [L=533]
+Description: # 293 # 1891 # -1 # ID=6_2;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.464
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    2.1e-18   67.0   0.2      3e-18   66.5   0.2    1.1  1  RdRP_1    Viral RNA-dependent RNA polymerase
+
+
+Domain annotation for each model:
+>> RdRP_1  Viral RNA-dependent RNA polymerase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   66.5   0.2   9.9e-23     3e-18      99     391 ..     126     410 ..     116     426 .. 0.79
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (533 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                       751  (0.024922); expected 602.7 (0.02)
+Passed bias filter:                      705  (0.0233955); expected 602.7 (0.02)
+Passed Vit filter:                        48  (0.00159289); expected 30.1 (0.001)
+Passed Fwd filter:                         1  (3.31851e-05); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.24u 0.09s 00:00:00.32 Elapsed: 00:00:00.34
+# Mc/sec: 7409.59
+//
+Query:       MN036159.1_3  [L=88]
+Description: # 1930 # 2193 # -1 # ID=6_3;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.477
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------  -----------
+      0.005   18.3   0.0     0.0074   17.7   0.0    1.3  1  Trypsin_2  Trypsin-like peptidase domain
+  ------ inclusion threshold ------
+       0.07   13.8   0.2       0.12   13.0   0.0    1.6  2  TCAD3      Ternary complex associated domain 3
+        0.1   13.4   0.0       0.13   13.0   0.0    1.2  1  UCH_UBL1   Ubiquitin carboxyl-terminal hydrolases, Ubiquitin-
+
+
+Domain annotation for each model:
+>> Trypsin_2  Trypsin-like peptidase domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.7   0.0   7.4e-07    0.0074     118     145 .]      12      40 ..       2      40 .. 0.85
+
+>> TCAD3  Ternary complex associated domain 3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.8   0.2       2.2   2.2e+04      27      30 ..      23      26 ..      22      28 .. 0.80
+   2 ?   13.0   0.0   1.2e-05      0.12      26      47 ..      50      71 ..      43      72 .. 0.87
+
+>> UCH_UBL1  Ubiquitin carboxyl-terminal hydrolases, Ubiquitin-like 1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   0.0   1.3e-05      0.13      14      47 ..      44      77 ..      35      81 .. 0.88
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (88 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                       483  (0.0160284); expected 602.7 (0.02)
+Passed bias filter:                      449  (0.0149001); expected 602.7 (0.02)
+Passed Vit filter:                        41  (0.00136059); expected 30.1 (0.001)
+Passed Fwd filter:                         3  (9.95553e-05); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.16u 0.09s 00:00:00.25 Elapsed: 00:00:00.23
+# Mc/sec: 1755.39
+//
+Query:       MN036131.1_1  [L=550]
+Description: # 278 # 1927 # -1 # ID=7_1;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.321
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    6.1e-29  101.7   0.2    8.9e-29  101.2   0.2    1.1  1  RdRP_1    Viral RNA-dependent RNA polymerase
+    0.00028   20.5   0.0    0.00044   19.8   0.0    1.2  1  RdRP_3    Viral RNA dependent RNA polymerase
+
+
+Domain annotation for each model:
+>> RdRP_1  Viral RNA-dependent RNA polymerase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  101.2   0.2   5.9e-33   8.9e-29      92     412 ..     127     445 ..      90     470 .. 0.83
+
+>> RdRP_3  Viral RNA dependent RNA polymerase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.8   0.0   2.9e-08   0.00044     204     356 ..     259     427 ..     244     439 .. 0.68
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (550 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                       509  (0.0168912); expected 602.7 (0.02)
+Passed bias filter:                      407  (0.0135063); expected 602.7 (0.02)
+Passed Vit filter:                        31  (0.00102874); expected 30.1 (0.001)
+Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.20u 0.12s 00:00:00.32 Elapsed: 00:00:00.32
+# Mc/sec: 8058.23
+//
+Query:       MN035893.1_1  [L=474]
+Description: # 1 # 1422 # 1 # ID=8_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.434
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    1.7e-18   67.4   0.7    2.1e-18   67.0   0.7    1.1  1  RdRP_1    Viral RNA-dependent RNA polymerase
+
+
+Domain annotation for each model:
+>> RdRP_1  Viral RNA-dependent RNA polymerase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.0   0.7   7.1e-23   2.1e-18      90     390 ..      73     369 ..      45     419 .. 0.80
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (474 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                       726  (0.0240924); expected 602.7 (0.02)
+Passed bias filter:                      615  (0.0204088); expected 602.7 (0.02)
+Passed Vit filter:                        55  (0.00182518); expected 30.1 (0.001)
+Passed Fwd filter:                         1  (3.31851e-05); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.23u 0.10s 00:00:00.33 Elapsed: 00:00:00.32
+# Mc/sec: 6928.96
+//
+Query:       MN035838.1_1  [L=1881]
+Description: # 42 # 5684 # -1 # ID=9_1;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.370
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------      -----------
+    2.4e-37  129.4   0.5    4.2e-37  128.7   0.5    1.2  1  RdRP_1         Viral RNA-dependent RNA polymerase
+  ------ inclusion threshold ------
+      0.057   13.9   0.8        2.9    8.4   0.2    3.2  3  GST_C_6        Glutathione S-transferase, C-terminal domain
+      0.059   13.2   0.0       0.11   12.3   0.0    1.3  1  Peptidase_C62  Gill-associated viral 3C-like peptidase
+       0.06   13.3   0.1        0.1   12.5   0.1    1.3  1  Peptidase_S32  Equine arteritis virus serine endopeptidase S3
+
+
+Domain annotation for each model:
+>> RdRP_1  Viral RNA-dependent RNA polymerase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  128.7   0.5   5.6e-41   4.2e-37      22     396 ..     909    1268 ..     898    1274 .. 0.90
+
+>> GST_C_6  Glutathione S-transferase, C-terminal domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.4   0.2   0.00039       2.9       8      32 ..    1088    1112 ..    1085    1126 .. 0.90
+   2 ?    1.3   0.0     0.066     5e+02      18      41 ..    1361    1383 ..    1358    1403 .. 0.69
+   3 ?   -0.8   0.0      0.28   2.1e+03      26      36 ..    1758    1768 ..    1754    1794 .. 0.72
+
+>> Peptidase_C62  Gill-associated viral 3C-like peptidase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.3   0.0   1.5e-05      0.11     118     172 ..     776     827 ..     737     861 .. 0.74
+
+>> Peptidase_S32  Equine arteritis virus serine endopeptidase S32
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.5   0.1   1.4e-05       0.1     183     235 ..     776     829 ..     719     848 .. 0.73
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1881 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                      1153  (0.0382624); expected 602.7 (0.02)
+Passed bias filter:                      622  (0.0206411); expected 602.7 (0.02)
+Passed Vit filter:                        44  (0.00146014); expected 30.1 (0.001)
+Passed Fwd filter:                         4  (0.00013274); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.53u 0.09s 00:00:00.62 Elapsed: 00:00:00.62
+# Mc/sec: 14211.38
+//
+Query:       MN035574.1_1  [L=50]
+Description: # 3 # 152 # -1 # ID=10_1;partial=10;start_type=ATG;rbs_motif=GGxGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.480
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each model:
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (50 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                       619  (0.0205416); expected 602.7 (0.02)
+Passed bias filter:                      518  (0.0171899); expected 602.7 (0.02)
+Passed Vit filter:                        20  (0.000663702); expected 30.1 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.12u 0.12s 00:00:00.24 Elapsed: 00:00:00.23
+# Mc/sec: 1024.85
+//
+Query:       MN035574.1_2  [L=450]
+Description: # 205 # 1554 # -1 # ID=10_2;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.442
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    2.9e-17   63.3   0.0    3.8e-17   62.9   0.0    1.1  1  RdRP_1    Viral RNA-dependent RNA polymerase
+  ------ inclusion threshold ------
+       0.18   12.2   0.0       0.28   11.6   0.0    1.2  1  C19orf84  piRNA-mediated silencing protein C19orf84
+
+
+Domain annotation for each model:
+>> RdRP_1  Viral RNA-dependent RNA polymerase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   62.9   0.0   2.5e-21   3.8e-17     146     407 ..      91     339 ..      80     381 .. 0.83
+
+>> C19orf84  piRNA-mediated silencing protein C19orf84
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.6   0.0   1.9e-05      0.28      15      68 ..     361     415 ..     352     432 .. 0.84
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (450 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                       479  (0.0158957); expected 602.7 (0.02)
+Passed bias filter:                      462  (0.0153315); expected 602.7 (0.02)
+Passed Vit filter:                        34  (0.00112829); expected 30.1 (0.001)
+Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.21u 0.10s 00:00:00.31 Elapsed: 00:00:00.31
+# Mc/sec: 6888.22
+//
+Query:       MN035429.1_1  [L=404]
+Description: # 2 # 1213 # 1 # ID=11_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.396
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------        -----------
+    3.2e-24   86.2   0.4      4e-24   85.9   0.4    1.0  1  RdRP_1           Viral RNA-dependent RNA polymerase
+  ------ inclusion threshold ------
+      0.022   14.3   0.0      0.033   13.7   0.0    1.2  1  Permu_RdRp_palm  Permutotetravirus RNA-dependent RNA polymera
+
+
+Domain annotation for each model:
+>> RdRP_1  Viral RNA-dependent RNA polymerase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   85.9   0.4   2.7e-28     4e-24      81     412 ..       7     338 ..       2     374 .. 0.83
+
+>> Permu_RdRp_palm  Permutotetravirus RNA-dependent RNA polymerase palm domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.7   0.0   2.2e-06     0.033      76     178 ..      52     147 ..       8     162 .. 0.70
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (404 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                       746  (0.0247561); expected 602.7 (0.02)
+Passed bias filter:                      623  (0.0206743); expected 602.7 (0.02)
+Passed Vit filter:                        53  (0.00175881); expected 30.1 (0.001)
+Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.22u 0.09s 00:00:00.31 Elapsed: 00:00:00.31
+# Mc/sec: 6126.42
+//
+Query:       MN035369.1_1  [L=524]
+Description: # 1 # 1572 # -1 # ID=12_1;partial=10;start_type=ATG;rbs_motif=GGxGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.431
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    1.2e-27   97.4   0.3    1.7e-27   97.0   0.3    1.1  1  RdRP_1    Viral RNA-dependent RNA polymerase
+  ------ inclusion threshold ------
+      0.053   13.0   0.0      0.079   12.4   0.0    1.2  1  RdRP_3    Viral RNA dependent RNA polymerase
+        0.1   12.2   0.2       0.15   11.7   0.2    1.1  1  RdRP_4    Viral RNA-directed RNA-polymerase
+
+
+Domain annotation for each model:
+>> RdRP_1  Viral RNA-dependent RNA polymerase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   97.0   0.3   1.7e-31   1.7e-27     221     415 ..       5     192 ..       1     221 [. 0.90
+
+>> RdRP_3  Viral RNA dependent RNA polymerase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.4   0.0   7.8e-06     0.079     253     347 ..      59     162 ..      39     174 .. 0.76
+
+>> RdRP_4  Viral RNA-directed RNA-polymerase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.7   0.2   1.5e-05      0.15     334     408 ..      46     126 ..      22     149 .. 0.70
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (524 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                       738  (0.0244906); expected 602.7 (0.02)
+Passed bias filter:                      671  (0.0222672); expected 602.7 (0.02)
+Passed Vit filter:                        48  (0.00159289); expected 30.1 (0.001)
+Passed Fwd filter:                         3  (9.95553e-05); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.22u 0.12s 00:00:00.34 Elapsed: 00:00:00.34
+# Mc/sec: 7302.11
+//
+Query:       MN034849.1_1  [L=562]
+Description: # 1 # 1686 # -1 # ID=13_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.389
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    9.1e-14   51.7   0.3    1.9e-13   50.6   0.3    1.5  1  RdRP_1      Viral RNA-dependent RNA polymerase
+    2.4e-12   47.8   0.5      1e-11   45.8   0.2    2.1  2  Viral_coat  Viral coat protein (S domain)
+  ------ inclusion threshold ------
+      0.042   14.7   1.0       0.13   13.1   1.0    1.8  1  Forkhead    Forkhead domain
+      0.081   11.6   0.4       0.11   11.1   0.4    1.1  1  V_ATPase_I  V-type ATPase 116kDa subunit family
+       0.15   13.4   0.1       0.45   11.8   0.1    1.8  1  PX          PX domain
+
+
+Domain annotation for each model:
+>> RdRP_1  Viral RNA-dependent RNA polymerase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   50.6   0.3   3.2e-17   1.9e-13     147     346 ..      28     218 ..       8     229 .. 0.81
+
+>> Viral_coat  Viral coat protein (S domain)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.7   0.0      0.61   3.7e+03     149     178 ..     134     164 ..     111     174 .. 0.79
+   2 !   45.8   0.2   1.7e-15     1e-11      23     119 ..     401     496 ..     388     561 .. 0.81
+
+>> Forkhead  Forkhead domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.1   1.0   2.1e-05      0.13      25      54 ..     124     151 ..     113     158 .. 0.84
+
+>> V_ATPase_I  V-type ATPase 116kDa subunit family
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.1   0.4   1.8e-05      0.11      69     144 ..     302     378 ..     265     430 .. 0.74
+
+>> PX  PX domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.8   0.1   7.5e-05      0.45       7      32 ..     324     349 ..     321     386 .. 0.62
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (562 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                      1381  (0.0458286); expected 602.7 (0.02)
+Passed bias filter:                      761  (0.0252539); expected 602.7 (0.02)
+Passed Vit filter:                        67  (0.0022234); expected 30.1 (0.001)
+Passed Fwd filter:                         5  (0.000165926); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               5  [number of targets reported over threshold]
+# CPU time: 0.29u 0.09s 00:00:00.38 Elapsed: 00:00:00.37
+# Mc/sec: 7123.58
+//
+Query:       MN034422.1_1  [L=204]
+Description: # 2 # 613 # -1 # ID=14_1;partial=10;start_type=TTG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.497
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------        -----------
+    0.00037   21.4   0.0    0.00069   20.6   0.0    1.5  1  Phospholip_A2_4  Phospholipase A2-like domain
+  ------ inclusion threshold ------
+       0.11   13.3   0.2       0.16   12.8   0.2    1.2  1  Metaviral_G      Metaviral_G glycoprotein
+       0.11   13.7   0.0       0.17   13.1   0.0    1.3  1  Phospholip_A2_1  Phospholipase A2
+
+
+Domain annotation for each model:
+>> Phospholip_A2_4  Phospholipase A2-like domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.6   0.0   6.9e-08   0.00069       8      44 ..      21      57 ..      15      80 .. 0.86
+
+>> Metaviral_G  Metaviral_G glycoprotein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.8   0.2   1.6e-05      0.16      56     112 ..      91     146 ..      82     176 .. 0.78
+
+>> Phospholip_A2_1  Phospholipase A2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.1   0.0   1.7e-05      0.17      22      55 ..      19      55 ..       3      76 .. 0.79
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (204 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                      1072  (0.0355744); expected 602.7 (0.02)
+Passed bias filter:                      639  (0.0212053); expected 602.7 (0.02)
+Passed Vit filter:                        43  (0.00142696); expected 30.1 (0.001)
+Passed Fwd filter:                         3  (9.95553e-05); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.19u 0.09s 00:00:00.28 Elapsed: 00:00:00.27
+# Mc/sec: 3540.41
+//
+Query:       MN034422.1_2  [L=395]
+Description: # 558 # 1742 # -1 # ID=14_2;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.468
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    1.3e-14   54.5   0.0    2.8e-14   53.4   0.0    1.5  1  RdRP_1          Viral RNA-dependent RNA polymerase
+  ------ inclusion threshold ------
+      0.056   14.2   0.1       0.11   13.2   0.1    1.4  1  Mycophage_Gp41  Mycobacteriophage gene 41 protein
+
+
+Domain annotation for each model:
+>> RdRP_1  Viral RNA-dependent RNA polymerase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.4   0.0   1.9e-18   2.8e-14     150     426 ..      14     301 ..      11     329 .. 0.75
+
+>> Mycophage_Gp41  Mycobacteriophage gene 41 protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.2   0.1   7.1e-06      0.11      30      81 ..      71     123 ..      62     136 .. 0.82
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (395 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                       589  (0.019546); expected 602.7 (0.02)
+Passed bias filter:                      550  (0.0182518); expected 602.7 (0.02)
+Passed Vit filter:                        47  (0.0015597); expected 30.1 (0.001)
+Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.18u 0.13s 00:00:00.31 Elapsed: 00:00:00.31
+# Mc/sec: 6024.05
+//
+Query:       MN034197.1_1  [L=267]
+Description: # 2 # 802 # 1 # ID=15_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.327
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+      1e-14   54.8   0.1    1.3e-14   54.5   0.1    1.2  1  RdRP_1          Viral RNA-dependent RNA polymerase
+    6.3e-05   23.1   0.1    9.8e-05   22.5   0.1    1.2  1  Reov_VP3_GTase  Reovirus VP3 protein, guanylyltransferase (GT
+  ------ inclusion threshold ------
+       0.04   13.5   0.6      0.064   12.8   0.6    1.2  1  RdRP_2          RNA dependent RNA polymerase
+
+
+Domain annotation for each model:
+>> RdRP_1  Viral RNA-dependent RNA polymerase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   54.5   0.1   1.3e-18   1.3e-14     276     411 ..      15     149 ..       5     188 .. 0.84
+
+>> Reov_VP3_GTase  Reovirus VP3 protein, guanylyltransferase (GTase)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.5   0.1   9.8e-09   9.8e-05      88     199 ..     148     259 ..     142     262 .. 0.80
+
+>> RdRP_2  RNA dependent RNA polymerase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.8   0.6   6.4e-06     0.064     276     420 ..      32     196 ..      30     203 .. 0.76
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (267 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                       948  (0.0314595); expected 602.7 (0.02)
+Passed bias filter:                      700  (0.0232296); expected 602.7 (0.02)
+Passed Vit filter:                        48  (0.00159289); expected 30.1 (0.001)
+Passed Fwd filter:                         3  (9.95553e-05); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.20u 0.08s 00:00:00.28 Elapsed: 00:00:00.28
+# Mc/sec: 4416.84
+//
+Query:       MN034197.1_2  [L=159]
+Description: # 816 # 1292 # 1 # ID=15_2;partial=01;start_type=ATG;rbs_motif=TAT;rbs_spacer=5bp;genetic_code=11;gc_cont=0.403
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+  ------ inclusion threshold ------
+       0.15   12.5   0.0       0.27   11.7   0.0    1.4  1  BING4CT   BING4CT (NUC141) domain
+
+
+Domain annotation for each model:
+>> BING4CT  BING4CT (NUC141) domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.7   0.0   8.9e-06      0.27      13      43 ..      90     120 ..      79     124 .. 0.87
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (159 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                       514  (0.0170571); expected 602.7 (0.02)
+Passed bias filter:                      452  (0.0149997); expected 602.7 (0.02)
+Passed Vit filter:                        36  (0.00119466); expected 30.1 (0.001)
+Passed Fwd filter:                         1  (3.31851e-05); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.17u 0.08s 00:00:00.25 Elapsed: 00:00:00.25
+# Mc/sec: 2997.55
+//
+Query:       MN033907.1_1  [L=394]
+Description: # 136 # 1317 # -1 # ID=16_1;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.431
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------      -----------
+    2.5e-20   73.3   0.3    3.3e-20   73.0   0.3    1.1  1  RdRP_1         Viral RNA-dependent RNA polymerase
+  ------ inclusion threshold ------
+       0.16   13.0   0.0       0.97   10.5   0.0    2.2  2  PSI_PTTG1IP    PTTG1IP, N-terminal domain
+       0.23   12.1   0.1       0.66   10.6   0.0    1.7  2  TPK_catalytic  Thiamin pyrophosphokinase, catalytic domain
+
+
+Domain annotation for each model:
+>> RdRP_1  Viral RNA-dependent RNA polymerase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.0   0.3   3.3e-24   3.3e-20     161     402 ..       1     247 [.       1     252 [. 0.94
+
+>> PSI_PTTG1IP  PTTG1IP, N-terminal domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.2   0.0      0.43   4.4e+03      16      36 ..     276     296 ..     274     299 .. 0.86
+   2 ?   10.5   0.0   9.7e-05      0.97      10      40 ..     339     369 ..     333     371 .. 0.91
+
+>> TPK_catalytic  Thiamin pyrophosphokinase, catalytic domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.6   0.0   6.6e-05      0.66      15      79 ..      50     124 ..      47     158 .. 0.78
+   2 ?   -3.6   0.0       1.7   1.7e+04      13      22 ..     333     342 ..     332     354 .. 0.73
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (394 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                       770  (0.0255525); expected 602.7 (0.02)
+Passed bias filter:                      660  (0.0219022); expected 602.7 (0.02)
+Passed Vit filter:                        44  (0.00146014); expected 30.1 (0.001)
+Passed Fwd filter:                         3  (9.95553e-05); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.24u 0.07s 00:00:00.31 Elapsed: 00:00:00.31
+# Mc/sec: 5997.51
+//
+Query:       MN033591.1_1  [L=438]
+Description: # 3 # 1316 # 1 # ID=17_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.393
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    8.8e-21   74.9   0.1    1.2e-20   74.5   0.1    1.1  1  RdRP_1          Viral RNA-dependent RNA polymerase
+  ------ inclusion threshold ------
+       0.21   12.5   1.3       0.39   11.6   0.3    2.0  2  ARL2_Bind_BART  The ARF-like 2 binding protein BART
+
+
+Domain annotation for each model:
+>> RdRP_1  Viral RNA-dependent RNA polymerase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   74.5   0.1   7.7e-25   1.2e-20      36     406 ..      73     432 ..      42     437 .. 0.80
+
+>> ARL2_Bind_BART  The ARF-like 2 binding protein BART
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.6   0.3   2.6e-05      0.39      41     105 ..      94     157 ..      86     158 .. 0.85
+   2 ?   -4.0   0.0       1.8   2.8e+04      33      41 ..     292     300 ..     281     312 .. 0.53
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (438 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                       748  (0.0248225); expected 602.7 (0.02)
+Passed bias filter:                      646  (0.0214376); expected 602.7 (0.02)
+Passed Vit filter:                        42  (0.00139377); expected 30.1 (0.001)
+Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.20u 0.13s 00:00:00.33 Elapsed: 00:00:00.31
+# Mc/sec: 6531.30
+//
+Query:       MN033177.1_1  [L=1096]
+Description: # 1 # 3288 # 1 # ID=18_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.367
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------  -----------
+    2.8e-12   46.8   0.0    4.3e-12   46.2   0.0    1.2  1  RdRP_1     Viral RNA-dependent RNA polymerase
+  ------ inclusion threshold ------
+      0.017   16.6   0.0      0.053   15.0   0.0    1.9  1  Trypsin_2  Trypsin-like peptidase domain
+      0.048   14.2   4.0       0.43   11.1   4.8    2.0  2  KwaA       Anti-phage protein KwaA
+
+
+Domain annotation for each model:
+>> RdRP_1  Viral RNA-dependent RNA polymerase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.2   0.0   4.2e-16   4.3e-12     150     313 ..     911    1094 ..     850    1096 .] 0.83
+
+>> Trypsin_2  Trypsin-like peptidase domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.0   0.0   5.3e-06     0.053      12     144 ..     522     643 ..     502     644 .. 0.61
+
+>> KwaA  Anti-phage protein KwaA
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.1   4.8   4.3e-05      0.43       3     108 ..      39     155 ..      37     161 .. 0.62
+   2 ?   -1.3   0.0      0.29   2.9e+03      31      58 ..     236     272 ..     224     285 .. 0.46
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1096 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                       852  (0.0282737); expected 602.7 (0.02)
+Passed bias filter:                      659  (0.021869); expected 602.7 (0.02)
+Passed Vit filter:                        50  (0.00165926); expected 30.1 (0.001)
+Passed Fwd filter:                         3  (9.95553e-05); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.37u 0.09s 00:00:00.46 Elapsed: 00:00:00.46
+# Mc/sec: 11190.77
+//
+Query:       MN033141.1_1  [L=393]
+Description: # 1 # 1179 # 1 # ID=19_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.480
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model                 Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+    4.9e-19   69.1   0.0    6.3e-19   68.7   0.0    1.1  1  RdRP_1                 Viral RNA-dependent RNA polymerase
+  ------ inclusion threshold ------
+       0.26   11.4   0.2       0.48   10.5   0.2    1.4  1  Lymphostatin_protease  Lymphostatin, protease domain
+
+
+Domain annotation for each model:
+>> RdRP_1  Viral RNA-dependent RNA polymerase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   68.7   0.0   4.2e-23   6.3e-19     242     448 ..       1     208 [.       1     210 [. 0.87
+
+>> Lymphostatin_protease  Lymphostatin, protease domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.5   0.2   3.2e-05      0.48      80     187 ..     192     300 ..     150     309 .. 0.76
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (393 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                      1097  (0.0364041); expected 602.7 (0.02)
+Passed bias filter:                      936  (0.0310613); expected 602.7 (0.02)
+Passed Vit filter:                        73  (0.00242251); expected 30.1 (0.001)
+Passed Fwd filter:                         2  (6.63702e-05); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.27u 0.06s 00:00:00.33 Elapsed: 00:00:00.33
+# Mc/sec: 5611.30
+//
+Query:       MN032977.1_1  [L=2060]
+Description: # 495 # 6674 # -1 # ID=20_1;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.505
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------   -----------
+    3.6e-23   82.7   0.4    9.2e-23   81.4   0.0    1.8  3  RdRP_1      Viral RNA-dependent RNA polymerase
+    1.3e-09   38.9   2.9    2.7e-09   37.9   2.9    1.5  1  Viral_coat  Viral coat protein (S domain)
+  ------ inclusion threshold ------
+      0.048   14.3   0.1        0.1   13.2   0.1    1.4  1  Luteo_coat  Luteovirus coat protein
+      0.067   14.3   0.1        3.9    8.6   0.0    3.1  2  DUF760      Protein of unknown function (DUF760)
+      0.068   12.8   0.2       0.22   11.1   0.0    1.8  2  RdRP_4      Viral RNA-directed RNA-polymerase
+      0.096   13.9   0.0        0.3   12.3   0.0    1.8  1  NAPRTase_C  Nicotinate phosphoribosyltransferase C-terminal d
+
+
+Domain annotation for each model:
+>> RdRP_1  Viral RNA-dependent RNA polymerase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -4.5   0.0         2     1e+04      24      45 ..     353     372 ..     344     376 .. 0.86
+   2 !   81.4   0.0   1.8e-26   9.2e-23     147     390 ..    1132    1386 ..    1080    1398 .. 0.84
+   3 ?   -3.6   0.0       1.1   5.6e+03      56     117 ..    1497    1549 ..    1461    1614 .. 0.62
+
+>> Viral_coat  Viral coat protein (S domain)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.9   2.9   5.3e-13   2.7e-09      56     205 ..    1627    1770 ..    1582    1772 .. 0.81
+
+>> Luteo_coat  Luteovirus coat protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.2   0.1     2e-05       0.1      19      71 ..    1631    1685 ..    1623    1706 .. 0.78
+
+>> DUF760  Protein of unknown function (DUF760)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.6   0.0   0.00078       3.9       2      56 ..     678     734 ..     677     739 .. 0.85
+   2 ?    1.8   0.0      0.11   5.4e+02       6      46 ..    1503    1543 ..    1500    1565 .. 0.88
+
+>> RdRP_4  Viral RNA-directed RNA-polymerase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.8   0.0      0.71   3.6e+03     125     188 ..     186     253 ..     183     277 .. 0.65
+   2 ?   11.1   0.0   4.4e-05      0.22     348     409 ..    1263    1344 ..    1229    1386 .. 0.77
+
+>> NAPRTase_C  Nicotinate phosphoribosyltransferase C-terminal domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.3   0.0     6e-05       0.3      73     106 ..    1560    1593 ..    1517    1597 .. 0.85
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (2060 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                      1665  (0.0552532); expected 602.7 (0.02)
+Passed bias filter:                      972  (0.0322559); expected 602.7 (0.02)
+Passed Vit filter:                        84  (0.00278755); expected 30.1 (0.001)
+Passed Fwd filter:                        10  (0.000331851); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               6  [number of targets reported over threshold]
+# CPU time: 0.63u 0.17s 00:00:00.80 Elapsed: 00:00:00.79
+# Mc/sec: 12372.95
+//
+Query:       EF490429.1_1  [L=87]
+Description: # 1 # 261 # 1 # ID=21_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.437
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    2.1e-30  106.9   2.6    2.6e-30  106.7   2.6    1.1  1  Astro_1A  Astrovirus transmembrane protein 1A
+  ------ inclusion threshold ------
+      0.042   15.0   0.0      0.059   14.5   0.0    1.2  1  DUF8020   Domain of unknown function (DUF8020)
+      0.084   13.9   0.0        0.1   13.6   0.0    1.2  1  ACP       Malonate decarboxylase delta subunit (MdcD)
+        0.1   13.6   0.2        5.2    8.2   0.0    2.1  2  DtxR      Diphteria toxin repressor SH3 domain
+       0.14   12.6   0.0        0.2   12.1   0.0    1.3  1  DUF1408   Protein of unknown function (DUF1408)
+
+
+Domain annotation for each model:
+>> Astro_1A  Astrovirus transmembrane protein 1A
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  106.7   2.6   4.3e-34   2.6e-30     192     244 .]       2      54 ..       1      54 [. 0.98
+
+>> DUF8020  Domain of unknown function (DUF8020)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.5   0.0   9.8e-06     0.059      28      46 ..      23      41 ..      14      50 .. 0.86
+
+>> ACP  Malonate decarboxylase delta subunit (MdcD)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.6   0.0   1.7e-05       0.1      29      65 ..      28      64 ..      14      72 .. 0.92
+
+>> DtxR  Diphteria toxin repressor SH3 domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.1   0.0     0.015        93      36      59 ..      13      36 ..       5      45 .. 0.85
+   2 ?    8.2   0.0   0.00086       5.2      27      59 ..      43      75 ..      39      81 .. 0.81
+
+>> DUF1408  Protein of unknown function (DUF1408)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.1   0.0   3.3e-05       0.2       6      49 ..      29      75 ..      24      84 .. 0.66
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (87 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                       610  (0.0202429); expected 602.7 (0.02)
+Passed bias filter:                      529  (0.0175549); expected 602.7 (0.02)
+Passed Vit filter:                        40  (0.0013274); expected 30.1 (0.001)
+Passed Fwd filter:                         5  (0.000165926); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               5  [number of targets reported over threshold]
+# CPU time: 0.16u 0.08s 00:00:00.24 Elapsed: 00:00:00.24
+# Mc/sec: 1699.85
+//
+Query:       L23511.1_1  [L=66]
+Description: # 3 # 200 # 1 # ID=22_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.429
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------      -----------
+    1.9e-32  113.1   0.3    2.2e-32  112.9   0.3    1.0  1  Astrovir_pp_1  Astroviridae polyprotein 1
+
+
+Domain annotation for each model:
+>> Astrovir_pp_1  Astroviridae polyprotein 1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  112.9   0.3   7.3e-37   2.2e-32     116     171 .]       1      56 [.       1      56 [. 0.99
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (66 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                       501  (0.0166257); expected 602.7 (0.02)
+Passed bias filter:                      379  (0.0125772); expected 602.7 (0.02)
+Passed Vit filter:                        35  (0.00116148); expected 30.1 (0.001)
+Passed Fwd filter:                         1  (3.31851e-05); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.15u 0.08s 00:00:00.23 Elapsed: 00:00:00.23
+# Mc/sec: 1343.64
+//
+Query:       L23508.1_1  [L=66]
+Description: # 3 # 200 # 1 # ID=23_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.434
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------      -----------
+      2e-32  113.1   0.3    2.2e-32  112.9   0.3    1.0  1  Astrovir_pp_1  Astroviridae polyprotein 1
+
+
+Domain annotation for each model:
+>> Astrovir_pp_1  Astroviridae polyprotein 1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  112.9   0.3   7.3e-37   2.2e-32     116     171 .]       1      56 [.       1      56 [. 0.99
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (66 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                       498  (0.0165262); expected 602.7 (0.02)
+Passed bias filter:                      405  (0.01344); expected 602.7 (0.02)
+Passed Vit filter:                        36  (0.00119466); expected 30.1 (0.001)
+Passed Fwd filter:                         1  (3.31851e-05); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.15u 0.09s 00:00:00.24 Elapsed: 00:00:00.23
+# Mc/sec: 1357.77
+//
+Query:       L13745.1_1  [L=948]
+Description: # 2 # 2845 # 1 # ID=24_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.430
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+   1.8e-166  552.5  17.2   2.6e-166  552.0  17.2    1.2  1  Astro_1A        Astrovirus transmembrane protein 1A
+   1.7e-118  392.9   0.0   3.3e-118  392.0   0.0    1.5  1  Astro_p19       Astrovirus p19 protein
+    5.6e-90  300.4  15.3    1.5e-88  295.7  15.3    2.4  1  Astrovir_pp_1   Astroviridae polyprotein 1
+    8.2e-43  146.3   7.7    1.9e-42  145.1   7.7    1.7  1  Astro_VPg       Astrovirus VPg protein
+    1.1e-13   52.9   0.2    3.9e-13   51.1   0.1    2.0  2  Trypsin_2       Trypsin-like peptidase domain
+  ------ inclusion threshold ------
+       0.05   13.5   0.0      0.088   12.7   0.0    1.3  1  Peptidase_C4    Peptidase family C4
+      0.062   14.4   0.0        0.2   12.8   0.0    1.8  1  DUF8020         Domain of unknown function (DUF8020)
+       0.11   13.2   0.0       0.22   12.2   0.0    1.5  1  Peptidase_C3    3C cysteine protease (picornain 3C)
+       0.27   12.1   0.0          1   10.3   0.0    2.0  1  RNA_pol_Rpb2_3  RNA polymerase Rpb2, domain 3
+        1.3    9.7   8.0          3    8.5   8.0    1.5  1  Trypan_PARP     Procyclic acidic repetitive protein (PARP)
+
+
+Domain annotation for each model:
+>> Astro_1A  Astrovirus transmembrane protein 1A
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  552.0  17.2  8.6e-170  2.6e-166       1     244 []     203     446 ..     203     446 .. 1.00
+
+>> Astro_p19  Astrovirus p19 protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  392.0   0.0  1.1e-121  3.3e-118       1     174 []      28     201 ..      28     201 .. 1.00
+
+>> Astrovir_pp_1  Astroviridae polyprotein 1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  295.7  15.3   5.1e-92   1.5e-88       1     171 []     783     938 ..     783     938 .. 0.97
+
+>> Astro_VPg  Astrovirus VPg protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  145.1   7.7   6.3e-46   1.9e-42       1     104 []     691     782 ..     691     782 .. 0.99
+
+>> Trypsin_2  Trypsin-like peptidase domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.1   0.0       3.3     1e+04     113     140 ..      87     115 ..      62     116 .. 0.77
+   2 !   51.1   0.1   1.3e-16   3.9e-13       1     145 []     474     592 ..     474     592 .. 0.88
+
+>> Peptidase_C4  Peptidase family C4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.0   2.9e-05     0.088      20     118 ..     464     549 ..     447     584 .. 0.81
+
+>> DUF8020  Domain of unknown function (DUF8020)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.8   0.0   6.6e-05       0.2      28      46 ..     415     433 ..     406     440 .. 0.87
+
+>> Peptidase_C3  3C cysteine protease (picornain 3C)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.2   0.0   7.4e-05      0.22     112     165 ..     542     597 ..     515     598 .. 0.73
+
+>> RNA_pol_Rpb2_3  RNA polymerase Rpb2, domain 3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.3   0.0   0.00034         1      42      58 ..     461     477 ..     432     480 .. 0.83
+
+>> Trypan_PARP  Procyclic acidic repetitive protein (PARP)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.5   8.0     0.001         3      59     111 ..     783     836 ..     759     844 .. 0.41
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (948 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                      1627  (0.0539922); expected 602.7 (0.02)
+Passed bias filter:                     1091  (0.036205); expected 602.7 (0.02)
+Passed Vit filter:                       111  (0.00368355); expected 30.1 (0.001)
+Passed Fwd filter:                        11  (0.000365036); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):              10  [number of targets reported over threshold]
+# CPU time: 0.42u 0.08s 00:00:00.50 Elapsed: 00:00:00.51
+# Mc/sec: 8756.19
+//
+Query:       L13745.1_2  [L=491]
+Description: # 2860 # 4332 # 1 # ID=24_2;partial=00;start_type=TTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.422
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    7.4e-41  141.0   0.1    8.8e-41  140.8   0.1    1.1  1  RdRP_1    Viral RNA-dependent RNA polymerase
+
+
+Domain annotation for each model:
+>> RdRP_1  Viral RNA-dependent RNA polymerase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  140.8   0.1   2.9e-45   8.8e-41     137     411 ..     145     417 ..      51     458 .. 0.85
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (491 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                       734  (0.0243579); expected 602.7 (0.02)
+Passed bias filter:                      671  (0.0222672); expected 602.7 (0.02)
+Passed Vit filter:                        54  (0.001792); expected 30.1 (0.001)
+Passed Fwd filter:                         1  (3.31851e-05); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.26u 0.08s 00:00:00.34 Elapsed: 00:00:00.33
+# Mc/sec: 6993.78
+//
+Query:       L13745.1_3  [L=797]
+Description: # 4325 # 6715 # 1 # ID=24_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.458
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+   1.2e-163  545.2   0.7   1.9e-163  544.5   0.7    1.3  1  Astro_capsid_p  Turkey astrovirus capsid protein
+   3.5e-123  410.5   4.2   5.9e-123  409.8   4.2    1.4  1  Astro_capsid_N  Astrovirus capsid protein nucleoplasmin-like 
+  ------ inclusion threshold ------
+      0.051   13.9   0.2       0.19   12.1   0.2    1.9  1  SP2             Structural protein 2 nucleoplasmin-like domai
+       0.07   13.8   0.7       0.14   12.9   0.7    1.4  1  PRR20           Proline-rich protein family 20
+       0.11   12.3   7.0       0.18   11.6   7.0    1.3  1  CoV_nucleocap   Coronavirus nucleocapsid
+       0.17   12.7   0.0       0.48   11.2   0.0    1.7  1  SP2_M           Structural protein 2 second domain
+        1.5    9.3   8.3        3.6    8.1   8.3    1.5  1  FAM176          FAM176 family
+        4.7    6.0   8.7        6.8    5.5   8.7    1.1  1  Nop14           Nop14-like family
+
+
+Domain annotation for each model:
+>> Astro_capsid_p  Turkey astrovirus capsid protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  544.5   0.7  5.1e-167  1.9e-163       2     363 .]     432     796 ..     431     796 .. 0.99
+
+>> Astro_capsid_N  Astrovirus capsid protein nucleoplasmin-like domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  409.8   4.2  1.6e-126  5.9e-123       1     249 []      17     258 ..      17     258 .. 1.00
+
+>> SP2  Structural protein 2 nucleoplasmin-like domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.1   0.2     5e-05      0.19      26     205 .]      93     258 ..      79     258 .. 0.73
+
+>> PRR20  Proline-rich protein family 20
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.9   0.7   3.6e-05      0.14      73     208 ..      17     167 ..       6     171 .. 0.72
+
+>> CoV_nucleocap  Coronavirus nucleocapsid
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.6   7.0   4.8e-05      0.18     127     192 ..       6      77 ..       1      94 [. 0.63
+
+>> SP2_M  Structural protein 2 second domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   0.0   0.00013      0.48      56     113 ..     320     381 ..     292     392 .. 0.71
+
+>> FAM176  FAM176 family
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.1   8.3   0.00095       3.6      47     125 ..     664     742 ..     657     744 .. 0.75
+
+>> Nop14  Nop14-like family
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.5   8.7    0.0018       6.8     353     404 ..     667     717 ..     647     753 .. 0.48
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (797 residues searched)
+Target model(s):                       30134  (4754065 nodes)
+Passed MSV filter:                      1507  (0.05001); expected 602.7 (0.02)
+Passed bias filter:                      978  (0.032455); expected 602.7 (0.02)
+Passed Vit filter:                       116  (0.00384947); expected 30.1 (0.001)
+Passed Fwd filter:                        14  (0.000464591); expected 0.3 (1e-05)
+Initial search space (Z):              30134  [actual number of targets]
+Domain search space  (domZ):               8  [number of targets reported over threshold]
+# CPU time: 0.38u 0.12s 00:00:00.50 Elapsed: 00:00:00.50
+# Mc/sec: 7517.44
+//
+[ok]

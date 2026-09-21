@@ -1,10 +1,11 @@
-run_id: "2026_07_30"
+run_id: "30-06-2026"
 
 paths:
   search_query: '"txid39733"[Organism]'
   genbank: "data/raw/Astroviridae_30062026.gb"
   orf_map: "data/annotations/ORF_names.csv"
   domain_map: "data/annotations/domain_map.csv"
+  country_map: "data/annotations/country_map.tsv"
   pfam_db: "/data/DB/PFAM-A/Pfam-A.hmm"
   output_root: "data/results"
 

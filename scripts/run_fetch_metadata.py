@@ -22,9 +22,13 @@ def main():
         "output_dir",
         help="Output directory for the TSV file (file name will be based on input)"
     )
+    parser.add_argument(
+        "country_map",
+        help="TSV file with correspondense of countries and their 3 letter codes"
+    )
     args = parser.parse_args()
 
-    fetch_metadata_from_gb(args.input_gb, args.output_dir)
+    fetch_metadata_from_gb(args.input_gb, args.output_dir, args.country_map)
 
 
 if __name__ == "__main__":

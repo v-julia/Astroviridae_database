@@ -15,8 +15,8 @@ def main():
         description="Check mismatches between annotated ORFs and Pfam domain assignments."
     )
     parser.add_argument(
-        "coord_csv",
-        help="Coordinate CSV file (e.g., *_orf-coords.csv)"
+        "coord_tsv",
+        help="Coordinate TSV file (e.g., *_orf-coords.tsv)"
     )
     parser.add_argument(
         "domtbl",
@@ -32,7 +32,7 @@ def main():
     )
     args = parser.parse_args()
 
-    mismatches = check_annotated_orfs(args.coord_csv, args.domtbl, args.domain_map)
+    mismatches = check_annotated_orfs(args.coord_tsv, args.domtbl, args.domain_map)
 
     with open(args.out_report, 'w') as f:
         if mismatches:
