@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import os
 import yaml
 from pathlib import Path
@@ -294,4 +295,302 @@ rule update_symlink:
     output:
         symlink = Path("data/results/latest"),
     run:
+=======
+import os
+import yaml
+from pathlib import Path
+
+with open("config.yaml") as f:
+    config = yaml.safe_load(f)
+
+GB = config["paths"]["genbank"]
+ORF_MAP = config["paths"]["orf_map"]
+DOMAIN_MAP = config["paths"]["domain_map"]
+COUNTRY_MAP = config["paths"]["country_map"]
+PFAM = config["paths"]["pfam_db"]
+
+
+RUN_ID = config["run_id"]
+ROOT = Path(config["paths"]["output_root"]) / RUN_ID
+BASE = Path(GB).stem
+FINAL_DIR = ROOT / "final"
+
+COORDS = ROOT / "coords"
+UPDATED = ROOT / "updated_coords"
+PRODIGAL = ROOT / "prodigal"
+HMMER_ANNOT = ROOT / "hmmer" / "annotated_orfs"
+HMMER_PROB = ROOT / "hmmer" / "problematic_orfs"
+HMMER_PRED = ROOT / "hmmer" / "predicted_orfs"
+
+
+CORRECTED_COORDS = UPDATED / f"{BASE}_orf-coords_corrected.tsv"
+FUSION_ORFS      = HMMER_ANNOT / f"{BASE}_fusion_orfs.tsv"
+
+FINAL_COORD_TSV = UPDATED / f"{BASE}_orf-coords_full.tsv"
+
+
+METADATA_TSV = COORDS / f"{BASE}_metadata.tsv"
+
+
+# Paths for host taxonomy
+HOST_TAXONOMY_DIR = ROOT / "host_taxonomy"
+HOST_TAXONOMY_TSV = HOST_TAXONOMY_DIR / f"{BASE}_host_taxonomy.tsv"
+HOST_MAP = Path("data/annotations/host_map.csv")
+
+
+ANNOTATED_METADATA = ROOT / "final" / f"{BASE}_annotated.tsv"
+
+CLUSTER_UC = ROOT / "clustering/ORF1B_upd2_17nt_mmseq2.uc"
+WG_METADATA = Path("data/annotations/MAstV_WG_2025_metadata.tsv")
+
+# Output: the final master table with ICTV species
+FINAL_MASTER = FINAL_DIR / f"{BASE}_annotated_MAstV_species.tsv"
+
+
+
+rule all:
+    input:
+        UPDATED / f"{BASE}_orf-coords_full.tsv",
+        FINAL_MASTER
+
+# ----------------------------------------------------------------------
+rule fetch_genbank:
+    output:
+        gb = GB,
+    params:
+        query = config["paths"]["search_query"],
+        checkpoint = "data/raw/download_checkpoint.txt",
+    shell:
+        """
+        mkdir -p $(dirname {params.checkpoint})
+        python scripts/run_fetch_genbank.py "{params.query}" {output.gb} --checkpoint {params.checkpoint}
+        """
+
+# ----------------------------------------------------------------------
+rule extract_metadata:
+    input:
+        gb = GB,
+    output:
+        tsv = METADATA_TSV,
+    params:
+        coords_dir = COORDS,
+        country_map = COUNTRY_MAP
+    shell:
+        "python scripts/run_fetch_metadata.py {input.gb} {params.coords_dir} {params.country_map}"
+
+# ----------------------------------------------------------------------
+rule orf_extraction:
+    input:
+        gb = GB,
+        orf_map = ORF_MAP,
+    output:
+        coord_tsv = COORDS / f"{BASE}_orf-coords.tsv",
+        orfs_faa = COORDS / f"{BASE}_orfs.faa",
+        prob_faa = COORDS / f"{BASE}_problematic_candidates.faa",
+        prob_tsv = COORDS / f"{BASE}_problematic_candidates.tsv",
+        no_cds_fasta = COORDS / f"{BASE}_no_cds_sequences.fasta",
+        log_dir = directory(COORDS / "logs"),
+    params:
+        coords_dir = COORDS,
+    shell:
+        "python scripts/run_orf_extraction.py {input.gb} {input.orf_map} {params.coords_dir}"
+
+# ----------------------------------------------------------------------
+rule hmmscan_annotated:
+    input:
+        fasta = COORDS / f"{BASE}_orfs.faa",
+        db = PFAM,
+    output:
+        domtbl = HMMER_ANNOT / f"{BASE}_annotated_domains.tbl",
+        log = HMMER_ANNOT / f"{BASE}_hmmscan.log",
+    shell:
+        "{config[tools][hmmscan]} --domtblout {output.domtbl} --noali {input.db} {input.fasta} > {output.log} 2>&1"
+
+# ----------------------------------------------------------------------
+rule check_mismatches:
+    input:
+        coord_tsv = COORDS / f"{BASE}_orf-coords.tsv",
+        domtbl = HMMER_ANNOT / f"{BASE}_annotated_domains.tbl",
+        domain_map = DOMAIN_MAP,
+    output:
+        report = HMMER_ANNOT / f"{BASE}_mismatches_report.tsv",
+    shell:
+        "python scripts/run_check_mismatches.py {input.coord_tsv} {input.domtbl} {input.domain_map} {output.report}"
+
+# ----------------------------------------------------------------------
+
+rule correct_orfs:
+    input:
+        coord_tsv    = COORDS / f"{BASE}_orf-coords.tsv",
+        mismatch_tsv = HMMER_ANNOT / f"{BASE}_mismatches_report.tsv",
+    output:
+        corrected_tsv = CORRECTED_COORDS,
+        fusion_tsv    = FUSION_ORFS,
+    shell:
+        "python scripts/run_correct_orfs.py "
+        "{input.coord_tsv} {input.mismatch_tsv} "
+        "{output.corrected_tsv} {output.fusion_tsv}"
+
+# ----------------------------------------------------------------------
+rule append_fusion_seqs:
+    input:
+        gb          = GB,
+        fusion_tsv  = FUSION_ORFS,
+        no_cds_fasta= COORDS / f"{BASE}_no_cds_sequences.fasta",
+    output:
+        no_cds_ext  = COORDS / f"{BASE}_no_cds_sequences.with_fusions.fasta",
+    shell:
+        # Copy existing no-cds FASTA to a new file, then append fusion seqs
+        """
+        cp {input.no_cds_fasta} {output.no_cds_ext}
+        python scripts/run_append_fusion_seqs.py \
+            {input.gb} {input.fusion_tsv} {output.no_cds_ext}
+        """
+
+# ----------------------------------------------------------------------
+rule hmmscan_problematic:
+    input:
+        fasta = COORDS / f"{BASE}_problematic_candidates.faa",
+        db = PFAM,
+    output:
+        domtbl = HMMER_PROB / f"{BASE}_problematic_domains.tbl",
+        log = HMMER_PROB / f"{BASE}_hmmscan.log",
+    shell:
+        """
+        if [ ! -s {input.fasta} ]; then
+            echo "Input FASTA empty. Creating empty domtbl." > {output.log}
+            touch {output.domtbl}
+        else
+            {config[tools][hmmscan]} --domtblout {output.domtbl} --noali {input.db} {input.fasta} > {output.log} 2>&1
+        fi
+        """
+# ----------------------------------------------------------------------
+rule assign_problematic:
+    input:
+        cand_tsv = COORDS / f"{BASE}_problematic_candidates.tsv",
+        domtbl = HMMER_PROB / f"{BASE}_problematic_domains.tbl",
+        domain_map = DOMAIN_MAP,
+    output:
+        assigned_tsv = HMMER_PROB / f"{BASE}_problematic_assigned.tsv",
+    shell:
+        "python scripts/run_assign_problematic_cds.py {input.cand_tsv} {input.domtbl} {input.domain_map} {output.assigned_tsv}"
+
+# ----------------------------------------------------------------------
+rule update_with_problematic:
+    input:
+        coord_tsv = CORRECTED_COORDS,
+        assigned_tsv = HMMER_PROB / f"{BASE}_problematic_assigned.tsv",
+    output:
+        updated_tsv = UPDATED / f"{BASE}_orf_coords_with_problematic.tsv",
+    shell:
+        "python scripts/run_update_coords.py {input.coord_tsv} {input.assigned_tsv} {output.updated_tsv}"
+
+# ----------------------------------------------------------------------
+rule prodigal:
+    input:
+        fasta = COORDS / f"{BASE}_no_cds_sequences.with_fusions.fasta",
+    output:
+        proteins = PRODIGAL / f"{BASE}_no_cds_sequences_proteins.faa",
+        gff = PRODIGAL / f"{BASE}_no_cds_predgenes.gff",
+        fna = PRODIGAL / f"{BASE}_no_cds_predgenes.fna",
+        log = PRODIGAL / "prodigal.log",
+    shell:
+        """
+        if [ ! -s {input.fasta} ]; then
+            echo "Input FASTA is empty. Skipping Prodigal." > {output.log}
+            touch {output.proteins} {output.gff} {output.fna}
+        else
+            {config[tools][prodigal]} -i {input.fasta} -a {output.proteins} -d {output.fna} -o {output.gff} -p meta > {output.log} 2>&1
+        fi
+        """
+
+# ----------------------------------------------------------------------
+rule hmmscan_predicted:
+    input:
+        fasta = PRODIGAL / f"{BASE}_no_cds_sequences_proteins.faa",
+        db = PFAM,
+    output:
+        domtbl = HMMER_PRED / f"{BASE}_predicted_domains.tbl",
+        log = HMMER_PRED / f"{BASE}_hmmscan.log",
+    shell:
+        """
+        if [ ! -s {input.fasta} ]; then
+            echo "Input FASTA empty. Creating empty domtbl." > {output.log}
+            touch {output.domtbl}
+        else
+            {config[tools][hmmscan]} --domtblout {output.domtbl} --noali {input.db} {input.fasta} > {output.log} 2>&1
+        fi
+        """
+
+# ----------------------------------------------------------------------
+rule assign_predicted:
+    input:
+        proteins = PRODIGAL / f"{BASE}_no_cds_sequences_proteins.faa",
+        domtbl = HMMER_PRED / f"{BASE}_predicted_domains.tbl",
+        domain_map = DOMAIN_MAP,
+    output:
+        assigned_tsv = HMMER_PRED / f"{BASE}_predicted_assigned.tsv",
+    shell:
+        "python scripts/run_assign_predicted_cds.py {input.proteins} {input.domtbl} {input.domain_map} {output.assigned_tsv}"
+
+# ----------------------------------------------------------------------
+rule update_full:
+    input:
+        coord_tsv = UPDATED / f"{BASE}_orf_coords_with_problematic.tsv",
+        assigned_tsv = HMMER_PRED / f"{BASE}_predicted_assigned.tsv",
+    output:
+        final_tsv = UPDATED / f"{BASE}_orf-coords_full.tsv",
+    shell:
+        "python scripts/run_update_coords.py {input.coord_tsv} {input.assigned_tsv} {output.final_tsv}"
+
+
+rule get_host_taxonomy:
+    input:
+        metadata = METADATA_TSV,
+        mapping = HOST_MAP,
+    output:
+        tax_tsv = HOST_TAXONOMY_TSV,
+    params:
+        email = config.get("email", "A.N.Other@example.com"),
+    shell:
+        "python scripts/run_get_host_taxonomy.py {input.metadata} {output.tax_tsv} --email {params.email} --mapping {input.mapping}"
+
+
+rule merge_final:
+    input:
+        metadata = METADATA_TSV,
+        coords = FINAL_COORD_TSV,
+        taxonomy = HOST_TAXONOMY_TSV,   # now generated by the pipeline
+    output:
+        annotated = ANNOTATED_METADATA,
+    shell:
+        "python scripts/run_merge_metadata_coords.py {input.metadata} {input.coords} {input.taxonomy} {output.annotated}"
+
+
+# ----------------------------------------------------------------------
+# Rule: add cluster species (ICTV and virus name)
+# ----------------------------------------------------------------------
+rule add_cluster_species:
+    input:
+        annotated = ANNOTATED_METADATA,
+        uc = CLUSTER_UC,
+        wg_meta = WG_METADATA,
+    output:
+        master = FINAL_MASTER,
+    shell:
+        """
+        python scripts/add_cluster_species.py \
+            --annotated {input.annotated} \
+            --uc {input.uc} \
+            --wg_metadata {input.wg_meta} \
+            --output {output.master}
+        """
+
+rule update_symlink:
+    input:
+        latest_run = FINAL_MASTER,
+    output:
+        symlink = Path("data/results/latest"),
+    run:
+>>>>>>> b5411a180697aaf0e340522009425028ed47f7f0
         os.symlink(RUN_ID, output.symlink, target_is_directory=True)

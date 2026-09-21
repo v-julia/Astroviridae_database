@@ -1,0 +1,25 @@
+Assuming unrestricted shared filesystem usage.
+host: server-sm
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 5
+Rules claiming more threads will be scaled down.
+Job stats:
+job         count
+--------  -------
+prodigal        1
+total           1
+
+Select jobs to execute...
+Execute 1 jobs...
+[Mon Sep 21 14:18:56 2026]
+localrule prodigal:
+    input: data/results/30-06-2026/coords/Astroviridae_30062026_no_cds_sequences.with_fusions.fasta
+    output: data/results/30-06-2026/prodigal/Astroviridae_30062026_no_cds_sequences_proteins.faa, data/results/30-06-2026/prodigal/Astroviridae_30062026_no_cds_predgenes.gff, data/results/30-06-2026/prodigal/Astroviridae_30062026_no_cds_predgenes.fna, data/results/30-06-2026/prodigal/prodigal.log
+    jobid: 0
+    reason: Missing output files: data/results/30-06-2026/prodigal/prodigal.log
+    resources: tmpdir=/tmp
+[Mon Sep 21 14:18:59 2026]
+Finished jobid: 0 (Rule: prodigal)
+1 of 1 steps (100%) done
+Complete log(s): /work/aleshina/Astroviridae_database/.snakemake/log/2026-09-21T141856.578826.snakemake.log

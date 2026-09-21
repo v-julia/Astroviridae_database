@@ -1,0 +1,25 @@
+Assuming unrestricted shared filesystem usage.
+host: server-sm
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 5
+Rules claiming more threads will be scaled down.
+Job stats:
+job            count
+-----------  -------
+merge_final        1
+total              1
+
+Select jobs to execute...
+Execute 1 jobs...
+[Mon Sep 21 15:07:47 2026]
+localrule merge_final:
+    input: data/results/30-06-2026/coords/Astroviridae_30062026_metadata.tsv, data/results/30-06-2026/updated_coords/Astroviridae_30062026_orf-coords_full.tsv, data/results/30-06-2026/host_taxonomy/Astroviridae_30062026_host_taxonomy.tsv
+    output: data/results/30-06-2026/final/Astroviridae_30062026_annotated.tsv
+    jobid: 0
+    reason: Missing output files: data/results/30-06-2026/final/Astroviridae_30062026_annotated.tsv
+    resources: tmpdir=/tmp
+[Mon Sep 21 15:07:49 2026]
+Finished jobid: 0 (Rule: merge_final)
+1 of 1 steps (100%) done
+Complete log(s): /work/aleshina/Astroviridae_database/.snakemake/log/2026-09-21T150746.947345.snakemake.log

@@ -1,0 +1,25 @@
+Assuming unrestricted shared filesystem usage.
+host: server-sm
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 5
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count
+----------------  -------
+assign_predicted        1
+total                   1
+
+Select jobs to execute...
+Execute 1 jobs...
+[Mon Sep 21 14:58:46 2026]
+localrule assign_predicted:
+    input: data/results/30-06-2026/prodigal/Astroviridae_30062026_no_cds_sequences_proteins.faa, data/results/30-06-2026/hmmer/predicted_orfs/Astroviridae_30062026_predicted_domains.tbl, data/annotations/domain_map.csv
+    output: data/results/30-06-2026/hmmer/predicted_orfs/Astroviridae_30062026_predicted_assigned.tsv
+    jobid: 0
+    reason: Missing output files: data/results/30-06-2026/hmmer/predicted_orfs/Astroviridae_30062026_predicted_assigned.tsv
+    resources: tmpdir=/tmp
+[Mon Sep 21 14:58:47 2026]
+Finished jobid: 0 (Rule: assign_predicted)
+1 of 1 steps (100%) done
+Complete log(s): /work/aleshina/Astroviridae_database/.snakemake/log/2026-09-21T145846.501766.snakemake.log
