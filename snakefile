@@ -25,6 +25,9 @@ HMMER_PROB = ROOT / "hmmer" / "problematic_orfs"
 HMMER_PRED = ROOT / "hmmer" / "predicted_orfs"
 
 
+CORRECTED_COORDS = UPDATED / f"{BASE}_orf-coords_corrected.tsv"
+FUSION_ORFS      = HMMER_ANNOT / f"{BASE}_fusion_orfs.tsv"
+
 FINAL_COORD_TSV = UPDATED / f"{BASE}_orf-coords_full.tsv"
 
 
@@ -117,6 +120,36 @@ rule check_mismatches:
         "python scripts/run_check_mismatches.py {input.coord_tsv} {input.domtbl} {input.domain_map} {output.report}"
 
 # ----------------------------------------------------------------------
+
+rule correct_orfs:
+    input:
+        coord_tsv    = COORDS / f"{BASE}_orf-coords.tsv",
+        mismatch_tsv = HMMER_ANNOT / f"{BASE}_mismatches_report.tsv",
+    output:
+        corrected_tsv = CORRECTED_COORDS,
+        fusion_tsv    = FUSION_ORFS,
+    shell:
+        "python scripts/run_correct_orfs.py "
+        "{input.coord_tsv} {input.mismatch_tsv} "
+        "{output.corrected_tsv} {output.fusion_tsv}"
+
+# ----------------------------------------------------------------------
+rule append_fusion_seqs:
+    input:
+        gb          = GB,
+        fusion_tsv  = FUSION_ORFS,
+        no_cds_fasta= COORDS / f"{BASE}_no_cds_sequences.fasta",
+    output:
+        no_cds_ext  = COORDS / f"{BASE}_no_cds_sequences.with_fusions.fasta",
+    shell:
+        # Copy existing no-cds FASTA to a new file, then append fusion seqs
+        """
+        cp {input.no_cds_fasta} {output.no_cds_ext}
+        python scripts/run_append_fusion_seqs.py \
+            {input.gb} {input.fusion_tsv} {output.no_cds_ext}
+        """
+
+# ----------------------------------------------------------------------
 rule hmmscan_problematic:
     input:
         fasta = COORDS / f"{BASE}_problematic_candidates.faa",
@@ -147,7 +180,7 @@ rule assign_problematic:
 # ----------------------------------------------------------------------
 rule update_with_problematic:
     input:
-        coord_tsv = COORDS / f"{BASE}_orf-coords.tsv",
+        coord_tsv = CORRECTED_COORDS,
         assigned_tsv = HMMER_PROB / f"{BASE}_problematic_assigned.tsv",
     output:
         updated_tsv = UPDATED / f"{BASE}_orf_coords_with_problematic.tsv",
@@ -157,7 +190,7 @@ rule update_with_problematic:
 # ----------------------------------------------------------------------
 rule prodigal:
     input:
-        fasta = COORDS / f"{BASE}_no_cds_sequences.fasta",
+        fasta = COORDS / f"{BASE}_no_cds_sequences.with_fusions.fasta",
     output:
         proteins = PRODIGAL / f"{BASE}_no_cds_sequences_proteins.faa",
         gff = PRODIGAL / f"{BASE}_no_cds_predgenes.gff",

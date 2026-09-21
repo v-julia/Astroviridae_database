@@ -1,0 +1,47 @@
+Assuming unrestricted shared filesystem usage.
+host: server-sm
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 5
+Rules claiming more threads will be scaled down.
+Job stats:
+job             count
+------------  -------
+correct_orfs        1
+total               1
+
+Select jobs to execute...
+Execute 1 jobs...
+[Mon Sep 21 14:03:28 2026]
+localrule correct_orfs:
+    input: data/results/30-06-2026/coords/Astroviridae_30062026_orf-coords.tsv, data/results/30-06-2026/hmmer/annotated_orfs/Astroviridae_30062026_mismatches_report.tsv
+    output: data/results/30-06-2026/updated_coords/Astroviridae_30062026_orf-coords_corrected.tsv, data/results/30-06-2026/hmmer/annotated_orfs/Astroviridae_30062026_fusion_orfs.tsv
+    jobid: 0
+    reason: Missing output files: data/results/30-06-2026/hmmer/annotated_orfs/Astroviridae_30062026_fusion_orfs.tsv, data/results/30-06-2026/updated_coords/Astroviridae_30062026_orf-coords_corrected.tsv
+    resources: tmpdir=/tmp
+RuleException:
+CalledProcessError in file "/work/aleshina/Astroviridae_database/snakefile", line 134:
+Command 'set -euo pipefail;  python scripts/run_correct_orfs.py data/results/30-06-2026/coords/Astroviridae_30062026_orf-coords.tsv data/results/30-06-2026/hmmer/annotated_orfs/Astroviridae_30062026_mismatches_report.tsv data/results/30-06-2026/updated_coords/Astroviridae_30062026_orf-coords_corrected.tsv data/results/30-06-2026/hmmer/annotated_orfs/Astroviridae_30062026_fusion_orfs.tsv' returned non-zero exit status 1.
+[Mon Sep 21 14:03:30 2026]
+Error in rule correct_orfs:
+    message: None
+    jobid: 0
+    input: data/results/30-06-2026/coords/Astroviridae_30062026_orf-coords.tsv, data/results/30-06-2026/hmmer/annotated_orfs/Astroviridae_30062026_mismatches_report.tsv
+    output: data/results/30-06-2026/updated_coords/Astroviridae_30062026_orf-coords_corrected.tsv, data/results/30-06-2026/hmmer/annotated_orfs/Astroviridae_30062026_fusion_orfs.tsv
+    shell:
+        python scripts/run_correct_orfs.py data/results/30-06-2026/coords/Astroviridae_30062026_orf-coords.tsv data/results/30-06-2026/hmmer/annotated_orfs/Astroviridae_30062026_mismatches_report.tsv data/results/30-06-2026/updated_coords/Astroviridae_30062026_orf-coords_corrected.tsv data/results/30-06-2026/hmmer/annotated_orfs/Astroviridae_30062026_fusion_orfs.tsv
+        (command exited with non-zero exit code)
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look below for error messages
+[Mon Sep 21 14:03:30 2026]
+Error in rule correct_orfs:
+    message: None
+    jobid: 0
+    input: data/results/30-06-2026/coords/Astroviridae_30062026_orf-coords.tsv, data/results/30-06-2026/hmmer/annotated_orfs/Astroviridae_30062026_mismatches_report.tsv
+    output: data/results/30-06-2026/updated_coords/Astroviridae_30062026_orf-coords_corrected.tsv, data/results/30-06-2026/hmmer/annotated_orfs/Astroviridae_30062026_fusion_orfs.tsv
+    shell:
+        python scripts/run_correct_orfs.py data/results/30-06-2026/coords/Astroviridae_30062026_orf-coords.tsv data/results/30-06-2026/hmmer/annotated_orfs/Astroviridae_30062026_mismatches_report.tsv data/results/30-06-2026/updated_coords/Astroviridae_30062026_orf-coords_corrected.tsv data/results/30-06-2026/hmmer/annotated_orfs/Astroviridae_30062026_fusion_orfs.tsv
+        (command exited with non-zero exit code)
+Complete log(s): /work/aleshina/Astroviridae_database/.snakemake/log/2026-09-21T140328.578251.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

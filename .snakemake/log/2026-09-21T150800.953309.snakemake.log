@@ -1,0 +1,25 @@
+Assuming unrestricted shared filesystem usage.
+host: server-sm
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 5
+Rules claiming more threads will be scaled down.
+Job stats:
+job                    count
+-------------------  -------
+add_cluster_species        1
+total                      1
+
+Select jobs to execute...
+Execute 1 jobs...
+[Mon Sep 21 15:08:01 2026]
+localrule add_cluster_species:
+    input: data/results/30-06-2026/final/Astroviridae_30062026_annotated.tsv, data/results/30-06-2026/clustering/ORF1B_upd2_17nt_mmseq2.uc, data/annotations/MAstV_WG_2025_metadata.tsv
+    output: data/results/30-06-2026/final/Astroviridae_30062026_annotated_MAstV_species.tsv
+    jobid: 0
+    reason: Updated input files: data/results/30-06-2026/final/Astroviridae_30062026_annotated.tsv
+    resources: tmpdir=/tmp
+[Mon Sep 21 15:08:03 2026]
+Finished jobid: 0 (Rule: add_cluster_species)
+1 of 1 steps (100%) done
+Complete log(s): /work/aleshina/Astroviridae_database/.snakemake/log/2026-09-21T150800.953309.snakemake.log

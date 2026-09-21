@@ -1,11 +1,11 @@
-DEFINITION  seqnum=1;seqlen=2228;seqhdr="PQ110289.1 MAG: Oryctes associated astro-like virus isolate Or_elegans1_agamemnon2 genomic sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="6|Anaplasma_phagocytophilum_HZ|B|41.6|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
+DEFINITION  seqnum=1;seqlen=2228;seqhdr="PQ110289.1 MAG: Oryctes associated astro-like virus isolate Or_elegans1_agamemnon2 genomic sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="6|Anaplasma_phagocytophilum_HZ|B|41.6|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
 FEATURES             Location/Qualifiers
      CDS             <2..886
                      /note="ID=1_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.456;conf=100.00;score=75.26;cscore=72.04;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
      CDS             1003..>2226
                      /note="ID=1_2;partial=01;start_type=GTG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.431;conf=100.00;score=91.69;cscore=97.27;sscore=-5.58;rscore=-2.53;uscore=-2.70;tscore=-0.34;"
 //
-DEFINITION  seqnum=2;seqlen=5203;seqhdr="PP512783.1 MAG: Duck astrovirus isolate Du/Egy/Gharbia/2021/DAstVs genomic sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="44|Thermoplasma_volcanium_GSS1|A|39.9|11|1";gc_cont=39.90;transl_table=11;uses_sd=1
+DEFINITION  seqnum=2;seqlen=5203;seqhdr="PP512783.1 MAG: Duck astrovirus isolate Du/Egy/Gharbia/2021/DAstVs genomic sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="44|Thermoplasma_volcanium_GSS1|A|39.9|11|1";gc_cont=39.90;transl_table=11;uses_sd=1
 FEATURES             Location/Qualifiers
      CDS             <1..1011
                      /note="ID=2_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.421;conf=100.00;score=63.17;cscore=59.95;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
@@ -20,26 +20,26 @@ FEATURES             Location/Qualifiers
      CDS             4253..4918
                      /note="ID=2_6;partial=00;start_type=TTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.447;conf=95.42;score=13.21;cscore=20.42;sscore=-7.21;rscore=0.54;uscore=-0.13;tscore=-7.61;"
 //
-DEFINITION  seqnum=3;seqlen=592;seqhdr="OR800315.1 MAG: Feral pigeon astrovirus isolate NYJ-1/2023 nonstructural protein-like gene, complete sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="15|Chlorobium_phaeobacteroides_BS1|B|48.9|11|0";gc_cont=48.90;transl_table=11;uses_sd=0
+DEFINITION  seqnum=3;seqlen=592;seqhdr="OR800315.1 MAG: Feral pigeon astrovirus isolate NYJ-1/2023 nonstructural protein-like gene, complete sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="15|Chlorobium_phaeobacteroides_BS1|B|48.9|11|0";gc_cont=48.90;transl_table=11;uses_sd=0
 FEATURES             Location/Qualifiers
      CDS             85..363
                      /note="ID=3_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.491;conf=93.88;score=11.88;cscore=7.08;sscore=4.80;rscore=-0.28;uscore=1.78;tscore=3.30;"
      CDS             432..>590
                      /note="ID=3_2;partial=01;start_type=ATG;rbs_motif=AATAA;rbs_spacer=13bp;genetic_code=11;gc_cont=0.440;conf=99.18;score=20.87;cscore=7.13;sscore=13.73;rscore=10.51;uscore=-0.07;tscore=3.30;"
 //
-DEFINITION  seqnum=4;seqlen=2197;seqhdr="OP474168.1 MAG: Pangolin astrovirus A4 genomic sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="46|Tropheryma_whipplei_TW08_27|B|46.3|11|1";gc_cont=46.30;transl_table=11;uses_sd=1
+DEFINITION  seqnum=4;seqlen=2197;seqhdr="OP474168.1 MAG: Pangolin astrovirus A4 genomic sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="46|Tropheryma_whipplei_TW08_27|B|46.3|11|1";gc_cont=46.30;transl_table=11;uses_sd=1
 FEATURES             Location/Qualifiers
      CDS             <1..249
                      /note="ID=4_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.438;conf=83.48;score=7.05;cscore=3.83;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
      CDS             239..>2197
                      /note="ID=4_2;partial=01;start_type=ATG;rbs_motif=AGxAG;rbs_spacer=3-4bp;genetic_code=11;gc_cont=0.490;conf=100.00;score=114.68;cscore=109.74;sscore=4.94;rscore=2.33;uscore=-0.74;tscore=2.13;"
 //
-DEFINITION  seqnum=5;seqlen=459;seqhdr="MN733910.1 Astroviridae sp. clone XKHW-11 genomic sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="15|Chlorobium_phaeobacteroides_BS1|B|48.9|11|0";gc_cont=48.90;transl_table=11;uses_sd=0
+DEFINITION  seqnum=5;seqlen=459;seqhdr="MN733910.1 Astroviridae sp. clone XKHW-11 genomic sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="15|Chlorobium_phaeobacteroides_BS1|B|48.9|11|0";gc_cont=48.90;transl_table=11;uses_sd=0
 FEATURES             Location/Qualifiers
      CDS             <3..>458
                      /note="ID=5_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.450;conf=99.99;score=41.92;cscore=40.32;sscore=1.61;rscore=0.00;uscore=0.00;tscore=1.61;"
 //
-DEFINITION  seqnum=6;seqlen=2195;seqhdr="MN036159.1 MAG: Astroviridae sp. isolate H2_Bulk_Litter_12_scaffold_3666 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="57|Gut_phage_code_11a|V|43.3|11|1";gc_cont=43.26;transl_table=11;uses_sd=1
+DEFINITION  seqnum=6;seqlen=2195;seqhdr="MN036159.1 MAG: Astroviridae sp. isolate H2_Bulk_Litter_12_scaffold_3666 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="57|Gut_phage_code_11a|V|43.3|11|1";gc_cont=43.26;transl_table=11;uses_sd=1
 FEATURES             Location/Qualifiers
      CDS             complement(<1..300)
                      /note="ID=6_1;partial=10;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.513;conf=95.65;score=13.44;cscore=16.80;sscore=-3.36;rscore=-7.94;uscore=0.01;tscore=3.31;"
@@ -48,93 +48,304 @@ FEATURES             Location/Qualifiers
      CDS             complement(1930..>2193)
                      /note="ID=6_3;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.477;conf=93.89;score=11.88;cscore=8.66;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
 //
-DEFINITION  seqnum=7;seqlen=1929;seqhdr="MN036131.1 MAG: Astroviridae sp. isolate H4_Rhizo_Litter_20_scaffold_3123 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="52|VirSorter2_NCLDV|V|31.2|11|0";gc_cont=31.22;transl_table=11;uses_sd=0
+DEFINITION  seqnum=7;seqlen=1929;seqhdr="MN036131.1 MAG: Astroviridae sp. isolate H4_Rhizo_Litter_20_scaffold_3123 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="52|VirSorter2_NCLDV|V|31.2|11|0";gc_cont=31.22;transl_table=11;uses_sd=0
 FEATURES             Location/Qualifiers
      CDS             complement(278..>1927)
                      /note="ID=7_1;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.321;conf=100.00;score=175.38;cscore=172.16;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
 //
-DEFINITION  seqnum=8;seqlen=1422;seqhdr="MN035893.1 MAG: Astroviridae sp. isolate H3_Bulk_Litter_17_scaffold_17037 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="57|Gut_phage_code_11a|V|43.3|11|1";gc_cont=43.26;transl_table=11;uses_sd=1
+DEFINITION  seqnum=8;seqlen=1422;seqhdr="MN035893.1 MAG: Astroviridae sp. isolate H3_Bulk_Litter_17_scaffold_17037 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="57|Gut_phage_code_11a|V|43.3|11|1";gc_cont=43.26;transl_table=11;uses_sd=1
 FEATURES             Location/Qualifiers
      CDS             <1..1422
                      /note="ID=8_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.434;conf=100.00;score=117.48;cscore=114.26;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
 //
-DEFINITION  seqnum=9;seqlen=5686;seqhdr="MN035838.1 MAG: Astroviridae sp. isolate H4_Bulk_47_scaffold_62 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="39|Rickettsia_conorii_Malish_7|B|32.4|11|1";gc_cont=32.40;transl_table=11;uses_sd=1
+DEFINITION  seqnum=9;seqlen=5686;seqhdr="MN035838.1 MAG: Astroviridae sp. isolate H4_Bulk_47_scaffold_62 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="39|Rickettsia_conorii_Malish_7|B|32.4|11|1";gc_cont=32.40;transl_table=11;uses_sd=1
 FEATURES             Location/Qualifiers
      CDS             complement(42..>5684)
                      /note="ID=9_1;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.370;conf=99.99;score=540.27;cscore=537.05;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
 //
-DEFINITION  seqnum=10;seqlen=1555;seqhdr="MN035574.1 MAG: Astroviridae sp. isolate H2_Rhizo_Litter_49_scaffold_25815 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="6|Anaplasma_phagocytophilum_HZ|B|41.6|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
+DEFINITION  seqnum=10;seqlen=1555;seqhdr="MN035574.1 MAG: Astroviridae sp. isolate H2_Rhizo_Litter_49_scaffold_25815 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="6|Anaplasma_phagocytophilum_HZ|B|41.6|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
 FEATURES             Location/Qualifiers
      CDS             complement(<3..152)
                      /note="ID=10_1;partial=10;start_type=ATG;rbs_motif=GGxGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.480;conf=98.34;score=17.75;cscore=9.29;sscore=8.46;rscore=5.57;uscore=-0.60;tscore=2.78;"
      CDS             complement(205..>1554)
                      /note="ID=10_2;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.442;conf=100.00;score=117.80;cscore=114.58;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
 //
-DEFINITION  seqnum=11;seqlen=1214;seqhdr="MN035429.1 MAG: Astroviridae sp. isolate H4_Bulk_47_scaffold_19966 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="49|_Nostoc_azollae__0708|B|38.5|11|1";gc_cont=38.40;transl_table=11;uses_sd=1
+DEFINITION  seqnum=11;seqlen=1214;seqhdr="MN035429.1 MAG: Astroviridae sp. isolate H4_Bulk_47_scaffold_19966 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="49|_Nostoc_azollae__0708|B|38.5|11|1";gc_cont=38.40;transl_table=11;uses_sd=1
 FEATURES             Location/Qualifiers
      CDS             <2..>1213
                      /note="ID=11_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.396;conf=100.00;score=83.71;cscore=82.10;sscore=1.61;rscore=0.00;uscore=0.00;tscore=1.61;"
 //
-DEFINITION  seqnum=12;seqlen=1684;seqhdr="MN035369.1 MAG: Astroviridae sp. isolate H3_Bulk_42_scaffold_5271 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="57|Gut_phage_code_11a|V|43.3|11|1";gc_cont=43.26;transl_table=11;uses_sd=1
+DEFINITION  seqnum=12;seqlen=1684;seqhdr="MN035369.1 MAG: Astroviridae sp. isolate H3_Bulk_42_scaffold_5271 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="57|Gut_phage_code_11a|V|43.3|11|1";gc_cont=43.26;transl_table=11;uses_sd=1
 FEATURES             Location/Qualifiers
      CDS             complement(<1..1572)
                      /note="ID=12_1;partial=10;start_type=ATG;rbs_motif=GGxGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.431;conf=100.00;score=136.99;cscore=130.36;sscore=6.63;rscore=5.19;uscore=-1.88;tscore=3.31;"
 //
-DEFINITION  seqnum=13;seqlen=1687;seqhdr="MN034849.1 MAG: Astroviridae sp. isolate H4_Bulk_Litter_24_scaffold_8515 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="57|Gut_phage_code_11a|V|43.3|11|1";gc_cont=43.26;transl_table=11;uses_sd=1
+DEFINITION  seqnum=13;seqlen=1687;seqhdr="MN034849.1 MAG: Astroviridae sp. isolate H4_Bulk_Litter_24_scaffold_8515 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="57|Gut_phage_code_11a|V|43.3|11|1";gc_cont=43.26;transl_table=11;uses_sd=1
 FEATURES             Location/Qualifiers
      CDS             complement(<1..>1686)
                      /note="ID=13_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.389;conf=100.00;score=136.96;cscore=135.35;sscore=1.61;rscore=0.00;uscore=0.00;tscore=1.61;"
 //
-DEFINITION  seqnum=14;seqlen=1781;seqhdr="MN034422.1 MAG: Astroviridae sp. isolate H4_Bulk_47_scaffold_5859 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="6|Anaplasma_phagocytophilum_HZ|B|41.6|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
+DEFINITION  seqnum=14;seqlen=1781;seqhdr="MN034422.1 MAG: Astroviridae sp. isolate H4_Bulk_47_scaffold_5859 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="6|Anaplasma_phagocytophilum_HZ|B|41.6|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
 FEATURES             Location/Qualifiers
      CDS             complement(<2..613)
                      /note="ID=14_1;partial=10;start_type=TTG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.497;conf=99.97;score=35.47;cscore=52.29;sscore=-16.83;rscore=-2.53;uscore=-4.39;tscore=-9.90;"
      CDS             complement(558..1742)
                      /note="ID=14_2;partial=00;start_type=ATG;rbs_motif=GGAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.468;conf=100.00;score=74.03;cscore=69.37;sscore=4.66;rscore=8.84;uscore=-6.96;tscore=2.78;"
 //
-DEFINITION  seqnum=15;seqlen=1294;seqhdr="MN034197.1 MAG: Astroviridae sp. isolate H2_Bulk_Litter_12_scaffold_16222 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="52|VirSorter2_NCLDV|V|31.2|11|0";gc_cont=31.22;transl_table=11;uses_sd=0
+DEFINITION  seqnum=15;seqlen=1294;seqhdr="MN034197.1 MAG: Astroviridae sp. isolate H2_Bulk_Litter_12_scaffold_16222 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="52|VirSorter2_NCLDV|V|31.2|11|0";gc_cont=31.22;transl_table=11;uses_sd=0
 FEATURES             Location/Qualifiers
      CDS             <2..802
                      /note="ID=15_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.327;conf=100.00;score=76.57;cscore=73.36;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
      CDS             816..>1292
                      /note="ID=15_2;partial=01;start_type=ATG;rbs_motif=TAT;rbs_spacer=5bp;genetic_code=11;gc_cont=0.403;conf=100.00;score=69.07;cscore=65.10;sscore=3.97;rscore=-2.01;uscore=1.04;tscore=3.80;"
 //
-DEFINITION  seqnum=16;seqlen=1319;seqhdr="MN033907.1 MAG: Astroviridae sp. isolate H1_Bulk_Litter_4_scaffold_9531 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="49|_Nostoc_azollae__0708|B|38.5|11|1";gc_cont=38.40;transl_table=11;uses_sd=1
+DEFINITION  seqnum=16;seqlen=1319;seqhdr="MN033907.1 MAG: Astroviridae sp. isolate H1_Bulk_Litter_4_scaffold_9531 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="49|_Nostoc_azollae__0708|B|38.5|11|1";gc_cont=38.40;transl_table=11;uses_sd=1
 FEATURES             Location/Qualifiers
      CDS             complement(136..>1317)
                      /note="ID=16_1;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.431;conf=100.00;score=71.82;cscore=68.60;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
 //
-DEFINITION  seqnum=17;seqlen=1318;seqhdr="MN033591.1 MAG: Astroviridae sp. isolate H4_Rhizo_44_scaffold_12707 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="6|Anaplasma_phagocytophilum_HZ|B|41.6|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
+DEFINITION  seqnum=17;seqlen=1318;seqhdr="MN033591.1 MAG: Astroviridae sp. isolate H4_Rhizo_44_scaffold_12707 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="6|Anaplasma_phagocytophilum_HZ|B|41.6|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
 FEATURES             Location/Qualifiers
      CDS             <3..>1316
                      /note="ID=17_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.393;conf=100.00;score=119.65;cscore=118.04;sscore=1.61;rscore=0.00;uscore=0.00;tscore=1.61;"
 //
-DEFINITION  seqnum=18;seqlen=3290;seqhdr="MN033177.1 MAG: Astroviridae sp. isolate H4_Rhizo_44_scaffold_584 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="39|Rickettsia_conorii_Malish_7|B|32.4|11|1";gc_cont=32.40;transl_table=11;uses_sd=1
+DEFINITION  seqnum=18;seqlen=3290;seqhdr="MN033177.1 MAG: Astroviridae sp. isolate H4_Rhizo_44_scaffold_584 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="39|Rickettsia_conorii_Malish_7|B|32.4|11|1";gc_cont=32.40;transl_table=11;uses_sd=1
 FEATURES             Location/Qualifiers
      CDS             <1..>3288
                      /note="ID=18_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.367;conf=99.99;score=406.86;cscore=405.25;sscore=1.61;rscore=0.00;uscore=0.00;tscore=1.61;"
 //
-DEFINITION  seqnum=19;seqlen=1181;seqhdr="MN033141.1 MAG: Astroviridae sp. isolate H4_Bulk_46_scaffold_28672 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="6|Anaplasma_phagocytophilum_HZ|B|41.6|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
+DEFINITION  seqnum=19;seqlen=1181;seqhdr="MN033141.1 MAG: Astroviridae sp. isolate H4_Bulk_46_scaffold_28672 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="6|Anaplasma_phagocytophilum_HZ|B|41.6|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
 FEATURES             Location/Qualifiers
      CDS             <1..>1179
                      /note="ID=19_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.480;conf=100.00;score=61.87;cscore=60.26;sscore=1.61;rscore=0.00;uscore=0.00;tscore=1.61;"
 //
-DEFINITION  seqnum=20;seqlen=6676;seqhdr="MN032977.1 MAG: Astroviridae sp. isolate H1_Bulk_Litter_4_scaffold_35 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="40|Rothia_dentocariosa_ATCC_17931|B|53.7|11|1";gc_cont=53.70;transl_table=11;uses_sd=1
+DEFINITION  seqnum=20;seqlen=6676;seqhdr="MN032977.1 MAG: Astroviridae sp. isolate H1_Bulk_Litter_4_scaffold_35 sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="40|Rothia_dentocariosa_ATCC_17931|B|53.7|11|1";gc_cont=53.70;transl_table=11;uses_sd=1
 FEATURES             Location/Qualifiers
      CDS             complement(495..>6674)
                      /note="ID=20_1;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.505;conf=99.99;score=421.29;cscore=418.07;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
 //
-DEFINITION  seqnum=21;seqlen=267;seqhdr="EF490429.1 Human astrovirus isolate Madagascar/DT1004/2004 similar to putative serine protease genomic sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="18|Desulfurococcus_kamchatkensis_1221n|B|45.3|11|1";gc_cont=45.30;transl_table=11;uses_sd=1
+DEFINITION  seqnum=21;seqlen=267;seqhdr="EF490429.1 Human astrovirus isolate Madagascar/DT1004/2004 similar to putative serine protease genomic sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="18|Desulfurococcus_kamchatkensis_1221n|B|45.3|11|1";gc_cont=45.30;transl_table=11;uses_sd=1
 FEATURES             Location/Qualifiers
      CDS             <1..261
                      /note="ID=21_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.437;conf=99.62;score=24.24;cscore=21.02;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
 //
-DEFINITION  seqnum=22;seqlen=6828;seqhdr="L13745.1 Human astrovirus serotype 2, complete sequence of genomic RNA";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="44|Thermoplasma_volcanium_GSS1|A|39.9|11|1";gc_cont=39.90;transl_table=11;uses_sd=1
+DEFINITION  seqnum=22;seqlen=283;seqhdr="L23511.1 Human astrovirus serotype 5 (a5) RNA fragment";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="51|Paramecium_bursaria_Chlorella_virus_1_PBCV-1|V|40.0|11|0";gc_cont=39.97;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             <3..200
+                     /note="ID=22_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.429;conf=97.36;score=15.70;cscore=12.48;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
+//
+DEFINITION  seqnum=23;seqlen=283;seqhdr="L23508.1 Human astrovirus serotype 2 (a2) RNA fragment";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="57|Gut_phage_code_11a|V|43.3|11|1";gc_cont=43.26;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             <3..200
+                     /note="ID=23_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.434;conf=97.88;score=16.67;cscore=13.45;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
+//
+DEFINITION  seqnum=24;seqlen=6828;seqhdr="L13745.1 Human astrovirus serotype 2, complete sequence of genomic RNA";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="44|Thermoplasma_volcanium_GSS1|A|39.9|11|1";gc_cont=39.90;transl_table=11;uses_sd=1
 FEATURES             Location/Qualifiers
      CDS             <2..2845
-                     /note="ID=22_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.430;conf=99.99;score=241.43;cscore=238.21;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
+                     /note="ID=24_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.430;conf=99.99;score=241.43;cscore=238.21;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
      CDS             2860..4332
-                     /note="ID=22_2;partial=00;start_type=TTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.422;conf=100.00;score=68.38;cscore=74.72;sscore=-6.34;rscore=-0.23;uscore=0.39;tscore=-7.61;"
+                     /note="ID=24_2;partial=00;start_type=TTG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.422;conf=100.00;score=68.38;cscore=74.72;sscore=-6.34;rscore=-0.23;uscore=0.39;tscore=-7.61;"
      CDS             4325..6715
-                     /note="ID=22_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.458;conf=100.00;score=172.38;cscore=172.30;sscore=0.08;rscore=-0.52;uscore=-3.31;tscore=2.66;"
+                     /note="ID=24_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.458;conf=100.00;score=172.38;cscore=172.30;sscore=0.08;rscore=-0.52;uscore=-3.31;tscore=2.66;"
+//
+DEFINITION  seqnum=25;seqlen=6478;seqhdr="PP871917.1 MAG: Mamastrovirus sp. isolate astro_vt_199 genomic sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="44|Thermoplasma_volcanium_GSS1|A|39.9|11|1";gc_cont=39.90;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             <1..4173
+                     /note="ID=25_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.445;conf=99.99;score=266.10;cscore=262.88;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
+     CDS             4166..6478
+                     /note="ID=25_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.482;conf=100.00;score=135.23;cscore=133.85;sscore=1.38;rscore=-0.52;uscore=-2.01;tscore=2.66;"
+//
+DEFINITION  seqnum=26;seqlen=5961;seqhdr="PP711869.1 MAG: Cardioderma bat astrovirus isolate 26A/Kenya/BAT2584/2015 genomic sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="54|Agate_code_15|V|39.8|15|1";gc_cont=39.78;transl_table=15;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             <1..2799
+                     /note="ID=26_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=15;gc_cont=0.556;conf=99.99;score=365.40;cscore=362.18;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
+     CDS             2808..3509
+                     /note="ID=26_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=15;gc_cont=0.667;conf=100.00;score=55.55;cscore=67.37;sscore=-11.82;rscore=-8.90;uscore=-4.10;tscore=0.00;"
+     CDS             3799..5895
+                     /note="ID=26_3;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=15;gc_cont=0.547;conf=99.99;score=199.93;cscore=206.38;sscore=-6.45;rscore=-2.64;uscore=-3.15;tscore=0.00;"
+//
+DEFINITION  seqnum=27;seqlen=6586;seqhdr="PP173657.1 MAG: Ripistuv virus isolate MP3_k141_5253 genomic sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="49|_Nostoc_azollae__0708|B|38.5|11|1";gc_cont=38.40;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             complement(29..>6586)
+                     /note="ID=27_1;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.411;conf=99.99;score=576.91;cscore=573.69;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
+//
+DEFINITION  seqnum=28;seqlen=9484;seqhdr="PP172843.1 MAG: Ripikrak virus isolate KCAP1_k141_96123 genomic sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="11|Candidatus_Amoebophilus_asiaticus_5a2|B|35.0|11|0";gc_cont=35.00;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             complement(71..9073)
+                     /note="ID=28_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.386;conf=99.99;score=867.37;cscore=869.34;sscore=-1.97;rscore=-4.87;uscore=-0.57;tscore=3.47;"
+//
+DEFINITION  seqnum=29;seqlen=1801;seqhdr="OR613288.1 Bat astrovirus isolate RSQJC08_2/82 capsid protein precursor, gene, partial cds";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="21|Haloquadratum_walsbyi_DSM_16790|A|47.9|11|0";gc_cont=47.90;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             <1..>1800
+                     /note="ID=29_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.459;conf=100.00;score=150.26;cscore=148.65;sscore=1.61;rscore=0.00;uscore=0.00;tscore=1.61;"
+//
+DEFINITION  seqnum=30;seqlen=7225;seqhdr="OP272633.1 Goose astrovirus isolate AH33-3, partial genome";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="17|Desulfotomaculum_acetoxidans_DSM_771|B|41.5|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             <1..2562
+                     /note="ID=30_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.412;conf=99.99;score=188.54;cscore=185.32;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
+     CDS             2559..5054
+                     /note="ID=30_2;partial=00;start_type=TTG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.385;conf=99.99;score=206.96;cscore=207.57;sscore=-0.60;rscore=-10.82;uscore=1.74;tscore=-3.64;"
+     CDS             5075..7225
+                     /note="ID=30_3;partial=00;start_type=ATG;rbs_motif=AGGAG/GGAGG;rbs_spacer=11-12bp;genetic_code=11;gc_cont=0.453;conf=100.00;score=126.84;cscore=111.32;sscore=15.52;rscore=9.59;uscore=2.04;tscore=2.83;"
+//
+DEFINITION  seqnum=31;seqlen=6675;seqhdr="ON807348.1 Mamastrovirus 1 isolate G22-006 putative RNA-dependent RNA polymerase gene, partial cds; and capsid precursor protein gene, complete cds";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="44|Thermoplasma_volcanium_GSS1|A|39.9|11|1";gc_cont=39.90;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             <1..4254
+                     /note="ID=31_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.431;conf=99.99;score=307.76;cscore=304.54;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
+     CDS             4247..6583
+                     /note="ID=31_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.472;conf=100.00;score=129.87;cscore=129.79;sscore=0.08;rscore=-0.52;uscore=-3.31;tscore=2.66;"
+//
+DEFINITION  seqnum=32;seqlen=6026;seqhdr="OM451103.1 MAG: Porcupine astrovirus 4 isolate HuB-F2 mRNA sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="46|Tropheryma_whipplei_TW08_27|B|46.3|11|1";gc_cont=46.30;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             <1..3879
+                     /note="ID=32_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.515;conf=99.99;score=244.44;cscore=241.22;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
+     CDS             3872..6004
+                     /note="ID=32_2;partial=00;start_type=ATG;rbs_motif=AGGAG(G)/GGAGG;rbs_spacer=13-15bp;genetic_code=11;gc_cont=0.530;conf=100.00;score=135.39;cscore=130.85;sscore=4.54;rscore=1.64;uscore=-0.48;tscore=2.13;"
+//
+DEFINITION  seqnum=33;seqlen=2059;seqhdr="MT766332.1 MAG: Mamastrovirus 9 isolate AstV/CHN/XJ/env/2018/ks4-ctg3 nonstructural protein 1ab gene, partial cds";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="24|Ignisphaera_aggregans_DSM_17230|A|35.7|11|1";gc_cont=35.70;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             <3..>2057
+                     /note="ID=33_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.401;conf=99.99;score=233.50;cscore=231.89;sscore=1.61;rscore=0.00;uscore=0.00;tscore=1.61;"
+//
+DEFINITION  seqnum=34;seqlen=3909;seqhdr="OM451147.1 MAG: Mamastrovirus 3 isolate JS-TNA2 ORF1ab mRNA, partial cds";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="54|Agate_code_15|V|39.8|15|1";gc_cont=39.78;transl_table=15;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             <1..3909
+                     /note="ID=34_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=15;gc_cont=0.587;conf=99.99;score=282.44;cscore=279.22;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
+//
+DEFINITION  seqnum=35;seqlen=6331;seqhdr="OM451211.1 MAG: Porcupine astrovirus 5 isolate AH-F2 nonstructural protein and capsid protein precursor, genes, complete cds";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="34|Prochlorococcus_marinus_MIT_9313|B|50.7|11|0";gc_cont=50.70;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             41..3976
+                     /note="ID=35_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.490;conf=99.99;score=213.32;cscore=207.36;sscore=5.96;rscore=0.00;uscore=1.36;tscore=4.60;"
+     CDS             3921..6308
+                     /note="ID=35_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.530;conf=100.00;score=107.50;cscore=102.53;sscore=4.98;rscore=0.00;uscore=0.37;tscore=4.60;"
+//
+DEFINITION  seqnum=36;seqlen=6097;seqhdr="OM451210.1 MAG: Porcupine astrovirus 1 isolate FJ-F1 nonstructural protein and capsid protein precursor, genes, complete cds";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="34|Prochlorococcus_marinus_MIT_9313|B|50.7|11|0";gc_cont=50.70;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             <1..3888
+                     /note="ID=36_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.495;conf=99.99;score=228.07;cscore=224.85;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
+     CDS             3881..4633
+                     /note="ID=36_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.547;conf=99.71;score=25.40;cscore=21.60;sscore=3.80;rscore=0.00;uscore=-2.05;tscore=4.60;"
+     CDS             4575..6020
+                     /note="ID=36_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.545;conf=100.00;score=85.19;cscore=81.58;sscore=3.61;rscore=0.00;uscore=-0.99;tscore=4.60;"
+//
+DEFINITION  seqnum=37;seqlen=6772;seqhdr="OM451148.1 MAG: Raccoon dog astrovirus 1 isolate HeB-MO1 nonstructural protein and capsid protein precursor, genes, complete cds";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="57|Gut_phage_code_11a|V|43.3|11|1";gc_cont=43.26;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             37..4272
+                     /note="ID=37_1;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.466;conf=99.99;score=289.53;cscore=281.37;sscore=8.16;rscore=5.61;uscore=-0.76;tscore=3.31;"
+     CDS             4265..6685
+                     /note="ID=37_2;partial=00;start_type=ATG;rbs_motif=AGGAG(G)/GGAGG;rbs_spacer=13-15bp;genetic_code=11;gc_cont=0.516;conf=100.00;score=176.02;cscore=164.58;sscore=11.43;rscore=6.39;uscore=0.48;tscore=3.31;"
+//
+DEFINITION  seqnum=38;seqlen=6845;seqhdr="OM451116.1 MAG: Civet astrovirus isolate SC-F1 nonstructural protein gene, partial cds; and capsid protein precursor, gene, complete cds";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="53|Acanthocystis_turfacea_Chlorella_virus_1|V|49.4|11|0";gc_cont=49.40;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             <2..4153
+                     /note="ID=38_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.515;conf=99.99;score=325.32;cscore=322.10;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
+     CDS             4146..6656
+                     /note="ID=38_2;partial=00;start_type=ATG;rbs_motif=TAT;rbs_spacer=3bp;genetic_code=11;gc_cont=0.557;conf=100.00;score=108.30;cscore=114.79;sscore=-6.49;rscore=3.85;uscore=-16.13;tscore=4.55;"
+//
+DEFINITION  seqnum=39;seqlen=6450;seqhdr="OM451114.1 MAG: Raccoon dog astrovirus 3 isolate SD-F3 nonstructural protein and capsid protein precursor, genes, complete cds";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="6|Anaplasma_phagocytophilum_HZ|B|41.6|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             <1..4089
+                     /note="ID=39_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.443;conf=99.99;score=318.46;cscore=315.24;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
+     CDS             4218..6416
+                     /note="ID=39_2;partial=00;start_type=ATG;rbs_motif=AGxAGG/AGGxGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.476;conf=100.00;score=139.52;cscore=135.56;sscore=3.96;rscore=3.42;uscore=-2.24;tscore=2.78;"
+//
+DEFINITION  seqnum=40;seqlen=6376;seqhdr="OM451113.1 MAG: Raccoon dog astrovirus 2 isolate SD-F3 nonstructural protein gene, complete cds; and capsid protein precursor, gene, partial cds";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="44|Thermoplasma_volcanium_GSS1|A|39.9|11|1";gc_cont=39.90;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             99..4190
+                     /note="ID=40_1;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.438;conf=99.99;score=247.06;cscore=246.75;sscore=0.31;rscore=-0.23;uscore=-2.12;tscore=2.66;"
+     CDS             4183..>6375
+                     /note="ID=40_2;partial=01;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.472;conf=100.00;score=119.18;cscore=119.41;sscore=-0.23;rscore=-0.52;uscore=-3.62;tscore=2.66;"
+//
+DEFINITION  seqnum=41;seqlen=6553;seqhdr="OM451109.1 MAG: Squirrel astrovirus 1 isolate GD-MO2 nonstructural protein gene, partial cds; and capsid protein precursor, gene, complete cds";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="17|Desulfotomaculum_acetoxidans_DSM_771|B|41.5|11|1";gc_cont=41.60;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             <3..4154
+                     /note="ID=41_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.464;conf=99.99;score=350.02;cscore=346.80;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
+     CDS             4147..6501
+                     /note="ID=41_2;partial=00;start_type=ATG;rbs_motif=AGGAG(G)/GGAGG;rbs_spacer=13-15bp;genetic_code=11;gc_cont=0.504;conf=100.00;score=153.31;cscore=148.16;sscore=5.15;rscore=2.41;uscore=-1.35;tscore=2.83;"
+//
+DEFINITION  seqnum=42;seqlen=4301;seqhdr="OM451108.1 MAG: Bamboo rat astrovirus isolate GX-F3 RNA-dependent RNA polymerase gene, partial cds; and capsid protein precursor, gene, complete cds";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="51|Paramecium_bursaria_Chlorella_virus_1_PBCV-1|V|40.0|11|0";gc_cont=39.97;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             <1..2061
+                     /note="ID=42_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.395;conf=100.00;score=114.08;cscore=110.87;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
+     CDS             2067..4211
+                     /note="ID=42_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.468;conf=100.00;score=146.56;cscore=161.74;sscore=-15.18;rscore=-6.72;uscore=-13.87;tscore=4.19;"
+//
+DEFINITION  seqnum=43;seqlen=5726;seqhdr="OM451107.1 MAG: Porcupine astrovirus 7 isolate HuB-F4 nonstructural protein gene, partial cds; and capsid protein precursor, gene, complete cds";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="21|Haloquadratum_walsbyi_DSM_16790|A|47.9|11|0";gc_cont=47.90;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             <2..3928
+                     /note="ID=43_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.492;conf=99.99;score=244.66;cscore=241.44;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
+     CDS             4071..5726
+                     /note="ID=43_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.527;conf=100.00;score=65.57;cscore=59.77;sscore=5.80;rscore=-0.25;uscore=1.78;tscore=4.27;"
+//
+DEFINITION  seqnum=44;seqlen=6369;seqhdr="OM451106.1 MAG: Porcupine astrovirus 6 isolate AH-F2 nonstructural protein gene, partial cds; and capsid protein precursor, gene, complete cds";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="34|Prochlorococcus_marinus_MIT_9313|B|50.7|11|0";gc_cont=50.70;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             complement(79..357)
+                     /note="ID=44_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.509;conf=97.91;score=16.73;cscore=10.57;sscore=6.17;rscore=0.00;uscore=2.22;tscore=4.60;"
+     CDS             397..3975
+                     /note="ID=44_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.492;conf=99.99;score=197.70;cscore=198.57;sscore=-0.86;rscore=0.00;uscore=-5.46;tscore=4.60;"
+     CDS             3920..6295
+                     /note="ID=44_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.529;conf=100.00;score=117.67;cscore=112.24;sscore=5.44;rscore=0.00;uscore=0.83;tscore=4.60;"
+//
+DEFINITION  seqnum=45;seqlen=6333;seqhdr="OM451105.1 MAG: Porcupine astrovirus 6 isolate AH-F1 nonstructural protein gene, partial cds; and capsid protein precursor, gene, complete cds";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="34|Prochlorococcus_marinus_MIT_9313|B|50.7|11|0";gc_cont=50.70;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             complement(45..323)
+                     /note="ID=45_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.509;conf=97.91;score=16.73;cscore=10.57;sscore=6.17;rscore=0.00;uscore=2.22;tscore=4.60;"
+     CDS             363..3941
+                     /note="ID=45_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.492;conf=99.99;score=198.24;cscore=199.10;sscore=-0.86;rscore=0.00;uscore=-5.46;tscore=4.60;"
+     CDS             3886..6261
+                     /note="ID=45_3;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.529;conf=100.00;score=117.67;cscore=112.24;sscore=5.44;rscore=0.00;uscore=0.83;tscore=4.60;"
+//
+DEFINITION  seqnum=46;seqlen=6642;seqhdr="OM451115.1 MAG: Raccoon dog astrovirus 4 isolate SD-MO1, complete genome";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="57|Gut_phage_code_11a|V|43.3|11|1";gc_cont=43.26;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             36..4271
+                     /note="ID=46_1;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.465;conf=99.99;score=308.04;cscore=300.62;sscore=7.42;rscore=5.61;uscore=-1.50;tscore=3.31;"
+     CDS             4264..6627
+                     /note="ID=46_2;partial=00;start_type=ATG;rbs_motif=AGGAG(G)/GGAGG;rbs_spacer=13-15bp;genetic_code=11;gc_cont=0.515;conf=100.00;score=166.18;cscore=154.75;sscore=11.43;rscore=6.39;uscore=0.48;tscore=3.31;"
+//
+DEFINITION  seqnum=47;seqlen=6799;seqhdr="OM451112.1 MAG: Raccoon dog astrovirus 1 isolate SD-F2, complete genome";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="57|Gut_phage_code_11a|V|43.3|11|1";gc_cont=43.26;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             70..4305
+                     /note="ID=47_1;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.462;conf=99.99;score=313.77;cscore=306.87;sscore=6.90;rscore=5.61;uscore=-2.02;tscore=3.31;"
+     CDS             4298..6712
+                     /note="ID=47_2;partial=00;start_type=ATG;rbs_motif=AGGAG(G)/GGAGG;rbs_spacer=13-15bp;genetic_code=11;gc_cont=0.513;conf=99.99;score=178.61;cscore=167.18;sscore=11.43;rscore=6.39;uscore=0.48;tscore=3.31;"
+//
+DEFINITION  seqnum=48;seqlen=6776;seqhdr="OM451111.1 MAG: Raccoon dog astrovirus 1 isolate SD-F1, complete genome";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="57|Gut_phage_code_11a|V|43.3|11|1";gc_cont=43.26;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             59..4294
+                     /note="ID=48_1;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.462;conf=99.99;score=313.77;cscore=306.87;sscore=6.90;rscore=5.61;uscore=-2.02;tscore=3.31;"
+     CDS             4287..6701
+                     /note="ID=48_2;partial=00;start_type=ATG;rbs_motif=AGGAG(G)/GGAGG;rbs_spacer=13-15bp;genetic_code=11;gc_cont=0.512;conf=99.99;score=178.48;cscore=167.05;sscore=11.43;rscore=6.39;uscore=0.48;tscore=3.31;"
+//
+DEFINITION  seqnum=49;seqlen=6999;seqhdr="OM451110.1 MAG: Squirrel astrovirus 2 isolate FJ-MO1, complete genome";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="57|Gut_phage_code_11a|V|43.3|11|1";gc_cont=43.26;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             <2..4324
+                     /note="ID=49_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.486;conf=99.99;score=316.87;cscore=313.65;sscore=3.22;rscore=0.00;uscore=3.22;tscore=0.00;"
+     CDS             4317..6785
+                     /note="ID=49_2;partial=00;start_type=ATG;rbs_motif=AGGAG(G)/GGAGG;rbs_spacer=13-15bp;genetic_code=11;gc_cont=0.522;conf=99.99;score=202.73;cscore=192.24;sscore=10.49;rscore=6.39;uscore=-0.47;tscore=3.31;"
+//
+DEFINITION  seqnum=50;seqlen=6373;seqhdr="OM451104.1 MAG: Porcupine astrovirus 5 isolate AH-F1, complete genome";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="34|Prochlorococcus_marinus_MIT_9313|B|50.7|11|0";gc_cont=50.70;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             29..3964
+                     /note="ID=50_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.490;conf=99.99;score=215.14;cscore=208.98;sscore=6.16;rscore=0.00;uscore=1.56;tscore=4.60;"
+     CDS             3909..6296
+                     /note="ID=50_2;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.530;conf=100.00;score=107.50;cscore=102.53;sscore=4.98;rscore=0.00;uscore=0.37;tscore=4.60;"
+//
+DEFINITION  seqnum=51;seqlen=6732;seqhdr="MZ603072.1 MAG: Human astrovirus isolate HAstV-1_1_RVAB genomic sequence";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="51|Paramecium_bursaria_Chlorella_virus_1_PBCV-1|V|40.0|11|0";gc_cont=39.97;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             <1..6732
+                     /note="ID=51_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.490;conf=99.99;score=492.33;cscore=489.11;sscore=3.22;rscore=0.00;uscore=0.00;tscore=3.22;"
+//
+DEFINITION  seqnum=52;seqlen=10087;seqhdr="MN033872.1 MAG: Astroviridae sp. isolate H3_Bulk_Litter_17_scaffold_52 RNA-dependent RNA polymerase (H3BulkLitter1752_000001) and hypothetical protein (H3BulkLitter1752_000002) genes, complete cds";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="52|VirSorter2_NCLDV|V|31.2|11|0";gc_cont=31.22;transl_table=11;uses_sd=0
+FEATURES             Location/Qualifiers
+     CDS             800..8044
+                     /note="ID=52_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.349;conf=99.99;score=927.22;cscore=929.80;sscore=-2.58;rscore=-5.55;uscore=-0.82;tscore=3.80;"
+     CDS             8276..9859
+                     /note="ID=52_2;partial=00;start_type=ATG;rbs_motif=TATA;rbs_spacer=13bp;genetic_code=11;gc_cont=0.410;conf=100.00;score=174.38;cscore=162.64;sscore=11.74;rscore=3.10;uscore=5.50;tscore=3.80;"
+//
+DEFINITION  seqnum=53;seqlen=6822;seqhdr="MG599898.1 Wenling rattails astrovirus 5 strain XYHYC190343 polyprotein gene, complete cds";version=Prodigal.v2.11.0-gv;run_type=Metagenomic;model="46|Tropheryma_whipplei_TW08_27|B|46.3|11|1";gc_cont=46.30;transl_table=11;uses_sd=1
+FEATURES             Location/Qualifiers
+     CDS             227..3271
+                     /note="ID=53_1;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;genetic_code=11;gc_cont=0.502;conf=99.99;score=232.34;cscore=232.97;sscore=-0.63;rscore=-3.16;uscore=0.40;tscore=2.13;"
+     CDS             3313..6528
+                     /note="ID=53_2;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;genetic_code=11;gc_cont=0.518;conf=99.99;score=227.90;cscore=223.12;sscore=4.78;rscore=3.55;uscore=-1.73;tscore=2.13;"
 //

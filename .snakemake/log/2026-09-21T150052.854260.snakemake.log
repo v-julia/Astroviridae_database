@@ -1,0 +1,38 @@
+Assuming unrestricted shared filesystem usage.
+host: server-sm
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 5
+Rules claiming more threads will be scaled down.
+Job stats:
+job                        count
+-----------------------  -------
+assign_problematic             1
+update_with_problematic        1
+total                          2
+
+Select jobs to execute...
+Execute 1 jobs...
+[Mon Sep 21 15:00:52 2026]
+localrule assign_problematic:
+    input: data/results/30-06-2026/coords/Astroviridae_30062026_problematic_candidates.tsv, data/results/30-06-2026/hmmer/problematic_orfs/Astroviridae_30062026_problematic_domains.tbl, data/annotations/domain_map.csv
+    output: data/results/30-06-2026/hmmer/problematic_orfs/Astroviridae_30062026_problematic_assigned.tsv
+    jobid: 6
+    reason: Updated input files: data/results/30-06-2026/hmmer/problematic_orfs/Astroviridae_30062026_problematic_domains.tbl
+    resources: tmpdir=/tmp
+[Mon Sep 21 15:00:54 2026]
+Finished jobid: 6 (Rule: assign_problematic)
+1 of 2 steps (50%) done
+Select jobs to execute...
+Execute 1 jobs...
+[Mon Sep 21 15:00:54 2026]
+localrule update_with_problematic:
+    input: data/results/30-06-2026/updated_coords/Astroviridae_30062026_orf-coords_corrected.tsv, data/results/30-06-2026/hmmer/problematic_orfs/Astroviridae_30062026_problematic_assigned.tsv
+    output: data/results/30-06-2026/updated_coords/Astroviridae_30062026_orf_coords_with_problematic.tsv
+    jobid: 0
+    reason: Input files updated by another job: data/results/30-06-2026/hmmer/problematic_orfs/Astroviridae_30062026_problematic_assigned.tsv
+    resources: tmpdir=/tmp
+[Mon Sep 21 15:00:54 2026]
+Finished jobid: 0 (Rule: update_with_problematic)
+2 of 2 steps (100%) done
+Complete log(s): /work/aleshina/Astroviridae_database/.snakemake/log/2026-09-21T150052.854260.snakemake.log
