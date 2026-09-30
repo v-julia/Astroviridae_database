@@ -337,7 +337,7 @@ goslings	Anser anser	Anser anser	Anser	Anatidae	Anseriformes	Aves	Chordata	Metaz
 Anser indicus	Anser indicus	Anser indicus	Anser	Anatidae	Anseriformes	Aves	Chordata	Metazoa
 Mus pahari	Mus pahari	Mus pahari	Mus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
 Mus caroli	Mus caroli	Mus caroli	Mus	Muridae	Rodentia	Mammalia	Chordata	Metazoa
-porcupine	Hystrix	NA	Hystrix	Poaceae	Poales	Magnoliopsida	Streptophyta	Viridiplantae
+porcupine	Hystrix	Hystrix sp.	Hystrix	Hystricidae	Rodentia	Mammalia	Chordata	Metazoa
 Manis javanica	Manis javanica	Manis javanica	Manis	Manidae	Pholidota	Mammalia	Chordata	Metazoa
 50-day-old Landes geese	Anser anser	Anser anser	Anser	Anatidae	Anseriformes	Aves	Chordata	Metazoa
 Miniopterus africanus	Miniopterus africanus	Miniopterus africanus	Miniopterus	Miniopteridae	Chiroptera	Mammalia	Chordata	Metazoa
@@ -367,7 +367,7 @@ Myodes	Myodes	NA	Myodes	Cricetidae	Rodentia	Mammalia	Chordata	Metazoa
 Coypu	Myocastor coypus	Myocastor coypus	Myocastor	Myocastoridae	Rodentia	Mammalia	Chordata	Metazoa
 Gobiomorphus cotidianus	Gobiomorphus cotidianus	Gobiomorphus cotidianus	Gobiomorphus	Eleotridae	Gobiiformes	Actinopteri	Chordata	Metazoa
 Hoary bamboo rat	Rhizomys pruinosus	Rhizomys pruinosus	Rhizomys	Spalacidae	Rodentia	Mammalia	Chordata	Metazoa
-Porcupine	Hystrix	NA	Hystrix	Poaceae	Poales	Magnoliopsida	Streptophyta	Viridiplantae
+Porcupine	Hystrix	Hystrix sp.	Hystrix	Hystricidae	Rodentia	Mammalia	Chordata	Metazoa
 rabbit	Oryctolagus cuniculus	Oryctolagus cuniculus	Oryctolagus	Leporidae	Lagomorpha	Mammalia	Chordata	Metazoa
 coypu	Myocastor coypus	Myocastor coypus	Myocastor	Myocastoridae	Rodentia	Mammalia	Chordata	Metazoa
 raccoon dog	Nyctereutes procyonoides	Nyctereutes procyonoides	Nyctereutes	Canidae	Carnivora	Mammalia	Chordata	Metazoa
