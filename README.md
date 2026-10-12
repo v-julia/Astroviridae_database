@@ -110,12 +110,11 @@ The pipeline is implemented as a **Snakemake workflow** and consists of the foll
 | 3 | `run_orf_extraction.py` | Extract ORF1a, ORF1b, and ORF2 coordinates; handle conflicting/problematic annotations |
 | 4 | `orf_core.py` (internal) | Extracts ORFs coordinates, validates and corrects reading frames; identifies CDSs with ambiguous annotations and genomes lacking annotated CDSs |
 | 5 | `run_hmmscan.py` | Run HMMER against Pfam‑A on annotated ORFs, CDSs with ambigous annotation and predicted ORFs |
-| 6 | `run_prodigal.py` | Predict ORFs with Prodigal‑gv for sequences lacking CDS annotation |
-| 7 | `run_assign_problematic.py` / `run_assign_predicted.py` | Assign ORF types (ORF1A/ORF1B/ORF2) using domain‑to‑ORF mapping |
-| 8 | `run_update_coords.py` | Merge original coordinates, problematic assignments, and predicted ORFs into one table |
-| 9 | `run_get_host_taxonomy.py` | Query NCBI Taxonomy for each host and retrieve full lineage |
-| 10 | `run_merge_all.py` | Combine metadata, coordinates, and host taxonomy into a single TSV |
-| 11 | `add_cluster_species.py` | Propagate ICTV species and virus names from reference clusters using mmseq2 |
+| 6 | `run_assign_problematic.py` / `run_assign_predicted.py` | Assign ORF types (ORF1A/ORF1B/ORF2) using domain‑to‑ORF mapping |
+| 7 | `run_update_coords.py` | Merge original coordinates, problematic assignments, and predicted ORFs into one table |
+| 8 | `run_get_host_taxonomy.py` | Query NCBI Taxonomy for each host and retrieve full lineage |
+| 9 | `run_merge_all.py` | Combine metadata, coordinates, and host taxonomy into a single TSV |
+| 10 | `add_cluster_species.py` | Propagate ICTV species and virus names from reference clusters using mmseq2 |
 
 ---
 
